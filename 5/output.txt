@@ -1,0 +1,6 @@
+127.0.0.1	 pine pine.ad.ilstu.edu pine.ADILSTU
+10.110.10.101    oak    oak.ad.ilstu.edu
+10.110.10.102    maple  maple.ad.ilstu.edu
+10.110.10.103    pine   pine.ad.ilstu.edu
+10.110.10.104    walnut walnut.ad.ilstu.edu
+

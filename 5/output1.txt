@@ -1,0 +1,3200 @@
+/etc:
+total 1784
+drwxr-xr-x.  3 root root       97 Jan  6 08:43 abrt
+-rw-r--r--.  1 root root       16 Jan 12  2016 adjtime
+-rw-r--r--   1 root root     1518 Jun  7  2013 aliases
+-rw-r--r--.  1 root root    12288 Jan  6 08:41 aliases.db
+drwxr-xr-x.  2 root root       49 Jan  6 08:43 alsa
+drwxr-xr-x.  2 root root     8192 Jan  6 08:51 alternatives
+-rw-------   1 root root      541 Mar 31  2016 anacrontab
+-rw-r--r--   1 root root       55 Nov  4 11:29 asound.conf
+-rw-r--r--   1 root root        1 Nov  5 13:16 at.deny
+drwxr-xr-x.  2 root root       31 Jan  6 08:44 at-spi2
+drwxr-x---.  3 root root       41 Jan  6 08:43 audisp
+drwxr-x---.  3 root root      102 Jan  6 08:43 audit
+-rw-r--r--   1 root root    13386 Nov  5 13:19 autofs.conf
+-rw-------   1 root root      232 Nov  5 13:19 autofs_ldap_auth.conf
+-rw-r--r--   1 root root      795 Nov  5 13:19 auto.master
+drwxr-xr-x.  2 root root       27 Nov  5 13:19 auto.master.d
+-rw-r--r--   1 root root      524 Nov  5 13:19 auto.misc
+-rwxr-xr-x   1 root root     1260 Nov  5 13:19 auto.net
+-rwxr-xr-x   1 root root      687 Nov  5 13:19 auto.smb
+drwxr-xr-x.  4 root root       94 Jan  6 08:49 avahi
+drwxr-xr-x.  2 root root     4096 Jan  6 08:50 bash_completion.d
+-rw-r--r--   1 root root     2853 Nov  5 12:19 bashrc
+drwxr-xr-x.  2 root root        6 Nov 21 19:27 binfmt.d
+drwxr-xr-x   2 root root       22 Jan  6 08:43 bluetooth
+drwxr-xr-x.  2 root root    12288 Jan  6 08:44 brltty
+-rw-r--r--   1 root root    21929 Nov  5 12:31 brltty.conf
+-rw-r--r--   1 root root       38 Nov 29 12:12 centos-release
+-rw-r--r--   1 root root       51 Nov 29 12:12 centos-release-upstream
+drwxr-xr-x.  2 root root       28 Jan  6 08:43 certmonger
+-rw-r--r--   1 root root      676 Nov  5 14:48 cgconfig.conf
+drwxr-xr-x.  2 root root        6 Nov  5 14:48 cgconfig.d
+-rw-r--r--.  1 root root      265 Jan 12  2016 cgrules.conf
+-rw-r--r--   1 root root      131 Nov  5 14:48 cgsnapshot_blacklist.conf
+drwxr-xr-x.  2 root root        6 Nov  5 15:27 chkconfig.d
+-rw-r--r--   1 root root     1165 Dec  6 11:28 chrony.conf
+-rw-r-----   1 root chrony      9 Dec  6 11:28 chrony.keys
+drwxr-xr-x.  2 root root       25 Jan  6 08:46 cifs-utils
+drwxr-xr-x   4 root root       56 Jun  7  2016 cloud
+-rw-r--r--   1 root root    34416 Sep 23 15:26 collectd.conf
+-rw-r--r--   1 root root    36281 Sep 16 09:51 collectd.conf.rpmnew
+drwxr-xr-x   2 root root        6 Sep 16 09:51 collectd.d
+drwxr-xr-x.  2 root root       62 Jan  6 08:45 cron.d
+drwxr-xr-x.  2 root root       54 Jan  6 08:50 cron.daily
+-rw-------   1 root root        0 Mar 31  2016 cron.deny
+drwxr-xr-x.  2 root root       37 Jan  6 08:50 cron.hourly
+drwxr-xr-x.  2 root root        6 Jun  9  2014 cron.monthly
+-rw-r--r--.  1 root root      451 Jun  9  2014 crontab
+drwxr-xr-x.  2 root root        6 Jun  9  2014 cron.weekly
+-rw-------.  1 root root        0 Jan 12  2016 crypttab
+-rw-r--r--   1 root root     1620 Nov  5 12:19 csh.cshrc
+-rw-r--r--   1 root root      841 Jun  7  2013 csh.login
+drwxr-xr-x.  5 root lp       4096 Mar  1 17:05 cups
+drwxr-xr-x.  2 root root       33 Jan 12  2016 cupshelpers
+drwxr-xr-x.  4 root root       74 Jan  6 08:42 dbus-1
+drwxr-xr-x.  4 root root       29 Jan 12  2016 dconf
+drwxr-xr-x.  2 root root       41 Jan  6 08:46 default
+drwxr-xr-x.  2 root root       22 Jan  6 08:41 depmod.d
+drwxr-x---.  3 root root       43 Nov 14 11:53 dhcp
+-rw-r--r--   1 root root     5090 Nov  4 11:37 DIR_COLORS
+-rw-r--r--   1 root root     5725 Nov  4 11:37 DIR_COLORS.256color
+-rw-r--r--   1 root root     4669 Nov  4 11:37 DIR_COLORS.lightbgcolor
+-rw-r--r--.  1 root root     1131 Nov 20  2015 dleyna-server-service.conf
+-rw-r--r--   1 root root    25213 Nov 11 12:20 dnsmasq.conf
+drwxr-xr-x.  2 root root        6 Nov 11 12:20 dnsmasq.d
+-rw-r--r--   1 root root     1285 Nov 11 12:27 dracut.conf
+drwxr-xr-x.  2 root root       52 Jan  6 08:41 dracut.conf.d
+-rw-r--r--   1 root root     4346 Nov  7 02:42 drirc
+-rw-r--r--   1 root root      112 Nov  4 11:41 e2fsck.conf
+-rw-r--r--.  1 root root     4760 Jun  9  2014 enscript.cfg
+-rw-r--r--   1 root root        0 Nov  5 12:19 environment
+-rw-r--r--   1 root root     1317 Nov  5 15:52 ethertypes
+-rw-r--r--   1 root root        0 Jun  7  2013 exports
+drwxr-xr-x.  2 root root        6 Nov 17 16:49 exports.d
+lrwxrwxrwx.  1 root root       56 Jan 12  2016 favicon.png -> /usr/share/icons/hicolor/16x16/apps/fedora-logo-icon.png
+drwxr-xr-x.  2 root root       21 Jan  6 08:43 fcoe
+drwxr-xr-x.  2 root root       44 Jan 12  2016 festival
+-rw-r--r--   1 root root       70 Nov  5 12:19 filesystems
+drwxr-xr-x   2 root root        6 Apr  9  2014 filezilla
+drwxr-xr-x   3 root root       17 Jun  7  2016 firefox
+drwxr-x---.  5 root root     4096 Jan  6 08:44 firewalld
+drwxr-xr-x.  3 root root       36 Jan  6 08:41 fonts
+-rw-r--r--.  1 root root       20 Jun 24  2014 fprintd.conf
+-rw-r--r--   1 root root      564 Sep  6 15:58 fstab
+-rw-r--r--   1 root root       38 Nov  4 11:46 fuse.conf
+drwxr-xr-x.  7 root root      102 Jan 12  2016 gconf
+drwxr-xr-x.  2 root root        6 Nov 21 16:01 gcrypt
+-rw-r--r--   1 root root      265 Nov  5 08:44 gdbinit
+drwxr-xr-x.  2 root root        6 Nov  5 08:44 gdbinit.d
+drwxr-xr-x.  6 root root      101 Jan  6 08:45 gdm
+drwxr-xr-x.  2 root root       25 Jan  6 08:42 geoclue
+-rw-r--r--   1 root root      842 Nov  5 15:29 GeoIP.conf
+-rw-r--r--   1 root root      858 Nov  5 15:29 GeoIP.conf.default
+drwxr-xr-x.  3 root root       17 Jan  4 04:03 ghostscript
+drwxr-xr-x.  2 root root        6 Nov  5 11:06 gnupg
+-rw-r--r--.  1 root root       94 Apr 29  2015 GREP_COLORS
+drwxr-xr-x.  4 root root       38 Jan 12  2016 groff
+-rw-r--r--   1 root root     1148 Jan  6 08:44 group
+-rw-r--r--.  1 root root     1148 Jan  6 08:44 group-
+lrwxrwxrwx   1 root root       22 Jan  6 08:46 grub2.cfg -> ../boot/grub2/grub.cfg
+drwx------.  2 root root     4096 Jan  6 08:43 grub.d
+----------   1 root root      929 Jul 28  2016 gshadow
+----------.  1 root root      910 Jul 28  2016 gshadow-
+drwxr-xr-x.  3 root root       19 Dec  6 12:34 gss
+drwxr-xr-x.  2 root root       26 Jan  6 08:44 gssproxy
+-rw-r--r--.  1 root root      871 Jan 12  2016 hba.conf
+drwxr-xr-x.  2 root root       27 Jan 12  2016 highlight
+-rw-r--r--   1 root root        9 Jun  7  2013 host.conf
+-rw-r--r--   1 root root       30 Jul 21  2016 hostname
+-rw-r--r--   1 root root      218 Sep 22 13:29 hosts
+-rw-r--r--   1 root root      370 Jun  7  2013 hosts.allow
+-rw-r--r--   1 root root      460 Jun  7  2013 hosts.deny
+drwxr-xr-x.  2 root root       23 Jan  6 08:43 hp
+drwxr-xr-x   5 root root       86 Jan  6 08:43 httpd
+-rw-r--r--   1 root root     3580 Nov  5 20:18 idmapd.conf
+drwxr-xr-x   2 root root     4096 Jul 11  2016 ImageMagick
+lrwxrwxrwx   1 root root       11 Jan  6 08:41 init.d -> rc.d/init.d
+-rw-r--r--   1 root root      511 Nov  5 22:10 inittab
+-rw-r--r--   1 root root      942 Jun  7  2013 inputrc
+drwxr-xr-x.  3 root root       18 Jan  6 08:50 ipa
+drwxr-xr-x.  2 root root     4096 Jan  6 08:42 iproute2
+-rw-r--r--   1 root root     2380 Nov 11 19:58 ipsec.conf
+drwx------.  3 root root       93 Jan  6 08:43 ipsec.d
+-rw-------   1 root root       31 Nov 11 19:58 ipsec.secrets
+drwxr-xr-x.  2 root root       50 Jan  6 08:42 iscsi
+-rw-r--r--   1 root root       23 Nov 29 12:12 issue
+-rw-r--r--   1 root root       22 Nov 29 12:12 issue.net
+drwxr-xr-x.  3 root root       59 Jan 12  2016 java
+drwxr-xr-x   2 root root       23 Jan  6 08:44 julia
+drwxr-xr-x.  2 root root        6 Nov 20  2015 jvm
+drwxr-xr-x.  2 root root        6 Nov 20  2015 jvm-commmon
+drwxr-xr-x   5 root root       41 Jul 19  2016 kde
+-rw-r--r--   1 root root     6920 Jan  6 08:43 kdump.conf
+drwxr-xr-x.  3 root root       23 Jan 12  2016 kernel
+-rw-r--r--   1 root root      753 Jul 28  2016 krb5.conf
+drwxr-xr-x   2 root root        6 Dec  6 12:34 krb5.conf.d
+-rw-r--r--   1 root root      590 Dec  6 11:26 krb5.conf.rpmnew
+-rw-r--r--   1 root root      478 Nov  4 13:10 ksmtuned.conf
+-rw-r--r--   1 root root   102312 Jan  6 08:51 ld.so.cache
+-rw-r--r--   1 root root       43 Nov  9 15:37 ld.so.conf
+drwxr-xr-x.  2 root root     4096 Jan  6 08:50 ld.so.conf.d
+-rw-r-----   1 root root      191 Jul 14  2016 libaudit.conf
+drwxr-xr-x.  2 root root        6 Nov  5 18:17 libibverbs.d
+drwxr-xr-x.  2 root root       33 Jan  6 08:41 libnl
+drwxr-xr-x.  6 root root     4096 Jan  6 08:41 libreport
+-rw-r--r--.  1 root root     2388 Jul 28  2016 libuser.conf
+drwx------.  3 root root       17 Jun  7  2016 libvirt
+drwxr-xr-x   3 root root      110 Jun  7  2016 lightdm
+-rw-r--r--.  1 root root       17 Jun  7  2016 locale.conf
+lrwxrwxrwx.  1 root root       37 Jan 12  2016 localtime -> ../usr/share/zoneinfo/America/Chicago
+drwxr-xr-x   3 root root       28 Nov 21 09:22 logcheck
+-rw-r--r--.  1 root root     2043 Jul 28  2016 login.defs
+-rw-r--r--.  1 root root      860 Oct 28 08:24 logrotate.conf
+drwxr-xr-x.  2 root root     4096 Jan  6 08:46 logrotate.d
+drwxr-xr-x.  3 root root       41 Jan  6 08:42 lsm
+drwxr-xr-x.  6 root root       94 Jan  6 08:43 lvm
+-r--r--r--.  1 root root       33 Jan 12  2016 machine-id
+-rw-r--r--   1 root root      111 Nov  5 15:07 magic
+-rw-r--r--   1 root root      272 May 14  2013 mailcap
+-rw-r--r--.  1 root root     1968 Dec 16  2014 mail.rc
+-rw-r--r--   1 root root     5122 Nov  7 04:44 makedumpfile.conf.sample
+-rw-r--r--.  1 root root     5171 Jun  9  2014 man_db.conf
+drwxr-xr-x   3 root root       19 Dec 10 15:32 mate-settings-daemon
+drwxr-xr-x.  2 root root        6 Nov 20  2015 maven
+-rw-r--r--   1 root root    51787 May 14  2013 mime.types
+-rw-r--r--   1 root root      936 Nov  5 13:59 mke2fs.conf
+drwxr-xr-x.  2 root root       56 Jan  6 08:46 modprobe.d
+drwxr-xr-x.  2 root root        6 Nov 21 19:27 modules-load.d
+-rw-r--r--   1 root root        0 Jun  7  2013 motd
+lrwxrwxrwx.  1 root root       17 Jan 12  2016 mtab -> /proc/self/mounts
+-rw-r--r--.  1 root root     2620 Jun 10  2014 mtools.conf
+drwxr-xr-x.  2 root root        6 Nov 11 12:17 multipath
+-rw-r--r--   1 root root      570 Nov 14 10:44 my.cnf
+drwxr-xr-x.  2 root root       47 Jan  6 08:46 my.cnf.d
+-rw-r--r--.  1 root root     8892 Jun  9  2014 nanorc
+-rw-r--r--   1 root root      767 Nov  5 13:27 netconfig
+drwxr-xr-x.  8 root root     4096 Jan  6 08:44 NetworkManager
+-rw-r--r--   1 root root       58 Nov  5 22:10 networks
+-rw-r--r--   1 root root     3390 Nov 17 16:49 nfsmount.conf
+drwxr-xr-x   4 root root     4096 Jan  6 08:43 nginx
+-rw-r--r--   1 root root     2384 Dec  6 15:36 nscd.conf
+-rw-r--r--   1 root root     1756 Jan  6 08:41 nsswitch.conf
+-rw-r--r--   1 root root     1745 Jul 28  2016 nsswitch.conf.bak
+-rw-r--r--   1 root root     1731 Dec  6 15:32 nsswitch.conf.rpmnew
+drwxr-xr-x.  3 root root       49 Jan  6 08:43 ntp
+-rw-r--r--   1 root root     1878 Aug 10  2016 ntp.conf
+-rw-r--r--   1 root root       91 Dec  3  2012 numad.conf
+drwxr-xr-x   2 root root       60 Feb  9  2016 nxagent
+drwxr-xr-x.  2 root root        6 Mar  5  2015 oddjob
+-rw-r--r--.  1 root root     4922 Mar  5  2015 oddjobd.conf
+drwxr-xr-x.  2 root root       68 Jan 12  2016 oddjobd.conf.d
+-rw-r--r--   1 root root       42 Jul 20  2016 oldauto.home
+drwxr-xr-x.  4 root root       47 Nov  5 20:22 openldap
+drwxr-xr-x   2 root root        6 Dec  7 08:17 openvpn
+drwxr-xr-x.  2 root root        6 Nov  5 10:38 opt
+-rw-r--r--   1 root root      393 Nov 29 12:12 os-release
+drwxr-xr-x.  2 root root       88 Jan  6 08:46 PackageKit
+drwxr-xr-x.  2 root root     4096 Jan  6 08:49 pam.d
+-rw-r--r--   1 root root     2878 Jul 28  2016 passwd
+-rw-r--r--.  1 root root     2878 Jul 28  2016 passwd-
+-rw-r--r--.  1 root root     1362 Jun  9  2014 pbm2ppa.conf
+drwxr-xr-x   2 root root     4096 Jan  6 08:46 php.d
+-rw-r--r--   1 root root     1691 Nov  5 19:32 php-fpm.conf
+drwxr-xr-x   2 root root       21 Jan  6 08:46 php-fpm.d
+-rw-r--r--   1 root root    64943 Jun 27  2016 php.ini
+-rw-r--r--.  1 root root     2872 Jun  9  2014 pinforc
+drwxr-xr-x.  3 root root       20 Jan 12  2016 pkcs11
+drwxr-xr-x.  9 root root       91 Nov  5 10:38 pki
+drwxr-xr-x.  2 root root       27 Nov 14 12:35 plymouth
+drwxr-xr-x.  5 root root       49 Nov  5 10:38 pm
+-rw-r--r--.  1 root root     6300 Jun  9  2014 pnm2ppa.conf
+drwxr-xr-x.  5 root root       69 Nov  5 17:09 polkit-1
+drwxr-xr-x.  2 root root        6 Jun  9  2014 popt.d
+drwxr-xr-x.  2 root root     4096 Jan 12  2016 postfix
+drwxr-xr-x.  3 root root     4096 Jan  6 08:43 ppp
+drwxr-xr-x.  2 root root     4096 Nov  5 15:18 prelink.conf.d
+-rw-r--r--   1 root root      233 Jun  7  2013 printcap
+-rw-r--r--   1 root root     1864 Aug  1  2016 profile
+drwxr-xr-x.  2 root root     4096 Jan  6 08:46 profile.d
+-rw-r--r--   1 root root     1795 Nov  5 12:19 profile.rpmnew
+-rw-r--r--   1 root root     6545 Jun  7  2013 protocols
+drwxr-xr-x.  2 root root       75 Jan  6 08:44 pulse
+drwxr-xr-x.  2 root root       22 Jan  6 08:49 purple
+drwxr-xr-x.  2 root root       34 Jan  6 08:41 python
+drwxr-xr-x.  3 root root       48 Jan  6 08:46 qemu-ga
+drwxr-xr-x.  2 root root       24 Jan  6 08:46 qemu-kvm
+-rw-r--r--.  1 root root      433 Sep  8  2015 radvd.conf
+lrwxrwxrwx   1 root root       10 Jan  6 08:41 rc0.d -> rc.d/rc0.d
+lrwxrwxrwx   1 root root       10 Jan  6 08:41 rc1.d -> rc.d/rc1.d
+lrwxrwxrwx   1 root root       10 Jan  6 08:41 rc2.d -> rc.d/rc2.d
+lrwxrwxrwx   1 root root       10 Jan  6 08:41 rc3.d -> rc.d/rc3.d
+lrwxrwxrwx   1 root root       10 Jan  6 08:41 rc4.d -> rc.d/rc4.d
+lrwxrwxrwx   1 root root       10 Jan  6 08:41 rc5.d -> rc.d/rc5.d
+lrwxrwxrwx   1 root root       10 Jan  6 08:41 rc6.d -> rc.d/rc6.d
+drwxr-xr-x. 10 root root     4096 Nov  5 15:27 rc.d
+lrwxrwxrwx   1 root root       13 Jan  6 08:41 rc.local -> rc.d/rc.local
+drwxr-xr-x.  2 root root       54 Jan  6 08:43 rdma
+lrwxrwxrwx   1 root root       14 Jan  6 08:41 redhat-release -> centos-release
+-rw-r--r--.  1 root root     1787 Jun  9  2014 request-key.conf
+drwxr-xr-x.  2 root root       74 Jan  6 08:46 request-key.d
+-rw-r--r--   1 root root      110 Jan  6 09:35 resolv.conf
+-rw-r--r--   1 root root     1634 Dec 24  2012 rpc
+drwxr-xr-x.  2 root root     4096 Jan  6 08:49 rpm
+-rw-r--r--.  1 root root      458 Nov 20  2015 rsyncd.conf
+-rw-r--r--   1 root root     3232 Nov  4 13:21 rsyslog.conf
+drwxr-xr-x.  2 root root       48 Jan  6 08:50 rsyslog.d
+-rw-r--r--   1 root root      928 Nov  5 22:10 rwtab
+drwxr-xr-x.  2 root root       33 Jan  6 08:44 rwtab.d
+drwxr-xr-x.  2 root root       80 Jan  6 08:42 samba
+drwxr-xr-x.  3 root root     4096 Jan 12  2016 sane.d
+drwxr-xr-x.  2 root root       43 Jan  6 08:46 sasl2
+drwxr-xr-x.  3 root root       32 Jan 12  2016 scl
+-rw-------   1 root root      221 Nov  5 12:19 securetty
+drwxr-xr-x.  6 root root     4096 Jan  6 08:43 security
+drwxr-xr-x.  5 root root       76 Jan  6 08:45 selinux
+-rw-r--r--   1 root root   670293 Jun  7  2013 services
+-rw-r--r--   1 root root      216 Nov 21 18:34 sestatus.conf
+drwxr-xr-x.  2 root root       32 Jan  6 08:44 setroubleshoot
+drwxr-xr-x.  2 root root     4096 Jan 12  2016 setuptool.d
+drwxr-xr-x.  3 root root       20 Jan 12  2016 sgml
+----------   1 root root     1422 Sep 14 09:55 shadow
+----------.  1 root root     1331 Jul 28  2016 shadow-
+-rw-r--r--.  1 root root      118 Jan 18 10:43 shells
+drwxr-xr-x.  3 root root      100 Jan  6 08:49 skel
+drwxr-xr-x.  3 root root       71 Jan  6 08:49 smartmontools
+-rw-r--r--   1 root root      100 Dec  6 14:30 sos.conf
+drwxr-xr-x   3 root root       19 Feb  9  2016 sound
+drwxr-xr-x.  4 root root       53 Jan 12  2016 speech-dispatcher
+drwxr-xr-x.  2 root root     4096 Jan  6 08:43 ssh
+-rw-r--r--   1 root root      392 Jul 28  2016 ssh.msg
+drwxr-xr-x.  2 root root       18 Jan  6 08:41 ssl
+drwx--x--x.  3 sssd sssd       19 Jan  6 08:44 sssd
+-rw-r--r--   1 root root      212 Nov  5 22:10 statetab
+drwxr-xr-x.  2 root root        6 Nov  5 22:10 statetab.d
+-rw-r--r--   1 root root        0 Nov  5 12:19 subgid
+-rw-r--r--   1 root root        0 Nov  5 12:19 subuid
+drwxr-xr-x.  2 root root        6 Nov 20  2015 subversion
+-rw-r-----   1 root root     1786 Dec  6 09:15 sudo.conf
+-r--r-----   1 root root     4296 Aug  3  2016 sudoers
+drwxr-x---.  2 root root       49 Jan  6 08:45 sudoers.d
+-r--r-----   1 root root     3907 Dec  6 09:15 sudoers.rpmnew
+-rw-r-----   1 root root     3181 Dec  6 09:15 sudo-ldap.conf
+drwxr-xr-x.  6 root root     4096 Jan  6 09:35 sysconfig
+-rw-r--r--   1 root root      449 Nov  5 22:10 sysctl.conf
+drwxr-xr-x.  2 root root       27 Jan  6 08:42 sysctl.d
+drwxr-xr-x.  4 root root     4096 Jan  6 08:41 systemd
+lrwxrwxrwx   1 root root       14 Jan  6 08:41 system-release -> centos-release
+-rw-r--r--   1 root root       23 Nov 29 12:12 system-release-cpe
+drwxr-xr-x.  3 root root       19 Nov  5 18:41 target
+-rw-------.  1 tss  tss      7046 Nov 20  2015 tcsd.conf
+drwxr-xr-x.  2 root root        6 Jun 10  2014 terminfo
+drwxr-xr-x.  2 root root       22 Jan  6 08:50 tmpfiles.d
+-rw-r--r--   1 root root       45 May 10  2012 Trolltech.conf
+-rw-r--r--   1 root root      375 Nov 21 11:28 trusted-key.key
+drwxr-xr-x.  2 root root       67 Jan  6 08:46 tuned
+drwxr-xr-x.  3 root root       51 Jan  6 09:35 udev
+drwxr-xr-x.  2 root root        6 Nov 20  2015 udisks2
+drwxr-xr-x.  2 root root       65 Jan  6 08:43 unbound
+-rw-r--r--   1 root root      513 Nov  4 12:47 updatedb.conf
+drwxr-xr-x.  2 root root       24 Jan 12  2016 UPower
+-rw-r--r--   1 root root     1018 Nov  5 18:33 usb_modeswitch.conf
+-rw-r--r--.  1 root root       37 Jan 12  2016 vconsole.conf
+-rw-r--r--   1 root root     1982 Dec 21 11:00 vimrc
+-rw-r--r--   1 root root     1982 Dec 21 11:00 virc
+drwxr-xr-x   4 root root     4096 Jun  7  2016 vmware
+drwxr-xr-x.  4 root root     4096 Jan  6 09:35 vmware-tools
+drwxr-xr-x   2 root root       43 Feb  9  2016 vpnc
+-rw-r--r--   1 root root     4479 Nov  5 14:19 wgetrc
+drwxr-xr-x.  2 root root       32 Jan  6 08:42 wpa_supplicant
+-rw-r--r--.  1 root root        0 Jun  9  2014 wvdial.conf
+drwxr-xr-x.  6 root root     4096 Nov  5 10:38 X11
+drwxr-xr-x   4 root root     4096 Jan  6 08:45 x2go
+drwxr-xr-x.  6 root root      106 Nov  5 10:38 xdg
+drwxr-xr-x.  2 root root        6 Nov  5 10:38 xinetd.d
+drwxr-xr-x   2 root root       43 Jan  6 08:43 xl2tpd
+drwxr-xr-x.  2 root root       20 Jan 12  2016 xml
+drwxr-xr-x   2 root root       95 Jan  6 08:45 xrdb
+drwxr-xr-x.  3 root root     4096 Aug  9  2016 xrdp
+drwxr-xr-x.  6 root root       95 Jan  6 08:50 yum
+-rw-r--r--   1 root root      970 Nov 15 09:30 yum.conf
+-rw-r--r--   1 root root      188 Apr 21  2015 yumex.conf
+-rw-r--r--   1 root root       32 Apr 21  2015 yumex.profiles.conf
+drwxr-xr-x.  2 root root     4096 Jan  6 08:49 yum.repos.d
+-rw-r--r--   1 root root      252 Nov  5 18:03 zlogin
+-rw-r--r--   1 root root       86 Nov  5 18:03 zlogout
+-rw-r--r--   1 root root      375 Nov  5 18:03 zprofile
+-rw-r--r--   1 root root      510 Nov  5 18:03 zshenv
+-rw-r--r--   1 root root     1135 Nov  5 18:03 zshrc
+
+/etc/abrt:
+total 12
+-rw-r--r--  1 root root  850 Dec  2 09:28 abrt-action-save-package-data.conf
+-rw-r--r--  1 root root 2118 Dec  2 09:28 abrt.conf
+-rw-r--r--  1 root root   31 Dec  2 09:28 gpg_keys.conf
+drwxr-xr-x. 2 root root   90 Jan  6 08:43 plugins
+
+/etc/abrt/plugins:
+total 20
+-rw-r--r-- 1 root root 1692 Dec  2 09:28 CCpp.conf
+-rw-r--r-- 1 root root  263 Dec  2 09:28 oops.conf
+-rw-r--r-- 1 root root  204 Dec  2 09:28 python.conf
+-rw-r--r-- 1 root root  312 Dec  2 09:28 vmcore.conf
+-rw-r--r-- 1 root root  175 Dec  2 09:28 xorg.conf
+
+/etc/alsa:
+total 8
+-rw-r--r--  1 root root 203 Nov  4 11:29 alsactl.conf
+-rw-r--r--. 1 root root  54 Jan 12  2016 state-daemon.conf
+
+/etc/alternatives:
+total 0
+lrwxrwxrwx  1 root root 39 Aug 22  2016 appletviewer -> /usr/java/jdk1.8.0_101/bin/appletviewer
+lrwxrwxrwx  1 root root 46 Aug 22  2016 appletviewer.1 -> /usr/java/jdk1.8.0_101/man/man1/appletviewer.1
+lrwxrwxrwx  1 root root 30 Dec  9 10:43 atlas-inc -> /usr/include/atlas-x86_64-base
+lrwxrwxrwx. 1 root root 15 Jan 12  2016 cdda2wav -> /usr/bin/icedax
+lrwxrwxrwx. 1 root root 31 Jan 12  2016 cdda2wav-cdda2wavman -> /usr/share/man/man1/icedax.1.gz
+lrwxrwxrwx. 1 root root 14 Jan 12  2016 cdrecord -> /usr/bin/wodim
+lrwxrwxrwx. 1 root root 30 Jan 12  2016 cdrecord-cdrecordman -> /usr/share/man/man1/wodim.1.gz
+lrwxrwxrwx. 1 root root 14 Jan 12  2016 cdrecord-dvdrecord -> /usr/bin/wodim
+lrwxrwxrwx. 1 root root 30 Jan 12  2016 cdrecord-dvdrecordman -> /usr/share/man/man1/wodim.1.gz
+lrwxrwxrwx. 1 root root 15 Jan 12  2016 cdrecord-readcd -> /usr/bin/readom
+lrwxrwxrwx. 1 root root 31 Jan 12  2016 cdrecord-readcdman -> /usr/share/man/man1/readom.1.gz
+lrwxrwxrwx  1 root root 39 Jan  6 08:46 cifs-idmap-plugin -> /usr/lib64/cifs-utils/cifs_idmap_sss.so
+lrwxrwxrwx  1 root root 17 Jan  6 08:46 cups_backend_smb -> /usr/bin/smbspool
+lrwxrwxrwx  1 root root 19 Jul 19  2016 emacs -> /usr/bin/emacs-24.3
+lrwxrwxrwx  1 root root 20 Jul 19  2016 emacs.etags -> /usr/bin/etags.emacs
+lrwxrwxrwx  1 root root 36 Jul 19  2016 emacs.etags.man -> /usr/share/man/man1/etags.emacs.1.gz
+lrwxrwxrwx  1 root root 35 Aug 22  2016 extcheck -> /usr/java/jdk1.8.0_101/bin/extcheck
+lrwxrwxrwx  1 root root 42 Aug 22  2016 extcheck.1 -> /usr/java/jdk1.8.0_101/man/man1/extcheck.1
+lrwxrwxrwx  1 root root 31 Aug 22  2016 idlj -> /usr/java/jdk1.8.0_101/bin/idlj
+lrwxrwxrwx  1 root root 38 Aug 22  2016 idlj.1 -> /usr/java/jdk1.8.0_101/man/man1/idlj.1
+lrwxrwxrwx  1 root root 30 Aug 22  2016 jar -> /usr/java/jdk1.8.0_101/bin/jar
+lrwxrwxrwx  1 root root 37 Aug 22  2016 jar.1 -> /usr/java/jdk1.8.0_101/man/man1/jar.1
+lrwxrwxrwx  1 root root 36 Aug 22  2016 jarsigner -> /usr/java/jdk1.8.0_101/bin/jarsigner
+lrwxrwxrwx  1 root root 43 Aug 22  2016 jarsigner.1 -> /usr/java/jdk1.8.0_101/man/man1/jarsigner.1
+lrwxrwxrwx  1 root root 73 Jan  6 08:50 java -> /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.111-2.b15.el7_3.x86_64/jre/bin/java
+lrwxrwxrwx  1 root root 77 Jan  6 08:50 java.1.gz -> /usr/share/man/man1/java-java-1.8.0-openjdk-1.8.0.111-2.b15.el7_3.x86_64.1.gz
+lrwxrwxrwx  1 root root 32 Aug 22  2016 javac -> /usr/java/jdk1.8.0_101/bin/javac
+lrwxrwxrwx  1 root root 39 Aug 22  2016 javac.1 -> /usr/java/jdk1.8.0_101/man/man1/javac.1
+lrwxrwxrwx  1 root root 34 Aug 22  2016 javadoc -> /usr/java/jdk1.8.0_101/bin/javadoc
+lrwxrwxrwx  1 root root 41 Aug 22  2016 javadoc.1 -> /usr/java/jdk1.8.0_101/man/man1/javadoc.1
+lrwxrwxrwx  1 root root 41 Aug 22  2016 javafxpackager -> /usr/java/jdk1.8.0_101/bin/javafxpackager
+lrwxrwxrwx  1 root root 48 Aug 22  2016 javafxpackager.1 -> /usr/java/jdk1.8.0_101/man/man1/javafxpackager.1
+lrwxrwxrwx  1 root root 32 Aug 22  2016 javah -> /usr/java/jdk1.8.0_101/bin/javah
+lrwxrwxrwx  1 root root 39 Aug 22  2016 javah.1 -> /usr/java/jdk1.8.0_101/man/man1/javah.1
+lrwxrwxrwx  1 root root 32 Aug 22  2016 javap -> /usr/java/jdk1.8.0_101/bin/javap
+lrwxrwxrwx  1 root root 39 Aug 22  2016 javap.1 -> /usr/java/jdk1.8.0_101/man/man1/javap.1
+lrwxrwxrwx  1 root root 39 Aug 22  2016 javapackager -> /usr/java/jdk1.8.0_101/bin/javapackager
+lrwxrwxrwx  1 root root 46 Aug 22  2016 javapackager.1 -> /usr/java/jdk1.8.0_101/man/man1/javapackager.1
+lrwxrwxrwx  1 root root 39 Aug 22  2016 java-rmi.cgi -> /usr/java/jdk1.8.0_101/bin/java-rmi.cgi
+lrwxrwxrwx  1 root root 37 Jan  6 08:45 javaws.1.gz -> /usr/share/man/man1/javaws-itweb.1.gz
+lrwxrwxrwx  1 root root 29 Jul 19  2016 jaxp_parser_impl -> /usr/share/java/xerces-j2.jar
+lrwxrwxrwx  1 root root 28 Jul 19  2016 jaxp_transform_impl -> /usr/share/java/xalan-j2.jar
+lrwxrwxrwx  1 root root 31 Aug 22  2016 jcmd -> /usr/java/jdk1.8.0_101/bin/jcmd
+lrwxrwxrwx  1 root root 38 Aug 22  2016 jcmd.1 -> /usr/java/jdk1.8.0_101/man/man1/jcmd.1
+lrwxrwxrwx  1 root root 35 Aug 22  2016 jconsole -> /usr/java/jdk1.8.0_101/bin/jconsole
+lrwxrwxrwx  1 root root 42 Aug 22  2016 jconsole.1 -> /usr/java/jdk1.8.0_101/man/man1/jconsole.1
+lrwxrwxrwx  1 root root 30 Aug 22  2016 jdb -> /usr/java/jdk1.8.0_101/bin/jdb
+lrwxrwxrwx  1 root root 37 Aug 22  2016 jdb.1 -> /usr/java/jdk1.8.0_101/man/man1/jdb.1
+lrwxrwxrwx  1 root root 32 Aug 22  2016 jdeps -> /usr/java/jdk1.8.0_101/bin/jdeps
+lrwxrwxrwx  1 root root 39 Aug 22  2016 jdeps.1 -> /usr/java/jdk1.8.0_101/man/man1/jdeps.1
+lrwxrwxrwx  1 root root 31 Aug 22  2016 jhat -> /usr/java/jdk1.8.0_101/bin/jhat
+lrwxrwxrwx  1 root root 38 Aug 22  2016 jhat.1 -> /usr/java/jdk1.8.0_101/man/man1/jhat.1
+lrwxrwxrwx  1 root root 32 Aug 22  2016 jinfo -> /usr/java/jdk1.8.0_101/bin/jinfo
+lrwxrwxrwx  1 root root 39 Aug 22  2016 jinfo.1 -> /usr/java/jdk1.8.0_101/man/man1/jinfo.1
+lrwxrwxrwx  1 root root 72 Jan  6 08:50 jjs -> /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.111-2.b15.el7_3.x86_64/jre/bin/jjs
+lrwxrwxrwx  1 root root 76 Jan  6 08:50 jjs.1.gz -> /usr/share/man/man1/jjs-java-1.8.0-openjdk-1.8.0.111-2.b15.el7_3.x86_64.1.gz
+lrwxrwxrwx  1 root root 31 Aug 22  2016 jmap -> /usr/java/jdk1.8.0_101/bin/jmap
+lrwxrwxrwx  1 root root 38 Aug 22  2016 jmap.1 -> /usr/java/jdk1.8.0_101/man/man1/jmap.1
+lrwxrwxrwx  1 root root 30 Aug 22  2016 jmc -> /usr/java/jdk1.8.0_101/bin/jmc
+lrwxrwxrwx  1 root root 37 Aug 22  2016 jmc.1 -> /usr/java/jdk1.8.0_101/man/man1/jmc.1
+lrwxrwxrwx  1 root root 34 Aug 22  2016 jmc.ini -> /usr/java/jdk1.8.0_101/bin/jmc.ini
+lrwxrwxrwx  1 root root 30 Aug 22  2016 jps -> /usr/java/jdk1.8.0_101/bin/jps
+lrwxrwxrwx  1 root root 37 Aug 22  2016 jps.1 -> /usr/java/jdk1.8.0_101/man/man1/jps.1
+lrwxrwxrwx  1 root root 64 Jan  6 08:50 jre -> /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.111-2.b15.el7_3.x86_64/jre
+lrwxrwxrwx  1 root root 66 Jan  6 08:50 jre_1.7.0 -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.121-2.6.8.0.el7_3.x86_64/jre
+lrwxrwxrwx  1 root root 70 Jan  6 08:50 jre_1.7.0_exports -> /usr/lib/jvm-exports/java-1.7.0-openjdk-1.7.0.121-2.6.8.0.el7_3.x86_64
+lrwxrwxrwx  1 root root 61 Jan  6 08:50 jre_1.7.0_openjdk -> /usr/lib/jvm/jre-1.7.0-openjdk-1.7.0.121-2.6.8.0.el7_3.x86_64
+lrwxrwxrwx  1 root root 70 Jan  6 08:50 jre_1.7.0_openjdk_exports -> /usr/lib/jvm-exports/java-1.7.0-openjdk-1.7.0.121-2.6.8.0.el7_3.x86_64
+lrwxrwxrwx  1 root root 64 Jan  6 08:50 jre_1.8.0 -> /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.111-2.b15.el7_3.x86_64/jre
+lrwxrwxrwx  1 root root 64 Jan  6 08:50 jre_1.8.0_exports -> /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.111-2.b15.el7_3.x86_64/jre
+lrwxrwxrwx  1 root root 59 Jan  6 08:50 jre_1.8.0_openjdk -> /usr/lib/jvm/jre-1.8.0-openjdk-1.8.0.111-2.b15.el7_3.x86_64
+lrwxrwxrwx  1 root root 68 Jan  6 08:50 jre_1.8.0_openjdk_exports -> /usr/lib/jvm-exports/java-1.8.0-openjdk-1.8.0.111-2.b15.el7_3.x86_64
+lrwxrwxrwx  1 root root 67 Jan  6 08:50 jre_exports -> /usr/lib/jvm-exports/jre-1.8.0-openjdk-1.8.0.111-2.b15.el7_3.x86_64
+lrwxrwxrwx  1 root root 64 Jan  6 08:50 jre_openjdk -> /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.111-2.b15.el7_3.x86_64/jre
+lrwxrwxrwx  1 root root 64 Jan  6 08:50 jre_openjdk_exports -> /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.111-2.b15.el7_3.x86_64/jre
+lrwxrwxrwx  1 root root 37 Aug 22  2016 jrunscript -> /usr/java/jdk1.8.0_101/bin/jrunscript
+lrwxrwxrwx  1 root root 44 Aug 22  2016 jrunscript.1 -> /usr/java/jdk1.8.0_101/man/man1/jrunscript.1
+lrwxrwxrwx  1 root root 36 Aug 22  2016 jsadebugd -> /usr/java/jdk1.8.0_101/bin/jsadebugd
+lrwxrwxrwx  1 root root 43 Aug 22  2016 jsadebugd.1 -> /usr/java/jdk1.8.0_101/man/man1/jsadebugd.1
+lrwxrwxrwx  1 root root 33 Aug 22  2016 jstack -> /usr/java/jdk1.8.0_101/bin/jstack
+lrwxrwxrwx  1 root root 40 Aug 22  2016 jstack.1 -> /usr/java/jdk1.8.0_101/man/man1/jstack.1
+lrwxrwxrwx  1 root root 32 Aug 22  2016 jstat -> /usr/java/jdk1.8.0_101/bin/jstat
+lrwxrwxrwx  1 root root 39 Aug 22  2016 jstat.1 -> /usr/java/jdk1.8.0_101/man/man1/jstat.1
+lrwxrwxrwx  1 root root 33 Aug 22  2016 jstatd -> /usr/java/jdk1.8.0_101/bin/jstatd
+lrwxrwxrwx  1 root root 40 Aug 22  2016 jstatd.1 -> /usr/java/jdk1.8.0_101/man/man1/jstatd.1
+lrwxrwxrwx  1 root root 36 Aug 22  2016 jvisualvm -> /usr/java/jdk1.8.0_101/bin/jvisualvm
+lrwxrwxrwx  1 root root 43 Aug 22  2016 jvisualvm.1 -> /usr/java/jdk1.8.0_101/man/man1/jvisualvm.1
+lrwxrwxrwx  1 root root 76 Jan  6 08:50 keytool -> /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.111-2.b15.el7_3.x86_64/jre/bin/keytool
+lrwxrwxrwx  1 root root 80 Jan  6 08:50 keytool.1.gz -> /usr/share/man/man1/keytool-java-1.8.0-openjdk-1.8.0.111-2.b15.el7_3.x86_64.1.gz
+lrwxrwxrwx  1 root root 15 Jan  6 08:41 ld -> /usr/bin/ld.bfd
+lrwxrwxrwx  1 root root 27 Jan  6 08:45 libjavaplugin.so.x86_64 -> /usr/lib64/IcedTeaPlugin.so
+lrwxrwxrwx  1 root root 34 Jan  6 08:41 libnssckbi.so.x86_64 -> /usr/lib64/pkcs11/p11-kit-trust.so
+lrwxrwxrwx  1 root root 45 Jan  6 08:51 libwbclient.so.0.12-64 -> /usr/lib64/samba/wbclient/libwbclient.so.0.12
+lrwxrwxrwx  1 root root 48 Feb  9  2016 lightdm-greeter -> /usr/share/xgreeters/lightdm-gtk-greeter.desktop
+lrwxrwxrwx  1 root root 15 Jan  6 08:50 links -> /usr/bin/links2
+lrwxrwxrwx  1 root root 31 Jan  6 08:50 links-man -> /usr/share/man/man1/links2.1.gz
+lrwxrwxrwx. 1 root root 20 Jan 12  2016 mkisofs -> /usr/bin/genisoimage
+lrwxrwxrwx. 1 root root 20 Jan 12  2016 mkisofs-mkhybrid -> /usr/bin/genisoimage
+lrwxrwxrwx. 1 root root 36 Jan 12  2016 mkisofs-mkhybridman -> /usr/share/man/man1/genisoimage.1.gz
+lrwxrwxrwx. 1 root root 36 Jan 12  2016 mkisofs-mkisofsman -> /usr/share/man/man1/genisoimage.1.gz
+lrwxrwxrwx. 1 root root 26 Jan 12  2016 mta -> /usr/sbin/sendmail.postfix
+lrwxrwxrwx. 1 root root 40 Jan 12  2016 mta-aliasesman -> /usr/share/man/man5/aliases.postfix.5.gz
+lrwxrwxrwx. 1 root root 22 Jan 12  2016 mta-mailq -> /usr/bin/mailq.postfix
+lrwxrwxrwx. 1 root root 38 Jan 12  2016 mta-mailqman -> /usr/share/man/man1/mailq.postfix.1.gz
+lrwxrwxrwx. 1 root root 27 Jan 12  2016 mta-newaliases -> /usr/bin/newaliases.postfix
+lrwxrwxrwx. 1 root root 43 Jan 12  2016 mta-newaliasesman -> /usr/share/man/man1/newaliases.postfix.1.gz
+lrwxrwxrwx. 1 root root 23 Jan 12  2016 mta-pam -> /etc/pam.d/smtp.postfix
+lrwxrwxrwx. 1 root root 22 Jan 12  2016 mta-rmail -> /usr/bin/rmail.postfix
+lrwxrwxrwx. 1 root root 25 Jan 12  2016 mta-sendmail -> /usr/lib/sendmail.postfix
+lrwxrwxrwx. 1 root root 41 Jan 12  2016 mta-sendmailman -> /usr/share/man/man1/sendmail.postfix.1.gz
+lrwxrwxrwx  1 root root 39 Aug 22  2016 native2ascii -> /usr/java/jdk1.8.0_101/bin/native2ascii
+lrwxrwxrwx  1 root root 46 Aug 22  2016 native2ascii.1 -> /usr/java/jdk1.8.0_101/man/man1/native2ascii.1
+lrwxrwxrwx  1 root root 73 Jan  6 08:50 orbd -> /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.111-2.b15.el7_3.x86_64/jre/bin/orbd
+lrwxrwxrwx  1 root root 77 Jan  6 08:50 orbd.1.gz -> /usr/share/man/man1/orbd-java-1.8.0-openjdk-1.8.0.111-2.b15.el7_3.x86_64.1.gz
+lrwxrwxrwx  1 root root 76 Jan  6 08:50 pack200 -> /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.111-2.b15.el7_3.x86_64/jre/bin/pack200
+lrwxrwxrwx  1 root root 80 Jan  6 08:50 pack200.1.gz -> /usr/share/man/man1/pack200-java-1.8.0-openjdk-1.8.0.111-2.b15.el7_3.x86_64.1.gz
+lrwxrwxrwx  1 root root 79 Jan  6 08:50 policytool -> /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.111-2.b15.el7_3.x86_64/jre/bin/policytool
+lrwxrwxrwx  1 root root 83 Jan  6 08:50 policytool.1.gz -> /usr/share/man/man1/policytool-java-1.8.0-openjdk-1.8.0.111-2.b15.el7_3.x86_64.1.gz
+lrwxrwxrwx  1 root root 17 Jan  6 08:43 print -> /usr/bin/lpr.cups
+lrwxrwxrwx  1 root root 20 Jan  6 08:43 print-cancel -> /usr/bin/cancel.cups
+lrwxrwxrwx  1 root root 36 Jan  6 08:43 print-cancelman -> /usr/share/man/man1/cancel-cups.1.gz
+lrwxrwxrwx  1 root root 16 Jan  6 08:43 print-lp -> /usr/bin/lp.cups
+lrwxrwxrwx  1 root root 18 Jan  6 08:43 print-lpc -> /usr/sbin/lpc.cups
+lrwxrwxrwx  1 root root 33 Jan  6 08:43 print-lpcman -> /usr/share/man/man8/lpc-cups.8.gz
+lrwxrwxrwx  1 root root 32 Jan  6 08:43 print-lpman -> /usr/share/man/man1/lp-cups.1.gz
+lrwxrwxrwx  1 root root 17 Jan  6 08:43 print-lpq -> /usr/bin/lpq.cups
+lrwxrwxrwx  1 root root 33 Jan  6 08:43 print-lpqman -> /usr/share/man/man1/lpq-cups.1.gz
+lrwxrwxrwx  1 root root 18 Jan  6 08:43 print-lprm -> /usr/bin/lprm.cups
+lrwxrwxrwx  1 root root 33 Jan  6 08:43 print-lprman -> /usr/share/man/man1/lpr-cups.1.gz
+lrwxrwxrwx  1 root root 34 Jan  6 08:43 print-lprmman -> /usr/share/man/man1/lprm-cups.1.gz
+lrwxrwxrwx  1 root root 20 Jan  6 08:43 print-lpstat -> /usr/bin/lpstat.cups
+lrwxrwxrwx  1 root root 36 Jan  6 08:43 print-lpstatman -> /usr/share/man/man1/lpstat-cups.1.gz
+lrwxrwxrwx  1 root root 31 Aug 22  2016 rmic -> /usr/java/jdk1.8.0_101/bin/rmic
+lrwxrwxrwx  1 root root 38 Aug 22  2016 rmic.1 -> /usr/java/jdk1.8.0_101/man/man1/rmic.1
+lrwxrwxrwx  1 root root 73 Jan  6 08:50 rmid -> /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.111-2.b15.el7_3.x86_64/jre/bin/rmid
+lrwxrwxrwx  1 root root 77 Jan  6 08:50 rmid.1.gz -> /usr/share/man/man1/rmid-java-1.8.0-openjdk-1.8.0.111-2.b15.el7_3.x86_64.1.gz
+lrwxrwxrwx  1 root root 80 Jan  6 08:50 rmiregistry -> /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.111-2.b15.el7_3.x86_64/jre/bin/rmiregistry
+lrwxrwxrwx  1 root root 84 Jan  6 08:50 rmiregistry.1.gz -> /usr/share/man/man1/rmiregistry-java-1.8.0-openjdk-1.8.0.111-2.b15.el7_3.x86_64.1.gz
+lrwxrwxrwx  1 root root 36 Aug 22  2016 schemagen -> /usr/java/jdk1.8.0_101/bin/schemagen
+lrwxrwxrwx  1 root root 43 Aug 22  2016 schemagen.1 -> /usr/java/jdk1.8.0_101/man/man1/schemagen.1
+lrwxrwxrwx  1 root root 36 Aug 22  2016 serialver -> /usr/java/jdk1.8.0_101/bin/serialver
+lrwxrwxrwx  1 root root 43 Aug 22  2016 serialver.1 -> /usr/java/jdk1.8.0_101/man/man1/serialver.1
+lrwxrwxrwx  1 root root 79 Jan  6 08:50 servertool -> /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.111-2.b15.el7_3.x86_64/jre/bin/servertool
+lrwxrwxrwx  1 root root 83 Jan  6 08:50 servertool.1.gz -> /usr/share/man/man1/servertool-java-1.8.0-openjdk-1.8.0.111-2.b15.el7_3.x86_64.1.gz
+lrwxrwxrwx  1 root root 42 Jan  6 08:49 servlet -> /usr/share/java/tomcat-servlet-3.0-api.jar
+lrwxrwxrwx  1 root root 78 Jan  6 08:50 tnameserv -> /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.111-2.b15.el7_3.x86_64/jre/bin/tnameserv
+lrwxrwxrwx  1 root root 82 Jan  6 08:50 tnameserv.1.gz -> /usr/share/man/man1/tnameserv-java-1.8.0-openjdk-1.8.0.111-2.b15.el7_3.x86_64.1.gz
+lrwxrwxrwx  1 root root 78 Jan  6 08:50 unpack200 -> /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.111-2.b15.el7_3.x86_64/jre/bin/unpack200
+lrwxrwxrwx  1 root root 82 Jan  6 08:50 unpack200.1.gz -> /usr/share/man/man1/unpack200-java-1.8.0-openjdk-1.8.0.111-2.b15.el7_3.x86_64.1.gz
+lrwxrwxrwx  1 root root 32 Aug 22  2016 wsgen -> /usr/java/jdk1.8.0_101/bin/wsgen
+lrwxrwxrwx  1 root root 39 Aug 22  2016 wsgen.1 -> /usr/java/jdk1.8.0_101/man/man1/wsgen.1
+lrwxrwxrwx  1 root root 35 Aug 22  2016 wsimport -> /usr/java/jdk1.8.0_101/bin/wsimport
+lrwxrwxrwx  1 root root 42 Aug 22  2016 wsimport.1 -> /usr/java/jdk1.8.0_101/man/man1/wsimport.1
+lrwxrwxrwx. 1 root root 33 Jan 12  2016 xinputrc -> /etc/X11/xinit/xinput.d/ibus.conf
+lrwxrwxrwx  1 root root 30 Aug 22  2016 xjc -> /usr/java/jdk1.8.0_101/bin/xjc
+lrwxrwxrwx  1 root root 37 Aug 22  2016 xjc.1 -> /usr/java/jdk1.8.0_101/man/man1/xjc.1
+
+/etc/at-spi2:
+total 4
+-rw-r--r-- 1 root root 1335 Nov  5 11:34 accessibility.conf
+
+/etc/auto.master.d:
+total 4
+-rw-r--r-- 1 root root 51 Jul 20  2016 home.autofsold
+
+/etc/avahi:
+total 12
+-rwxr-xr-x  1 root root 2509 Nov  5 17:18 avahi-autoipd.action
+-rw-r--r--  1 root root 1750 Nov  5 17:18 avahi-daemon.conf
+drwxr-xr-x. 2 root root   22 Nov  5 17:18 etc
+-rw-r--r--  1 root root 1121 Nov  5 17:18 hosts
+drwxr-xr-x. 2 root root    6 Nov  5 17:18 services
+
+/etc/avahi/etc:
+total 4
+-rw-r--r--. 1 root root 118 Oct  7  2015 localtime
+
+/etc/avahi/services:
+total 0
+
+/etc/bash_completion.d:
+total 108
+-rw-r--r--  1 root root  4458 Nov  5 10:16 createrepo
+-rw-r--r--  1 root root  2021 Nov 17 13:20 fcoeadm
+-rw-r--r--  1 root root   911 Nov 17 13:20 fcoemon
+lrwxrwxrwx  1 root root    10 Jan  6 08:43 genpkgmetadata.py -> createrepo
+-rw-r--r--  1 root root 56178 Mar 23  2016 git
+-rw-r--r--  1 root root  1251 Nov  5 17:55 icedteaweb-completion
+-rw-r--r--  1 root root   829 Nov  5 20:38 iprutils
+-rw-r--r--  1 root root  1098 Nov  5 17:05 lldpad
+-rw-r--r--  1 root root  2589 Nov  5 17:05 lldptool
+lrwxrwxrwx  1 root root    10 Jan  6 08:43 mergerepo -> createrepo
+lrwxrwxrwx  1 root root    10 Jan  6 08:43 mergerepo.py -> createrepo
+lrwxrwxrwx  1 root root    10 Jan  6 08:43 modifyrepo -> createrepo
+lrwxrwxrwx  1 root root    10 Jan  6 08:43 modifyrepo.py -> createrepo
+-rw-r--r--. 1 root root  1458 Nov 25  2013 redefine_filedir
+-rw-r--r--. 1 root root  1527 Mar 26  2015 scl.bash
+-rw-r--r--  1 root root 11272 Nov  5 19:11 yum-utils.bash
+
+/etc/binfmt.d:
+total 0
+
+/etc/bluetooth:
+total 4
+-rw-r--r-- 1 root root 3872 Nov  5 19:46 main.conf
+
+/etc/brltty:
+total 3844
+-rw-r--r-- 1 root root    1833 Nov  5 12:31 af.ctb
+-rw-r--r-- 1 root root   12718 Nov  5 12:31 am.ctb
+-rw-r--r-- 1 root root    9307 Nov  5 12:31 ar.ttb
+-rw-r--r-- 1 root root    1025 Nov  5 12:31 ascii-basic.tti
+-rw-r--r-- 1 root root     883 Nov  5 12:31 as.ttb
+-rw-r--r-- 1 root root     937 Nov  5 12:31 attrib.atb
+-rw-r--r-- 1 root root     937 Nov  5 12:31 attributes.atb
+-rw-r--r-- 1 root root     884 Nov  5 12:31 awa.ttb
+-rw-r--r-- 1 root root    4857 Nov  5 12:31 bengali.tti
+-rw-r--r-- 1 root root    1377 Nov  5 12:31 bg.ttb
+-rw-r--r-- 1 root root     884 Nov  5 12:31 bh.ttb
+-rw-r--r-- 1 root root    1169 Nov  5 12:31 blocks.tti
+-rw-r--r-- 1 root root     882 Nov  5 12:31 bn.ttb
+-rw-r--r-- 1 root root     991 Nov  5 12:31 bo.ttb
+-rw-r--r-- 1 root root   11544 Nov  5 12:31 boxes.tti
+-rw-r--r-- 1 root root     882 Nov  5 12:31 bra.ttb
+-rw-r--r-- 1 root root    2848 Nov  5 12:31 brf.ttb
+-rw-r--r-- 1 root root    2515 Nov  5 12:31 brl-al-abt_basic.kti
+-rw-r--r-- 1 root root     941 Nov  5 12:31 brl-al-abt_extra.kti
+-rw-r--r-- 1 root root     926 Nov  5 12:31 brl-al-abt_large.ktb
+-rw-r--r-- 1 root root     880 Nov  5 12:31 brl-al-abt_small.ktb
+-rw-r--r-- 1 root root    5243 Nov  5 12:31 brl-al-bc.ktb
+-rw-r--r-- 1 root root    3528 Nov  5 12:31 brl-al-sat_basic.kti
+-rw-r--r-- 1 root root    1064 Nov  5 12:31 brl-al-sat_extra.kti
+-rw-r--r-- 1 root root     915 Nov  5 12:31 brl-al-sat_large.ktb
+-rw-r--r-- 1 root root     869 Nov  5 12:31 brl-al-sat_small.ktb
+-rw-r--r-- 1 root root    2101 Nov  5 12:31 brl-at-all.ktb
+-rw-r--r-- 1 root root      58 Nov  5 12:31 brl-ba-all.txt
+-rw-r--r-- 1 root root     302 Nov  5 12:31 brl-bd-all.txt
+-rw-r--r-- 1 root root    2728 Nov  5 12:31 brl-bl-18.txt
+-rw-r--r-- 1 root root    3557 Nov  5 12:31 brl-bl-40_m20_m40.txt
+-rw-r--r-- 1 root root    1308 Nov  5 12:31 brl-bm-command.kti
+-rw-r--r-- 1 root root     921 Nov  5 12:31 brl-bm-default.ktb
+-rw-r--r-- 1 root root    2915 Nov  5 12:31 brl-bm-display6.kti
+-rw-r--r-- 1 root root    2215 Nov  5 12:31 brl-bm-display7.kti
+-rw-r--r-- 1 root root     866 Nov  5 12:31 brl-bm-dm80p.ktb
+-rw-r--r-- 1 root root    1742 Nov  5 12:31 brl-bm-front10.kti
+-rw-r--r-- 1 root root    1075 Nov  5 12:31 brl-bm-front6.kti
+-rw-r--r-- 1 root root    1443 Nov  5 12:31 brl-bm-horizontal.kti
+-rw-r--r-- 1 root root    1210 Nov  5 12:31 brl-bm-inka.ktb
+-rw-r--r-- 1 root root    3752 Nov  5 12:31 brl-bm-joystick.kti
+-rw-r--r-- 1 root root    1260 Nov  5 12:31 brl-bm-keyboard.kti
+-rw-r--r-- 1 root root     917 Nov  5 12:31 brl-bm-pro.ktb
+-rw-r--r-- 1 root root    1505 Nov  5 12:31 brl-bm-routing6.kti
+-rw-r--r-- 1 root root    1369 Nov  5 12:31 brl-bm-routing7.kti
+-rw-r--r-- 1 root root    1287 Nov  5 12:31 brl-bm-status.kti
+-rw-r--r-- 1 root root     918 Nov  5 12:31 brl-bm-vario80.ktb
+-rw-r--r-- 1 root root    1377 Nov  5 12:31 brl-bm-vario.ktb
+-rw-r--r-- 1 root root    1004 Nov  5 12:31 brl-bm-vertical.kti
+-rw-r--r-- 1 root root    1288 Nov  5 12:31 brl-bm-wheels.kti
+-rw-r--r-- 1 root root    6136 Nov  5 12:31 brl-bn-all.ktb
+-rw-r--r-- 1 root root     941 Nov  5 12:31 brl-bn-input.kti
+-rw-r--r-- 1 root root    2381 Nov  5 12:31 brl-cb-all.ktb
+-rw-r--r-- 1 root root    3613 Nov  5 12:31 brl-ce-all.ktb
+-rw-r--r-- 1 root root     976 Nov  5 12:31 brl-ce-novem.ktb
+-rw-r--r-- 1 root root    2790 Nov  5 12:31 brl-chords.kti
+-rw-r--r-- 1 root root     863 Nov  5 12:31 brl-ec-all.txt
+-rw-r--r-- 1 root root     938 Nov  5 12:31 brl-ec-spanish.txt
+-rw-r--r-- 1 root root    1253 Nov  5 12:31 brl-eu-all.txt
+-rw-r--r-- 1 root root    2301 Nov  5 12:31 brl-eu-braille.kti
+-rw-r--r-- 1 root root    1908 Nov  5 12:31 brl-eu-clio.ktb
+-rw-r--r-- 1 root root    1115 Nov  5 12:31 brl-eu-common.kti
+-rw-r--r-- 1 root root     941 Nov  5 12:31 brl-eu-esys_large.ktb
+-rw-r--r-- 1 root root     920 Nov  5 12:31 brl-eu-esys_medium.ktb
+-rw-r--r-- 1 root root     896 Nov  5 12:31 brl-eu-esys_small.ktb
+-rw-r--r-- 1 root root     869 Nov  5 12:31 brl-eu-esytime.ktb
+-rw-r--r-- 1 root root    1901 Nov  5 12:31 brl-eu-iris.ktb
+-rw-r--r-- 1 root root    1959 Nov  5 12:31 brl-eu-joysticks.kti
+-rw-r--r-- 1 root root    1342 Nov  5 12:31 brl-eu-sw12.kti
+-rw-r--r-- 1 root root     867 Nov  5 12:31 brl-eu-sw34.kti
+-rw-r--r-- 1 root root     878 Nov  5 12:31 brl-eu-sw56.kti
+-rw-r--r-- 1 root root     936 Nov  5 12:31 brl-fs-bumpers.kti
+-rw-r--r-- 1 root root    1960 Nov  5 12:31 brl-fs-common.kti
+-rw-r--r-- 1 root root     866 Nov  5 12:31 brl-fs-focus_basic.ktb
+-rw-r--r-- 1 root root    1375 Nov  5 12:31 brl-fs-focus_basic.kti
+-rw-r--r-- 1 root root     881 Nov  5 12:31 brl-fs-focus_large.ktb
+-rw-r--r-- 1 root root     881 Nov  5 12:31 brl-fs-focus_small.ktb
+-rw-r--r-- 1 root root    1211 Nov  5 12:31 brl-fs-pacmate.ktb
+-rw-r--r-- 1 root root     981 Nov  5 12:31 brl-fs-rockers.kti
+-rw-r--r-- 1 root root     960 Nov  5 12:31 brl-hm-dots.kti
+-rw-r--r-- 1 root root    1980 Nov  5 12:31 brl-hm-edge.ktb
+-rw-r--r-- 1 root root    2397 Nov  5 12:31 brl-hm-sense.ktb
+-rw-r--r-- 1 root root    1679 Nov  5 12:31 brl-hm-sync.ktb
+-rw-r--r-- 1 root root     844 Nov  5 12:31 brl-ht-ab40.ktb
+-rw-r--r-- 1 root root    1752 Nov  5 12:31 brl-ht-bkwm.ktb
+-rw-r--r-- 1 root root     842 Nov  5 12:31 brl-ht-bs40.ktb
+-rw-r--r-- 1 root root     868 Nov  5 12:31 brl-ht-bs80.ktb
+-rw-r--r-- 1 root root    1509 Nov  5 12:31 brl-ht-bs.kti
+-rw-r--r-- 1 root root    1681 Nov  5 12:31 brl-ht-dots.kti
+-rw-r--r-- 1 root root    1225 Nov  5 12:31 brl-ht-easy.ktb
+-rw-r--r-- 1 root root    1133 Nov  5 12:31 brl-ht-input.kti
+-rw-r--r-- 1 root root    2859 Nov  5 12:31 brl-ht-keypad.kti
+-rw-r--r-- 1 root root    1324 Nov  5 12:31 brl-ht-mdlr.ktb
+-rw-r--r-- 1 root root     847 Nov  5 12:31 brl-ht-me64.ktb
+-rw-r--r-- 1 root root     873 Nov  5 12:31 brl-ht-me88.ktb
+-rw-r--r-- 1 root root    1270 Nov  5 12:31 brl-ht-me.kti
+-rw-r--r-- 1 root root    2466 Nov  5 12:31 brl-ht-rockers.kti
+-rw-r--r-- 1 root root    1202 Nov  5 12:31 brl-ht-wave.ktb
+-rw-r--r-- 1 root root    1938 Nov  5 12:31 brl-hw-all.ktb
+-rw-r--r-- 1 root root    1376 Nov  5 12:31 brl-ir-all.kti
+-rw-r--r-- 1 root root    3203 Nov  5 12:31 brl-ir-brl.ktb
+-rw-r--r-- 1 root root    1584 Nov  5 12:31 brl-ir-pc.ktb
+-rw-r--r-- 1 root root      63 Nov  5 12:31 brl-lb-all.txt
+-rw-r--r-- 1 root root     875 Nov  5 12:31 brl-lt-all.txt
+-rw-r--r-- 1 root root    1605 Nov  5 12:31 brl-mb-all.txt
+-rw-r--r-- 1 root root    1479 Nov  5 12:31 brl-md-all.txt
+-rw-r--r-- 1 root root    2071 Nov  5 12:31 brl-mn-all.txt
+-rw-r--r-- 1 root root    3495 Nov  5 12:31 brl-mt-all.ktb
+-rw-r--r-- 1 root root    1187 Nov  5 12:31 brl-np-all.ktb
+-rw-r--r-- 1 root root    2458 Nov  5 12:31 brl-pg-all.ktb
+-rw-r--r-- 1 root root     876 Nov  5 12:31 brl-pm-2d_l.ktb
+-rw-r--r-- 1 root root     877 Nov  5 12:31 brl-pm-2d_s.ktb
+-rw-r--r-- 1 root root    1864 Nov  5 12:31 brl-pm-bar.kti
+-rw-r--r-- 1 root root     872 Nov  5 12:31 brl-pm-c_486.ktb
+-rw-r--r-- 1 root root     873 Nov  5 12:31 brl-pm-c.ktb
+-rw-r--r-- 1 root root     895 Nov  5 12:31 brl-pm-el_2d_40.ktb
+-rw-r--r-- 1 root root     895 Nov  5 12:31 brl-pm-el_2d_66.ktb
+-rw-r--r-- 1 root root     895 Nov  5 12:31 brl-pm-el_2d_80.ktb
+-rw-r--r-- 1 root root     867 Nov  5 12:31 brl-pm-el2d_80s.ktb
+-rw-r--r-- 1 root root     863 Nov  5 12:31 brl-pm-el40c.ktb
+-rw-r--r-- 1 root root     893 Nov  5 12:31 brl-pm-el_40_p.ktb
+-rw-r--r-- 1 root root     863 Nov  5 12:31 brl-pm-el40s.ktb
+-rw-r--r-- 1 root root     863 Nov  5 12:31 brl-pm-el60c.ktb
+-rw-r--r-- 1 root root     863 Nov  5 12:31 brl-pm-el66s.ktb
+-rw-r--r-- 1 root root     863 Nov  5 12:31 brl-pm-el70s.ktb
+-rw-r--r-- 1 root root     863 Nov  5 12:31 brl-pm-el80c.ktb
+-rw-r--r-- 1 root root     865 Nov  5 12:31 brl-pm-el80_ii.ktb
+-rw-r--r-- 1 root root     891 Nov  5 12:31 brl-pm-el_80.ktb
+-rw-r--r-- 1 root root     863 Nov  5 12:31 brl-pm-el80s.ktb
+-rw-r--r-- 1 root root     893 Nov  5 12:31 brl-pm-elba_20.ktb
+-rw-r--r-- 1 root root     893 Nov  5 12:31 brl-pm-elba_32.ktb
+-rw-r--r-- 1 root root     872 Nov  5 12:31 brl-pm-elba_trio_20.ktb
+-rw-r--r-- 1 root root     872 Nov  5 12:31 brl-pm-elba_trio_32.ktb
+-rw-r--r-- 1 root root    3973 Nov  5 12:31 brl-pm-front13.kti
+-rw-r--r-- 1 root root    1763 Nov  5 12:31 brl-pm-front9.kti
+-rw-r--r-- 1 root root     874 Nov  5 12:31 brl-pm-ib_80.ktb
+-rw-r--r-- 1 root root    1067 Nov  5 12:31 brl-pm-keyboard.kti
+-rw-r--r-- 1 root root    2726 Nov  5 12:31 brl-pm-keys.kti
+-rw-r--r-- 1 root root     958 Nov  5 12:31 brl-pm-routing.kti
+-rw-r--r-- 1 root root     862 Nov  5 12:31 brl-pm-status0.kti
+-rw-r--r-- 1 root root    1525 Nov  5 12:31 brl-pm-status13.kti
+-rw-r--r-- 1 root root    2170 Nov  5 12:31 brl-pm-status20.kti
+-rw-r--r-- 1 root root    2196 Nov  5 12:31 brl-pm-status22.kti
+-rw-r--r-- 1 root root     969 Nov  5 12:31 brl-pm-status2.kti
+-rw-r--r-- 1 root root    1094 Nov  5 12:31 brl-pm-status4.kti
+-rw-r--r-- 1 root root    4131 Nov  5 12:31 brl-pm-switches.kti
+-rw-r--r-- 1 root root     890 Nov  5 12:31 brl-pm-trio.ktb
+-rw-r--r-- 1 root root    3004 Nov  5 12:31 brl-sk-bdp.ktb
+-rw-r--r-- 1 root root    4441 Nov  5 12:31 brl-sk-ntk.ktb
+-rw-r--r-- 1 root root    1485 Nov  5 12:31 brl-tn-all.txt
+-rw-r--r-- 1 root root    3205 Nov  5 12:31 brl-ts-nav20_nav40.txt
+-rw-r--r-- 1 root root    3712 Nov  5 12:31 brl-ts-nav80.txt
+-rw-r--r-- 1 root root    3310 Nov  5 12:31 brl-ts-pb40.txt
+-rw-r--r-- 1 root root    3919 Nov  5 12:31 brl-ts-pb65_pb81.txt
+-rw-r--r-- 1 root root     706 Nov  5 12:31 brl-tt-all.txt
+-rw-r--r-- 1 root root     745 Nov  5 12:31 brl-vd-all.txt
+-rw-r--r-- 1 root root    2697 Nov  5 12:31 brl-vo-all.ktb
+-rw-r--r-- 1 root root    6921 Nov  5 12:31 brl-vo-bp.ktb
+-rw-r--r-- 1 root root      66 Nov  5 12:31 brl-vr-all.txt
+-rw-r--r-- 1 root root     377 Nov  5 12:31 brl-vs-all.txt
+-rw-r--r-- 1 root root      77 Nov  5 12:31 brl-xw-all.txt
+-rw-r--r-- 1 root root    1144 Nov  5 12:31 common.tti
+-rw-r--r-- 1 root root    2207 Nov  5 12:31 control-latin.tti
+-rw-r--r-- 1 root root    6526 Nov  5 12:31 countries.cti
+-rw-r--r-- 1 root root    9581 Nov  5 12:31 cs.ttb
+-rw-r--r-- 1 root root    5583 Nov  5 12:31 cy.ttb
+-rw-r--r-- 1 root root   12668 Nov  5 12:31 da-1252.ttb
+-rw-r--r-- 1 root root   11406 Nov  5 12:31 da-lt.ttb
+-rw-r--r-- 1 root root   11397 Nov  5 12:31 da.ttb
+-rw-r--r-- 1 root root    6204 Nov  5 12:31 de-basis.ctb
+-rw-r--r-- 1 root root    1656 Nov  5 12:31 de-chess.tti
+-rw-r--r-- 1 root root   37790 Nov  5 12:31 de-kurzschrift.ctb
+-rw-r--r-- 1 root root   11234 Nov  5 12:31 de.ttb
+-rw-r--r-- 1 root root    5904 Nov  5 12:31 devanagari.tti
+-rw-r--r-- 1 root root    3289 Nov  5 12:31 de-vollschrift.ctb
+-rw-r--r-- 1 root root     882 Nov  5 12:31 dra.ttb
+-rw-r--r-- 1 root root   15106 Nov  5 12:31 el.ttb
+-rw-r--r-- 1 root root    6653 Nov  5 12:31 en_CA.ttb
+-rw-r--r-- 1 root root    1657 Nov  5 12:31 en-chess.tti
+-rw-r--r-- 1 root root   11521 Nov  5 12:31 en_GB.ttb
+-rw-r--r-- 1 root root    2732 Nov  5 12:31 en-na-ascii.tti
+-rw-r--r-- 1 root root   20733 Nov  5 12:31 en-nabcc.ttb
+-rw-r--r-- 1 root root     839 Nov  5 12:31 en.ttb
+-rw-r--r-- 1 root root    7263 Nov  5 12:31 en-ueb-g2.ctb
+-rw-r--r-- 1 root root   39633 Nov  5 12:31 en-us-g2.ctb
+-rw-r--r-- 1 root root   11198 Nov  5 12:31 en_US.ttb
+-rw-r--r-- 1 root root    2361 Nov  5 12:31 eo.ttb
+-rw-r--r-- 1 root root    7619 Nov  5 12:31 es.ctb
+-rw-r--r-- 1 root root   12684 Nov  5 12:31 es.ttb
+-rw-r--r-- 1 root root    2019 Nov  5 12:31 et.ttb
+-rw-r--r-- 1 root root   11260 Nov  5 12:31 fi.ttb
+-rw-r--r-- 1 root root   12528 Nov  5 12:31 fr-2007.ttb
+-rw-r--r-- 1 root root   49286 Nov  5 12:31 fr-abrege.ctb
+-rw-r--r-- 1 root root   11512 Nov  5 12:31 fr_CA.ttb
+-rw-r--r-- 1 root root   11267 Nov  5 12:31 fr-cbifs.ttb
+-rw-r--r-- 1 root root   11327 Nov  5 12:31 fr_FR.ttb
+-rw-r--r-- 1 root root    3843 Nov  5 12:31 fr-integral.ctb
+-rw-r--r-- 1 root root     837 Nov  5 12:31 fr.ttb
+-rw-r--r-- 1 root root   12884 Nov  5 12:31 fr-vs.ttb
+-rw-r--r-- 1 root root    2135 Nov  5 12:31 ga.ttb
+-rw-r--r-- 1 root root    3435 Nov  5 12:31 gd.ttb
+-rw-r--r-- 1 root root     902 Nov  5 12:31 gon.ttb
+-rw-r--r-- 1 root root    5279 Nov  5 12:31 gujarati.tti
+-rw-r--r-- 1 root root    4920 Nov  5 12:31 gurmukhi.tti
+-rw-r--r-- 1 root root     884 Nov  5 12:31 gu.ttb
+-rw-r--r-- 1 root root    1360 Nov  5 12:31 ha.ctb
+-rw-r--r-- 1 root root    3985 Nov  5 12:31 he.ttb
+-rw-r--r-- 1 root root     883 Nov  5 12:31 hi.ttb
+-rw-r--r-- 1 root root   11675 Nov  5 12:31 hr.ttb
+-rw-r--r-- 1 root root    4476 Nov  5 12:31 hu.ttb
+-rw-r--r-- 1 root root    6149 Nov  5 12:31 hy.ttb
+-rw-r--r-- 1 root root    1451 Nov  5 12:31 id.ctb
+-rw-r--r-- 1 root root   16589 Nov  5 12:31 ipa.ctb
+-rw-r--r-- 1 root root    9409 Nov  5 12:31 is.ttb
+-rw-r--r-- 1 root root   11218 Nov  5 12:31 it.ttb
+-rw-r--r-- 1 root root    8450 Nov  5 12:31 ja.ctb
+-rw-r--r-- 1 root root    5178 Nov  5 12:31 kannada.tti
+-rw-r--r-- 1 root root    1913 Nov  5 12:31 kbd-braille.kti
+-rw-r--r-- 1 root root    2141 Nov  5 12:31 kbd-desktop.ktb
+-rw-r--r-- 1 root root    3206 Nov  5 12:31 kbd-keypad.ktb
+-rw-r--r-- 1 root root    1429 Nov  5 12:31 kbd-kp_say.kti
+-rw-r--r-- 1 root root    1632 Nov  5 12:31 kbd-kp_speak.kti
+-rw-r--r-- 1 root root    3698 Nov  5 12:31 kbd-laptop.ktb
+-rw-r--r-- 1 root root     880 Nov  5 12:31 kha.ttb
+-rw-r--r-- 1 root root     882 Nov  5 12:31 kn.ttb
+-rw-r--r-- 1 root root  273315 Nov  5 12:31 ko.ctb
+-rw-r--r-- 1 root root    1176 Nov  5 12:31 ko-g1.ctb
+-rw-r--r-- 1 root root    1055 Nov  5 12:31 ko-g2.ctb
+-rw-r--r-- 1 root root     885 Nov  5 12:31 kok.ttb
+-rw-r--r-- 1 root root     884 Nov  5 12:31 kru.ttb
+-rw-r--r-- 1 root root    6243 Nov  5 12:31 latex-access.ctb
+-rw-r--r-- 1 root root    5337 Nov  5 12:31 letters-cyrillic.tti
+-rw-r--r-- 1 root root    2939 Nov  5 12:31 letters-latin.cti
+-rw-r--r-- 1 root root    3793 Nov  5 12:31 letters-latin-dot8.tti
+-rw-r--r-- 1 root root   54704 Nov  5 12:31 letters-latin.tti
+-rw-r--r-- 1 root root    4851 Nov  5 12:31 letters-tibetan.tti
+-rw-r--r-- 1 root root    1740 Nov  5 12:31 lt.ttb
+-rw-r--r-- 1 root root   13636 Nov  5 12:31 lv.ttb
+-rw-r--r-- 1 root root    5322 Nov  5 12:31 malayalam.tti
+-rw-r--r-- 1 root root    1251 Nov  5 12:31 mg.ctb
+-rw-r--r-- 1 root root    1263 Nov  5 12:31 mg.ttb
+-rw-r--r-- 1 root root    1260 Nov  5 12:31 mi.ttb
+-rw-r--r-- 1 root root     886 Nov  5 12:31 ml.ttb
+-rw-r--r-- 1 root root     883 Nov  5 12:31 mni.ttb
+-rw-r--r-- 1 root root     885 Nov  5 12:31 mr.ttb
+-rw-r--r-- 1 root root    2203 Nov  5 12:31 mt.ttb
+-rw-r--r-- 1 root root    1276 Nov  5 12:31 mun.ctb
+-rw-r--r-- 1 root root     880 Nov  5 12:31 mun.ttb
+-rw-r--r-- 1 root root     885 Nov  5 12:31 mwr.ttb
+-rw-r--r-- 1 root root    2191 Nov  5 12:31 nabcc.cti
+-rw-r--r-- 1 root root     884 Nov  5 12:31 ne.ttb
+-rw-r--r-- 1 root root     904 Nov  5 12:31 new.ttb
+-rw-r--r-- 1 root root   10415 Nov  5 12:31 nl_BE.ttb
+-rw-r--r-- 1 root root    1240 Nov  5 12:31 nl.ctb
+-rw-r--r-- 1 root root    9885 Nov  5 12:31 nl_NL.ttb
+-rw-r--r-- 1 root root     834 Nov  5 12:31 nl.ttb
+-rw-r--r-- 1 root root   11408 Nov  5 12:31 no-generic.ttb
+-rw-r--r-- 1 root root   11359 Nov  5 12:31 no-oub.ttb
+-rw-r--r-- 1 root root     839 Nov  5 12:31 no.ttb
+-rw-r--r-- 1 root root    1447 Nov  5 12:31 numbers-dot6.tti
+-rw-r--r-- 1 root root    1470 Nov  5 12:31 numbers-dot8.tti
+-rw-r--r-- 1 root root    1450 Nov  5 12:31 numbers-french.tti
+-rw-r--r-- 1 root root    1486 Nov  5 12:31 numbers-nemeth.tti
+-rw-r--r-- 1 root root     910 Nov  5 12:31 nwc.ttb
+-rw-r--r-- 1 root root    1269 Nov  5 12:31 ny.ctb
+-rw-r--r-- 1 root root    4826 Nov  5 12:31 oriya.tti
+-rw-r--r-- 1 root root     878 Nov  5 12:31 or.ttb
+-rw-r--r-- 1 root root     883 Nov  5 12:31 pa.ttb
+-rw-r--r-- 1 root root     882 Nov  5 12:31 pi.ttb
+-rw-r--r-- 1 root root   11576 Nov  5 12:31 pl.ttb
+-rw-r--r-- 1 root root   10267 Nov  5 12:31 pt.ctb
+-rw-r--r-- 1 root root   11181 Nov  5 12:31 pt.ttb
+-rw-r--r-- 1 root root    2348 Nov  5 12:31 punctuation-alternate.tti
+-rw-r--r-- 1 root root    1432 Nov  5 12:31 punctuation-basic.tti
+-rw-r--r-- 1 root root    1076 Nov  5 12:31 punctuation-tibetan.tti
+-rw-r--r-- 1 root root    2213 Nov  5 12:31 ro.ttb
+-rw-r--r-- 1 root root    3017 Nov  5 12:31 ru.ttb
+-rw-r--r-- 1 root root     886 Nov  5 12:31 sa.ttb
+-rw-r--r-- 1 root root     923 Nov  5 12:31 sat.ttb
+-rw-r--r-- 1 root root     884 Nov  5 12:31 sd.ttb
+-rw-r--r-- 1 root root    3692 Nov  5 12:31 si.ctb
+-rw-r--r-- 1 root root    5476 Nov  5 12:31 sk.ttb
+-rw-r--r-- 1 root root    1527 Nov  5 12:31 spaces.tti
+-rw-r--r-- 1 root root   11194 Nov  5 12:31 sv-1989.ttb
+-rw-r--r-- 1 root root    9206 Nov  5 12:31 sv-1996.ttb
+-rw-r--r-- 1 root root     838 Nov  5 12:31 sv.ttb
+-rw-r--r-- 1 root root    1454 Nov  5 12:31 sw.ctb
+-rw-r--r-- 1 root root    1262 Nov  5 12:31 sw.ttb
+-rw-r--r-- 1 root root    4356 Nov  5 12:31 tamil.tti
+-rw-r--r-- 1 root root     878 Nov  5 12:31 ta.ttb
+-rw-r--r-- 1 root root    5108 Nov  5 12:31 telugu.tti
+-rw-r--r-- 1 root root     880 Nov  5 12:31 te.ttb
+-rw-r--r-- 1 root root    4512 Nov  5 12:31 th.ctb
+-rw-r--r-- 1 root root    2875 Nov  5 12:31 tr.ttb
+-rw-r--r-- 1 root root   14303 Nov  5 12:31 vi.ttb
+-rw-r--r-- 1 root root 1367395 Nov  5 12:31 zh-tw.ctb
+-rw-r--r-- 1 root root   56542 Nov  5 12:31 zh-tw-polyphone.cti
+-rw-r--r-- 1 root root  400503 Nov  5 12:31 zh-tw-ucb.ctb
+-rw-r--r-- 1 root root    1233 Nov  5 12:31 zu.ctb
+
+/etc/certmonger:
+total 4
+-rw------- 1 root root 613 Nov 17 13:00 certmonger.conf
+
+/etc/cgconfig.d:
+total 0
+
+/etc/chkconfig.d:
+total 0
+
+/etc/cifs-utils:
+total 0
+lrwxrwxrwx 1 root root 35 Jan  6 08:46 idmap-plugin -> /etc/alternatives/cifs-idmap-plugin
+
+/etc/cloud:
+total 8
+-rw-rw-r-- 1 root root 1144 Jul 29  2014 cloud.cfg
+drwxr-xr-x 2 root root   40 Jun  7  2016 cloud.cfg.d
+drwxr-xr-x 2 root root 4096 Jun  7  2016 templates
+
+/etc/cloud/cloud.cfg.d:
+total 8
+-rw-r--r-- 1 root root 1910 Apr  1  2014 05_logging.cfg
+-rw-r--r-- 1 root root  141 Apr  1  2014 README
+
+/etc/cloud/templates:
+total 28
+-rw-r--r-- 1 root root  892 Apr  1  2014 chef_client.rb.tmpl
+-rw-r--r-- 1 root root  934 Apr  1  2014 hosts.debian.tmpl
+-rw-r--r-- 1 root root  906 Apr  1  2014 hosts.redhat.tmpl
+-rw-r--r-- 1 root root  862 Apr  1  2014 hosts.suse.tmpl
+-rw-r--r-- 1 root root  785 Apr  1  2014 resolv.conf.tmpl
+-rw-r--r-- 1 root root 1454 Apr  1  2014 sources.list.debian.tmpl
+-rw-r--r-- 1 root root 2768 Apr  1  2014 sources.list.ubuntu.tmpl
+
+/etc/collectd.d:
+total 0
+
+/etc/cron.d:
+total 16
+-rw-r--r-- 1 root root 128 Mar 31  2016 0hourly
+-rw-r--r-- 1 root root 108 May  7  2015 atop
+-rw-r--r-- 1 root root 108 Nov  4 12:45 raid-check
+-rw------- 1 root root 235 Nov  5 13:24 sysstat
+
+/etc/cron.daily:
+total 12
+-rwx------  1 root root 219 Nov  5 17:55 logrotate
+-rwxr-xr-x. 1 root root 618 Mar 17  2014 man-db.cron
+-rwx------  1 root root 208 Nov  4 12:47 mlocate
+
+/etc/cron.hourly:
+total 8
+-rwxr-xr-x  1 root root 392 Mar 31  2016 0anacron
+-rwx------. 1 root root 180 Jul 31  2013 logrotate
+
+/etc/cron.monthly:
+total 0
+
+/etc/cron.weekly:
+total 0
+
+/etc/cups:
+total 40
+-rw-------  1 root lp      0 Nov  5 14:09 classes.conf
+-rw-r--r--  1 root lp      0 Nov  5 14:09 client.conf
+-rw-r--r--. 1 root root 1029 Jan 12  2016 cups-browsed.conf
+-rw-r-----  1 root lp   4504 Nov  5 14:08 cupsd.conf
+-rw-r-----  1 root lp   4504 Nov  5 14:08 cupsd.conf.default
+-rw-r-----  1 root lp   3091 Jan  6 08:45 cups-files.conf
+drwxr-xr-x. 2 root root    6 Nov  5 14:08 interfaces
+-rw-r--r--  1 root lp      0 Nov  5 14:09 lpoptions
+-rw-r--r--. 1 root root  319 Jun 22  2015 paps.convs
+drwxr-xr-x. 2 root lp      6 Nov  5 14:08 ppd
+-rw-------  1 root lp      0 Nov  5 14:09 printers.conf
+-rw-r--r--  1 root lp    186 Nov  5 14:08 snmp.conf
+drwx------. 2 root lp      6 Nov  5 14:08 ssl
+-rw-r-----  1 root lp   3141 Mar  1 17:05 subscriptions.conf
+-rw-r-----  1 root lp   3444 Mar  1 17:04 subscriptions.conf.O
+
+/etc/cups/interfaces:
+total 0
+
+/etc/cups/ppd:
+total 0
+
+/etc/cupshelpers:
+total 12
+-rw-r--r--. 1 root root 8944 Nov  3  2014 preferreddrivers.xml
+
+/etc/dbus-1:
+total 16
+-rw-r--r--  1 root root 2763 Nov  6 14:19 session.conf
+drwxr-xr-x. 2 root root    6 Nov  6 14:19 session.d
+-rw-r--r--  1 root root 2991 Nov  6 14:19 system.conf
+drwxr-xr-x. 2 root root 4096 Jan  6 08:50 system.d
+
+/etc/dbus-1/session.d:
+total 0
+
+/etc/dbus-1/system.d:
+total 232
+-rw-r--r--  1 root root 1142 Nov  5 17:18 avahi-dbus.conf
+-rw-r--r--  1 root root 1489 Nov  5 19:46 bluetooth.conf
+-rw-r--r--  1 root root 1069 Nov 17 13:00 certmonger.conf
+-rw-r--r--. 1 root root 1007 Nov  3  2014 com.redhat.NewPrinterNotification.conf
+-rw-r--r--. 1 root root 1016 Nov  3  2014 com.redhat.PrinterDriversInstaller.conf
+-rw-r--r--  1 root root  587 Jun 16  2016 com.redhat.tuned.conf
+-r--r--r--  1 root root  460 Nov  5 14:08 cups.conf
+-rw-r--r--  1 root root 1117 Dec  2 09:28 dbus-abrt.conf
+-rw-r--r--  1 root root  475 Nov 11 12:20 dnsmasq.conf
+-rw-r--r--  1 root root 1084 Nov 11 13:02 FirewallD.conf
+-rw-r--r--  1 root root 4058 Nov 11 13:13 gdm.conf
+-rw-r--r--. 1 root root  544 Jun 24  2014 net.reactivated.Fprint.conf
+-rw-r--r--  1 root root  465 Dec  6 16:37 nm-dispatcher.conf
+-rw-r--r--  1 root root  618 Dec  6 16:37 nm-ifcfg-rh.conf
+-rw-r--r--  1 root root  734 Jul  2  2016 nm-l2tp-service.conf
+-rw-r--r--  1 root root  590 Nov 11 21:29 nm-libreswan-service.conf
+-rw-r--r--  1 root root  684 Jan  8  2015 nm-openconnect-service.conf
+-rw-r--r--  1 root root  506 Sep 29 06:37 nm-openvpn-service.conf
+-rw-r--r--  1 root root  734 Mar 12  2010 nm-pptp-service.conf
+-rw-r--r--  1 root root  480 Sep  1  2014 nm-vpnc-service.conf
+-rw-r--r--. 1 root root 2480 Mar  5  2015 oddjob.conf
+-rw-r--r--. 1 root root 1892 Jul 30  2013 oddjob-mkhomedir.conf
+-rw-r--r--  1 root root 2079 Nov  5 16:38 org.fedoraproject.Setroubleshootd.conf
+-rw-r--r--  1 root root  771 Nov  5 16:38 org.fedoraproject.SetroubleshootFixit.conf
+-rw-r--r--  1 root root  917 Nov 11 11:49 org.freedesktop.Accounts.conf
+-rw-r--r--. 1 root root 1569 Nov 20  2015 org.freedesktop.ColorManager.conf
+-rw-r--r--  1 root root 1180 Apr  7  2014 org.freedesktop.DisplayManager.conf
+-rw-r--r--  1 root root  445 Nov  5 12:04 org.freedesktop.GeoClue2.Agent.conf
+-rw-r--r--  1 root root 1100 Nov  5 12:04 org.freedesktop.GeoClue2.conf
+-rw-r--r--  1 root root  947 Nov 21 19:27 org.freedesktop.hostname1.conf
+-rw-r--r--  1 root root 2527 Nov 21 19:27 org.freedesktop.import1.conf
+-rw-r--r--  1 root root  937 Nov 21 19:27 org.freedesktop.locale1.conf
+-rw-r--r--  1 root root 8534 Nov 21 19:27 org.freedesktop.login1.conf
+-rw-r--r--  1 root root 3726 Nov 21 19:27 org.freedesktop.machine1.conf
+-rw-r--r--  1 root root  422 Nov 17 16:02 org.freedesktop.ModemManager1.conf
+-rw-r--r--  1 root root 9166 Dec  6 16:37 org.freedesktop.NetworkManager.conf
+-rw-r--r--  1 root root 1331 Nov 15 09:19 org.freedesktop.PackageKit.conf
+-rw-r--r--  1 root root  638 Nov  5 17:09 org.freedesktop.PolicyKit1.conf
+-rw-r--r--  1 root root  404 Nov 11 22:56 org.freedesktop.realmd.conf
+-rw-r--r--. 1 root root 1075 Mar  5  2015 org.freedesktop.RealtimeKit1.conf
+-rw-r--r--  1 root root 9720 Nov 21 19:27 org.freedesktop.systemd1.conf
+-rw-r--r--  1 root root  947 Nov 21 19:27 org.freedesktop.timedate1.conf
+-rw-r--r--. 1 root root  525 Nov 20  2015 org.freedesktop.UDisks2.conf
+-rw-r--r--. 1 root root 1555 Nov 20  2015 org.freedesktop.UPower.conf
+-rw-r--r--. 1 root root  570 Jun 10  2014 org.gnome.GConf.Defaults.conf
+-rw-r--r--  1 root root  498 Oct  3 02:49 org.mate.CPUFreqSelector.conf
+-rw-r--r--  1 root root  765 Dec 10 15:32 org.mate.SettingsDaemon.DateTimeMechanism.conf
+-rw-r--r--. 1 root root  535 Jun  9  2014 org.opensuse.CupsPkHelper.Mechanism.conf
+-rw-r--r--  1 root root  535 Nov 21 18:34 org.selinux.conf
+-rw-r--r--  1 root root 1084 Nov  5 15:03 pulseaudio-system.conf
+-rw-r--r--  1 root root  409 Apr 15  2016 teamd.conf
+-rw-r--r--  1 root root 1096 Nov  5 10:52 wpa_supplicant.conf
+
+/etc/dconf:
+total 4
+drwxr-xr-x. 7 root root 4096 Jan  6 08:51 db
+drwxr-xr-x. 2 root root   28 Jan 12  2016 profile
+
+/etc/dconf/db:
+total 20
+-rw-r--r--  1 root root  520 Jan  6 08:51 distro
+drwxr-xr-x. 3 root root   38 Jul 28  2016 distro.d
+-rw-r--r--  1 root root  104 Jan  6 08:51 gdm
+drwxr-xr-x. 3 root root   18 Nov 11 13:13 gdm.d
+-rw-r--r--. 1 root root 3851 Jan 12  2016 ibus
+drwxr-xr-x. 2 root root   33 Jan 12  2016 ibus.d
+-rw-r--r--. 1 root root  104 Jan 12  2016 local
+drwxr-xr-x. 3 root root   18 Jan 12  2016 local.d
+-rw-r--r--. 1 root root  104 Jan 12  2016 site
+drwxr-xr-x. 3 root root   18 Jan 12  2016 site.d
+
+/etc/dconf/db/distro.d:
+total 4
+-rw-r--r--  1 root root 153 Jul 28  2016 10-authconfig
+drwxr-xr-x. 2 root root  32 Jul 28  2016 locks
+
+/etc/dconf/db/distro.d/locks:
+total 4
+-rw-r--r-- 1 root root 113 Jul 28  2016 10-authconfig-locks
+
+/etc/dconf/db/gdm.d:
+total 0
+drwxr-xr-x. 2 root root 6 Nov 11 13:13 locks
+
+/etc/dconf/db/gdm.d/locks:
+total 0
+
+/etc/dconf/db/ibus.d:
+total 4
+-rw-r--r--. 1 root root 2773 Nov 20  2015 00-upstream-settings
+
+/etc/dconf/db/local.d:
+total 0
+drwxr-xr-x. 2 root root 6 Nov 20  2015 locks
+
+/etc/dconf/db/local.d/locks:
+total 0
+
+/etc/dconf/db/site.d:
+total 0
+drwxr-xr-x. 2 root root 6 Nov 20  2015 locks
+
+/etc/dconf/db/site.d/locks:
+total 0
+
+/etc/dconf/profile:
+total 8
+-rw-r--r--. 1 root root 28 Jul 26  2013 ibus
+-rw-r--r--. 1 root root 61 Nov 20  2015 user
+
+/etc/default:
+total 12
+-rw-r--r-- 1 root root  262 Jan  6 08:46 grub
+-rw-r--r-- 1 root root 1756 Dec  6 15:32 nss
+-rw-r--r-- 1 root root  119 Nov  4 13:24 useradd
+
+/etc/depmod.d:
+total 4
+-rw-r--r-- 1 root root 116 Nov  5 21:50 dist.conf
+
+/etc/dnsmasq.d:
+total 0
+
+/etc/dracut.conf.d:
+total 8
+-rw-r--r-- 1 root root 54 Jan  6 08:41 90-eno-fix.conf
+-rw-r--r-- 1 root root 34 Jan  6 09:35 vmware-tools.conf
+
+/etc/exports.d:
+total 0
+
+/etc/fcoe:
+total 4
+-rw-r--r-- 1 root root 678 Nov 17 13:20 cfg-ethx
+
+/etc/festival:
+total 8
+-rw-r--r--. 1 root root 765 Jun  9  2014 siteinit.scm
+-rw-r--r--. 1 root root 781 Jun  9  2014 sitevars.scm
+
+/etc/filezilla:
+total 0
+
+/etc/firefox:
+total 0
+drwxr-xr-x 2 root root 6 Dec 16 07:38 pref
+
+/etc/firefox/pref:
+total 0
+
+/etc/fonts:
+total 16
+drwxr-xr-x. 2 root root 4096 Jan  6 08:43 conf.d
+-rw-r--r--  1 root root 5582 Nov  5 22:44 fonts.conf
+
+/etc/fonts/conf.d:
+total 8
+lrwxrwxrwx  1 root root   59 Jan  6 08:41 10-scale-bitmap-fonts.conf -> /usr/share/fontconfig/conf.avail/10-scale-bitmap-fonts.conf
+lrwxrwxrwx. 1 root root   65 Jan 12  2016 20-unhint-small-dejavu-sans.conf -> /usr/share/fontconfig/conf.avail/20-unhint-small-dejavu-sans.conf
+lrwxrwxrwx. 1 root root   70 Jan 12  2016 20-unhint-small-dejavu-sans-mono.conf -> /usr/share/fontconfig/conf.avail/20-unhint-small-dejavu-sans-mono.conf
+lrwxrwxrwx. 1 root root   66 Jan 12  2016 20-unhint-small-dejavu-serif.conf -> /usr/share/fontconfig/conf.avail/20-unhint-small-dejavu-serif.conf
+lrwxrwxrwx  1 root root   58 Jan  6 08:41 20-unhint-small-vera.conf -> /usr/share/fontconfig/conf.avail/20-unhint-small-vera.conf
+-rw-r--r--  1 root root 1160 Nov  4 11:45 25-no-bitmap-fedora.conf
+lrwxrwxrwx  1 root root   56 Jan  6 08:41 25-unhint-nonlatin.conf -> /usr/share/fontconfig/conf.avail/25-unhint-nonlatin.conf
+lrwxrwxrwx. 1 root root   78 Jan 12  2016 30-0-google-crosextra-caladea-fontconfig.conf -> /usr/share/fontconfig/conf.avail/30-0-google-crosextra-caladea-fontconfig.conf
+lrwxrwxrwx. 1 root root   78 Jan 12  2016 30-0-google-crosextra-carlito-fontconfig.conf -> /usr/share/fontconfig/conf.avail/30-0-google-crosextra-carlito-fontconfig.conf
+lrwxrwxrwx  1 root root   55 Jan  6 08:41 30-metric-aliases.conf -> /usr/share/fontconfig/conf.avail/30-metric-aliases.conf
+lrwxrwxrwx  1 root root   52 Jan  6 08:41 30-urw-aliases.conf -> /usr/share/fontconfig/conf.avail/30-urw-aliases.conf
+lrwxrwxrwx. 1 root root   50 Jan 12  2016 31-cantarell.conf -> /usr/share/fontconfig/conf.avail/31-cantarell.conf
+lrwxrwxrwx  1 root root   49 Jan  6 08:41 40-nonlatin.conf -> /usr/share/fontconfig/conf.avail/40-nonlatin.conf
+lrwxrwxrwx  1 root root   46 Jan  6 08:41 45-latin.conf -> /usr/share/fontconfig/conf.avail/45-latin.conf
+lrwxrwxrwx  1 root root   50 Jan  6 08:41 49-sansserif.conf -> /usr/share/fontconfig/conf.avail/49-sansserif.conf
+lrwxrwxrwx  1 root root   45 Jan  6 08:41 50-user.conf -> /usr/share/fontconfig/conf.avail/50-user.conf
+lrwxrwxrwx  1 root root   46 Jan  6 08:41 51-local.conf -> /usr/share/fontconfig/conf.avail/51-local.conf
+lrwxrwxrwx. 1 root root   52 Jan 12  2016 57-dejavu-sans.conf -> /usr/share/fontconfig/conf.avail/57-dejavu-sans.conf
+lrwxrwxrwx. 1 root root   57 Jan 12  2016 57-dejavu-sans-mono.conf -> /usr/share/fontconfig/conf.avail/57-dejavu-sans-mono.conf
+lrwxrwxrwx. 1 root root   53 Jan 12  2016 57-dejavu-serif.conf -> /usr/share/fontconfig/conf.avail/57-dejavu-serif.conf
+lrwxrwxrwx. 1 root root   57 Jan 12  2016 57-paratype-pt-sans.conf -> /usr/share/fontconfig/conf.avail/57-paratype-pt-sans.conf
+lrwxrwxrwx. 1 root root   56 Jan 12  2016 59-liberation-mono.conf -> /usr/share/fontconfig/conf.avail/59-liberation-mono.conf
+lrwxrwxrwx. 1 root root   56 Jan 12  2016 59-liberation-sans.conf -> /usr/share/fontconfig/conf.avail/59-liberation-sans.conf
+lrwxrwxrwx. 1 root root   57 Jan 12  2016 59-liberation-serif.conf -> /usr/share/fontconfig/conf.avail/59-liberation-serif.conf
+lrwxrwxrwx  1 root root   46 Jan  6 08:41 60-latin.conf -> /usr/share/fontconfig/conf.avail/60-latin.conf
+lrwxrwxrwx. 1 root root   50 Jan 12  2016 60-open-sans.conf -> /usr/share/fontconfig/conf.avail/60-open-sans.conf
+lrwxrwxrwx  1 root root   49 Jan  6 08:43 60-overpass.conf -> /usr/share/fontconfig/conf.avail/60-overpass.conf
+lrwxrwxrwx. 1 root root   45 Jan 12  2016 61-stix.conf -> /usr/share/fontconfig/conf.avail/61-stix.conf
+lrwxrwxrwx. 1 root root   76 Jan 12  2016 62-google-crosextra-caladea-fontconfig.conf -> /usr/share/fontconfig/conf.avail/62-google-crosextra-caladea-fontconfig.conf
+lrwxrwxrwx. 1 root root   76 Jan 12  2016 62-google-crosextra-carlito-fontconfig.conf -> /usr/share/fontconfig/conf.avail/62-google-crosextra-carlito-fontconfig.conf
+lrwxrwxrwx. 1 root root   52 Jan 12  2016 65-0-jomolhari.conf -> /usr/share/fontconfig/conf.avail/65-0-jomolhari.conf
+lrwxrwxrwx. 1 root root   55 Jan 12  2016 65-0-khmeros-base.conf -> /usr/share/fontconfig/conf.avail/65-0-khmeros-base.conf
+lrwxrwxrwx. 1 root root   57 Jan 12  2016 65-0-lohit-assamese.conf -> /usr/share/fontconfig/conf.avail/65-0-lohit-assamese.conf
+lrwxrwxrwx. 1 root root   56 Jan 12  2016 65-0-lohit-bengali.conf -> /usr/share/fontconfig/conf.avail/65-0-lohit-bengali.conf
+lrwxrwxrwx. 1 root root   59 Jan 12  2016 65-0-lohit-devanagari.conf -> /usr/share/fontconfig/conf.avail/65-0-lohit-devanagari.conf
+lrwxrwxrwx. 1 root root   57 Jan 12  2016 65-0-lohit-gujarati.conf -> /usr/share/fontconfig/conf.avail/65-0-lohit-gujarati.conf
+lrwxrwxrwx. 1 root root   56 Jan 12  2016 65-0-lohit-kannada.conf -> /usr/share/fontconfig/conf.avail/65-0-lohit-kannada.conf
+lrwxrwxrwx. 1 root root   56 Jan 12  2016 65-0-lohit-marathi.conf -> /usr/share/fontconfig/conf.avail/65-0-lohit-marathi.conf
+lrwxrwxrwx. 1 root root   55 Jan 12  2016 65-0-lohit-nepali.conf -> /usr/share/fontconfig/conf.avail/65-0-lohit-nepali.conf
+lrwxrwxrwx. 1 root root   54 Jan 12  2016 65-0-lohit-oriya.conf -> /usr/share/fontconfig/conf.avail/65-0-lohit-oriya.conf
+lrwxrwxrwx. 1 root root   56 Jan 12  2016 65-0-lohit-punjabi.conf -> /usr/share/fontconfig/conf.avail/65-0-lohit-punjabi.conf
+lrwxrwxrwx. 1 root root   54 Jan 12  2016 65-0-lohit-tamil.conf -> /usr/share/fontconfig/conf.avail/65-0-lohit-tamil.conf
+lrwxrwxrwx. 1 root root   55 Jan 12  2016 65-0-lohit-telugu.conf -> /usr/share/fontconfig/conf.avail/65-0-lohit-telugu.conf
+lrwxrwxrwx. 1 root root   48 Jan 12  2016 65-0-madan.conf -> /usr/share/fontconfig/conf.avail/65-0-madan.conf
+lrwxrwxrwx. 1 root root   59 Jan 12  2016 65-0-nhn-nanum-gothic.conf -> /usr/share/fontconfig/conf.avail/65-0-nhn-nanum-gothic.conf
+lrwxrwxrwx. 1 root root   62 Jan 12  2016 65-0-paktype-naskh-basic.conf -> /usr/share/fontconfig/conf.avail/65-0-paktype-naskh-basic.conf
+lrwxrwxrwx. 1 root root   52 Jan 12  2016 65-0-smc-meera.conf -> /usr/share/fontconfig/conf.avail/65-0-smc-meera.conf
+lrwxrwxrwx. 1 root root   59 Jan 12  2016 65-0-ttf-arphic-uming.conf -> /usr/share/fontconfig/conf.avail/65-0-ttf-arphic-uming.conf
+lrwxrwxrwx. 1 root root   59 Jan 12  2016 65-0-wqy-zenhei-sharp.conf -> /usr/share/fontconfig/conf.avail/65-0-wqy-zenhei-sharp.conf
+lrwxrwxrwx. 1 root root   58 Jan 12  2016 65-1-vlgothic-gothic.conf -> /usr/share/fontconfig/conf.avail/65-1-vlgothic-gothic.conf
+lrwxrwxrwx  1 root root   54 Jan  6 08:41 65-fonts-persian.conf -> /usr/share/fontconfig/conf.avail/65-fonts-persian.conf
+lrwxrwxrwx. 1 root root   46 Jan 12  2016 65-lklug.conf -> /usr/share/fontconfig/conf.avail/65-lklug.conf
+lrwxrwxrwx  1 root root   49 Jan  6 08:41 65-nonlatin.conf -> /usr/share/fontconfig/conf.avail/65-nonlatin.conf
+lrwxrwxrwx. 1 root root   51 Jan 12  2016 65-sil-padauk.conf -> /usr/share/fontconfig/conf.avail/65-sil-padauk.conf
+lrwxrwxrwx. 1 root root   53 Jan 12  2016 65-wqy-microhei.conf -> /usr/share/fontconfig/conf.avail/65-wqy-microhei.conf
+lrwxrwxrwx. 1 root root   55 Jan 12  2016 66-sil-abyssinica.conf -> /usr/share/fontconfig/conf.avail/66-sil-abyssinica.conf
+lrwxrwxrwx. 1 root root   50 Jan 12  2016 66-sil-nuosu.conf -> /usr/share/fontconfig/conf.avail/66-sil-nuosu.conf
+lrwxrwxrwx. 1 root root   54 Jan 12  2016 66-ucs-miscfixed.conf -> /usr/share/fontconfig/conf.avail/66-ucs-miscfixed.conf
+lrwxrwxrwx. 1 root root   56 Jan 12  2016 67-lohit-malayalam.conf -> /usr/share/fontconfig/conf.avail/67-lohit-malayalam.conf
+lrwxrwxrwx. 1 root root   54 Jan 12  2016 69-gnu-free-mono.conf -> /usr/share/fontconfig/conf.avail/69-gnu-free-mono.conf
+lrwxrwxrwx. 1 root root   54 Jan 12  2016 69-gnu-free-sans.conf -> /usr/share/fontconfig/conf.avail/69-gnu-free-sans.conf
+lrwxrwxrwx. 1 root root   55 Jan 12  2016 69-gnu-free-serif.conf -> /usr/share/fontconfig/conf.avail/69-gnu-free-serif.conf
+lrwxrwxrwx  1 root root   48 Jan  6 08:41 69-unifont.conf -> /usr/share/fontconfig/conf.avail/69-unifont.conf
+lrwxrwxrwx  1 root root   50 Jan  6 08:41 80-delicious.conf -> /usr/share/fontconfig/conf.avail/80-delicious.conf
+lrwxrwxrwx  1 root root   50 Jan  6 08:41 90-synthetic.conf -> /usr/share/fontconfig/conf.avail/90-synthetic.conf
+lrwxrwxrwx. 1 root root   66 Jan 12  2016 90-ttf-arphic-uming-embolden.conf -> /usr/share/fontconfig/conf.avail/90-ttf-arphic-uming-embolden.conf
+-rw-r--r--  1 root root  978 Aug 30  2013 README
+
+/etc/gconf:
+total 8
+drwxr-xr-x. 2 root root   17 Jan 12  2016 2
+drwxr-xr-x. 2 root root 4096 Jan  6 08:50 gconf.xml.defaults
+drwxr-xr-x. 2 root root    6 Jun 10  2014 gconf.xml.mandatory
+drwxr-xr-x. 2 root root    6 Jun 10  2014 gconf.xml.system
+drwxr-xr-x. 2 root root   99 Jan  6 08:50 schemas
+
+/etc/gconf/2:
+total 4
+-rw-r--r--. 1 root root 1448 Jun 10  2014 path
+
+/etc/gconf/gconf.xml.defaults:
+total 816
+-rw-r--r--  1 root root  1231 Feb  9  2016 %gconf-tree-ar.xml
+-rw-r--r--. 1 root root 21556 Jan 12  2016 %gconf-tree-ast.xml
+-rw-r--r--  1 root root  1851 Feb  9  2016 %gconf-tree-as.xml
+-rw-r--r--. 1 root root 10242 Jan 12  2016 %gconf-tree-az.xml
+-rw-r--r--  1 root root   712 Feb  9  2016 %gconf-tree-be@latin.xml
+-rw-r--r--  1 root root  1330 Feb  9  2016 %gconf-tree-be.xml
+-rw-r--r--. 1 root root 30289 Jan 12  2016 %gconf-tree-bg.xml
+-rw-r--r--  1 root root  1940 Feb  9  2016 %gconf-tree-bn_IN.xml
+-rw-r--r--. 1 root root 32617 Jan 12  2016 %gconf-tree-bn.xml
+-rw-r--r--. 1 root root  9706 Jan 12  2016 %gconf-tree-bs.xml
+-rw-r--r--  1 root root  1094 Feb  9  2016 %gconf-tree-ca@valencia.xml
+-rw-r--r--  1 root root  1094 Feb  9  2016 %gconf-tree-ca.xml
+-rw-r--r--. 1 root root 21030 Jan 12  2016 %gconf-tree-crh.xml
+-rw-r--r--  1 root root  1013 Feb  9  2016 %gconf-tree-cs.xml
+-rw-r--r--. 1 root root 13704 Jan 12  2016 %gconf-tree-cy.xml
+-rw-r--r--  1 root root   991 Feb  9  2016 %gconf-tree-da.xml
+-rw-r--r--  1 root root  1118 Feb  9  2016 %gconf-tree-de.xml
+-rw-r--r--. 1 root root 24970 Jan 12  2016 %gconf-tree-dz.xml
+-rw-r--r--  1 root root  1532 Feb  9  2016 %gconf-tree-el.xml
+-rw-r--r--. 1 root root 13227 Jan 12  2016 %gconf-tree-en_CA.xml
+-rw-r--r--  1 root root   990 Feb  9  2016 %gconf-tree-en_GB.xml
+-rw-r--r--. 1 root root 26127 Jan 12  2016 %gconf-tree-en@shaw.xml
+-rw-r--r--. 1 root root 14816 Jan 12  2016 %gconf-tree-eo.xml
+-rw-r--r--  1 root root  1028 Feb  9  2016 %gconf-tree-es.xml
+-rw-r--r--  1 root root   866 Feb  9  2016 %gconf-tree-et.xml
+-rw-r--r--  1 root root  1139 Feb  9  2016 %gconf-tree-eu.xml
+-rw-r--r--  1 root root  1371 Feb  9  2016 %gconf-tree-fa.xml
+-rw-r--r--  1 root root   902 Feb  9  2016 %gconf-tree-fi.xml
+-rw-r--r--  1 root root  1059 Feb  9  2016 %gconf-tree-fr.xml
+-rw-r--r--. 1 root root  1268 Jan 12  2016 %gconf-tree-ga.xml
+-rw-r--r--  1 root root  1006 Feb  9  2016 %gconf-tree-gl.xml
+-rw-r--r--  1 root root  1761 Feb  9  2016 %gconf-tree-gu.xml
+-rw-r--r--  1 root root   990 Feb  9  2016 %gconf-tree-he.xml
+-rw-r--r--. 1 root root 35357 Jan 12  2016 %gconf-tree-hi.xml
+-rw-r--r--. 1 root root 13512 Jan 12  2016 %gconf-tree-hr.xml
+-rw-r--r--  1 root root   958 Feb  9  2016 %gconf-tree-hu.xml
+-rw-r--r--  1 root root  1011 Feb  9  2016 %gconf-tree-id.xml
+-rw-r--r--  1 root root  1003 Feb  9  2016 %gconf-tree-it.xml
+-rw-r--r--  1 root root  1202 Feb  9  2016 %gconf-tree-ja.xml
+-rw-r--r--  1 root root  1079 Feb  9  2016 %gconf-tree-ka.xml
+-rw-r--r--  1 root root  2038 Feb  9  2016 %gconf-tree-kn.xml
+-rw-r--r--  1 root root  1028 Feb  9  2016 %gconf-tree-ko.xml
+-rw-r--r--  1 root root   941 Feb  9  2016 %gconf-tree-lt.xml
+-rw-r--r--  1 root root   986 Feb  9  2016 %gconf-tree-lv.xml
+-rw-r--r--. 1 root root 14357 Jan 12  2016 %gconf-tree-mai.xml
+-rw-r--r--. 1 root root 17721 Jan 12  2016 %gconf-tree-mk.xml
+-rw-r--r--. 1 root root 43112 Jan 12  2016 %gconf-tree-ml.xml
+-rw-r--r--. 1 root root 12114 Jan 12  2016 %gconf-tree-mn.xml
+-rw-r--r--  1 root root  1685 Feb  9  2016 %gconf-tree-mr.xml
+-rw-r--r--. 1 root root  6755 Jan 12  2016 %gconf-tree-ms.xml
+-rw-r--r--. 1 root root 22405 Jan 12  2016 %gconf-tree-nb.xml
+-rw-r--r--  1 root root  1092 Feb  9  2016 %gconf-tree-ne.xml
+-rw-r--r--  1 root root  1005 Feb  9  2016 %gconf-tree-nl.xml
+-rw-r--r--. 1 root root 20258 Jan 12  2016 %gconf-tree-nn.xml
+-rw-r--r--. 1 root root   382 Jan 12  2016 %gconf-tree-oc.xml
+-rw-r--r--  1 root root  1818 Feb  9  2016 %gconf-tree-or.xml
+-rw-r--r--  1 root root  1663 Feb  9  2016 %gconf-tree-pa.xml
+-rw-r--r--  1 root root  1040 Feb  9  2016 %gconf-tree-pl.xml
+-rw-r--r--  1 root root   965 Feb  9  2016 %gconf-tree-pt_BR.xml
+-rw-r--r--  1 root root  1112 Feb  9  2016 %gconf-tree-pt.xml
+-rw-r--r--  1 root root   986 Feb  9  2016 %gconf-tree-ro.xml
+-rw-r--r--  1 root root  1462 Feb  9  2016 %gconf-tree-ru.xml
+-rw-r--r--. 1 root root 21601 Jan 12  2016 %gconf-tree-sk.xml
+-rw-r--r--  1 root root   970 Feb  9  2016 %gconf-tree-sl.xml
+-rw-r--r--. 1 root root 20892 Jan 12  2016 %gconf-tree-sq.xml
+-rw-r--r--  1 root root   920 Feb  9  2016 %gconf-tree-sr@latin.xml
+-rw-r--r--  1 root root  1298 Feb  9  2016 %gconf-tree-sr.xml
+-rw-r--r--  1 root root  1019 Feb  9  2016 %gconf-tree-sv.xml
+-rw-r--r--  1 root root  1613 Feb  9  2016 %gconf-tree-ta.xml
+-rw-r--r--  1 root root  1893 Feb  9  2016 %gconf-tree-te.xml
+-rw-r--r--  1 root root  1588 Feb  9  2016 %gconf-tree-th.xml
+-rw-r--r--. 1 root root 22150 Jan 12  2016 %gconf-tree-tr.xml
+-rw-r--r--. 1 root root 28735 Jan 12  2016 %gconf-tree-ug.xml
+-rw-r--r--  1 root root  1413 Feb  9  2016 %gconf-tree-uk.xml
+-rw-r--r--  1 root root  1152 Feb  9  2016 %gconf-tree-vi.xml
+-rw-r--r--. 1 root root 10907 Jan 12  2016 %gconf-tree-xh.xml
+-rw-r--r--. 1 root root  4427 Jan 12  2016 %gconf-tree-.xml
+-rw-r--r--  1 root root 19340 Jan  6 08:50 %gconf-tree.xml
+-rw-r--r--  1 root root   864 Feb  9  2016 %gconf-tree-zh_CN.xml
+-rw-r--r--. 1 root root 21470 Jan 12  2016 %gconf-tree-zh_HK.xml
+-rw-r--r--  1 root root   921 Feb  9  2016 %gconf-tree-zh_TW.xml
+
+/etc/gconf/gconf.xml.mandatory:
+total 0
+
+/etc/gconf/gconf.xml.system:
+total 0
+
+/etc/gconf/schemas:
+total 28
+-rw-r--r--  1 root root  1018 Nov 20  2015 apps_xchat_url_handler.schemas
+-rw-r--r--. 1 root root  8981 Jun  9  2014 gstreamer-0.10.schemas
+-rw-r--r--. 1 root root 11927 Mar  5  2015 ibus-chewing.schemas
+
+/etc/gcrypt:
+total 0
+
+/etc/gdbinit.d:
+total 0
+
+/etc/gdm:
+total 4
+-rw-r--r--  1 root root 91 Nov 11 13:13 custom.conf
+drwxr-xr-x. 2 root root 20 Jan  6 08:45 Init
+drwxr-xr-x. 2 root root 27 Jan  6 08:45 PostLogin
+drwxr-xr-x. 2 root root 20 Jan  6 08:45 PostSession
+drwxr-xr-x. 2 root root 20 Jan  6 08:45 PreSession
+lrwxrwxrwx  1 root root 21 Jan  6 08:45 Xsession -> ../X11/xinit/Xsession
+
+/etc/gdm/Init:
+total 4
+-rwxr-xr-x 1 root root 2619 Nov 11 13:13 Default
+
+/etc/gdm/PostLogin:
+total 4
+-rwxr-xr-x 1 root root 441 Nov 11 13:13 Default.sample
+
+/etc/gdm/PostSession:
+total 4
+-rwxr-xr-x 1 root root 18 Nov 11 13:13 Default
+
+/etc/gdm/PreSession:
+total 4
+-rwxr-xr-x 1 root root 258 Nov 11 13:13 Default
+
+/etc/geoclue:
+total 4
+-rw-r--r-- 1 root root 1761 Nov  5 12:04 geoclue.conf
+
+/etc/ghostscript:
+total 0
+drwxr-xr-x. 2 root root 67 Jan  6 08:45 9.07
+
+/etc/ghostscript/9.07:
+total 0
+-rw-r--r-- 1 root root 0 Jan  4 04:03 cidfmap.local
+-rw-r--r-- 1 root root 0 Jan  4 04:03 CIDFnmap.local
+-rw-r--r-- 1 root root 0 Jan  4 04:03 Fontmap.local
+
+/etc/gnupg:
+total 0
+
+/etc/groff:
+total 0
+drwxr-xr-x. 2 root root  6 Jun  9  2014 site-font
+drwxr-xr-x. 2 root root 39 Jan 12  2016 site-tmac
+
+/etc/groff/site-font:
+total 0
+
+/etc/groff/site-tmac:
+total 8
+-rw-r--r--. 1 root root 96 Jun  9  2014 man.local
+-rw-r--r--. 1 root root 90 Jun  9  2014 mdoc.local
+
+/etc/gss:
+total 0
+drwxr-xr-x. 2 root root 26 Jan  6 08:44 mech.d
+
+/etc/gss/mech.d:
+total 4
+-rw-r--r-- 1 root root 189 Nov 11 15:27 gssproxy.conf
+
+/etc/gssproxy:
+total 4
+-rw------- 1 root root 590 Nov 11 15:27 gssproxy.conf
+
+/etc/highlight:
+total 8
+-rw-r--r--. 1 root root 5058 Jun  9  2014 filetypes.conf
+
+/etc/hp:
+total 4
+-rw-r--r-- 1 root root 930 Nov  5 14:03 hplip.conf
+
+/etc/httpd:
+total 4
+drwxr-xr-x 2 root root   35 Jan  6 08:43 conf
+drwxr-xr-x 2 root root   93 Jan  6 08:46 conf.d
+drwxr-xr-x 2 root root 4096 Jan  6 08:46 conf.modules.d
+lrwxrwxrwx 1 root root   19 Jan  6 08:43 logs -> ../../var/log/httpd
+lrwxrwxrwx 1 root root   29 Jan  6 08:43 modules -> ../../usr/lib64/httpd/modules
+lrwxrwxrwx 1 root root   10 Jan  6 08:43 run -> /run/httpd
+
+/etc/httpd/conf:
+total 28
+-rw-r--r-- 1 root root 11753 Nov 14 10:53 httpd.conf
+-rw-r--r-- 1 root root 13077 Nov 14 12:05 magic
+
+/etc/httpd/conf.d:
+total 20
+-rw-r--r-- 1 root root 2926 Nov 14 12:04 autoindex.conf
+-rw-r--r-- 1 root root  691 Nov  5 19:32 php.conf
+-rw-r--r-- 1 root root  366 Nov 14 12:05 README
+-rw-r--r-- 1 root root 1252 Nov 14 10:53 userdir.conf
+-rw-r--r-- 1 root root  824 Nov 14 10:53 welcome.conf
+
+/etc/httpd/conf.modules.d:
+total 32
+-rw-r--r-- 1 root root 3739 Nov 14 10:53 00-base.conf
+-rw-r--r-- 1 root root  139 Nov 14 10:53 00-dav.conf
+-rw-r--r-- 1 root root   41 Nov 14 10:53 00-lua.conf
+-rw-r--r-- 1 root root  742 Nov 14 10:53 00-mpm.conf
+-rw-r--r-- 1 root root  957 Nov 14 10:53 00-proxy.conf
+-rw-r--r-- 1 root root   88 Nov 14 10:53 00-systemd.conf
+-rw-r--r-- 1 root root  451 Nov 14 10:53 01-cgi.conf
+-rw-r--r-- 1 root root  216 Nov  5 19:32 10-php.conf
+
+/etc/ImageMagick:
+total 224
+-rw-r--r-- 1 root root    842 Apr  4  2011 coder.xml
+-rw-r--r-- 1 root root   1383 Jul 31  2010 colors.xml
+-rw-r--r-- 1 root root  11163 Jun 16  2016 delegates.xml
+-rw-r--r-- 1 root root    956 Sep  5  2009 log.xml
+-rw-r--r-- 1 root root    888 Oct 15  2009 magic.xml
+-rw-r--r-- 1 root root 134036 Sep  5  2009 mime.xml
+-rw-r--r-- 1 root root   2986 Jun 16  2016 policy.xml
+-rw-r--r-- 1 root root   1462 Jun 29  2012 quantization-table.xml
+-rw-r--r-- 1 root root  11302 Nov 29  2010 thresholds.xml
+-rw-r--r-- 1 root root   8554 Jun 16  2016 type-dejavu.xml
+-rw-r--r-- 1 root root   9727 Jun 16  2016 type-ghostscript.xml
+-rw-r--r-- 1 root root  13655 Jun 16  2016 type-windows.xml
+-rw-r--r-- 1 root root    671 Jun 16  2016 type.xml
+
+/etc/ipa:
+total 0
+drwxr-xr-x. 2 root root 6 Jan  2 10:27 nssdb
+
+/etc/ipa/nssdb:
+total 0
+
+/etc/iproute2:
+total 32
+-rw-r--r-- 1 root root  75 Nov  5 20:57 ematch_map
+-rw-r--r-- 1 root root  31 Nov  5 20:57 group
+-rw-r--r-- 1 root root 264 Nov  5 20:57 nl_protos
+-rw-r--r-- 1 root root 442 Nov  5 20:57 rt_dsfield
+-rw-r--r-- 1 root root 317 Nov  5 20:57 rt_protos
+-rw-r--r-- 1 root root 112 Nov  5 20:57 rt_realms
+-rw-r--r-- 1 root root  92 Nov  5 20:57 rt_scopes
+-rw-r--r-- 1 root root  87 Nov  5 20:57 rt_tables
+
+/etc/iscsi:
+total 16
+-rw-r--r--. 1 root root    50 Jan 12  2016 initiatorname.iscsi
+-rw-------  1 root root 11853 Nov  5 20:32 iscsid.conf
+
+/etc/java:
+total 20
+-rw-r--r--. 1 root root 13537 Nov  5  2013 font.properties
+-rw-r--r--. 1 root root   738 Nov 20  2015 java.conf
+drwxr-xr-x. 3 root root    23 Jan 12  2016 security
+
+/etc/java/security:
+total 0
+drwxr-xr-x. 2 root root 6 Nov 20  2015 security.d
+
+/etc/java/security/security.d:
+total 0
+
+/etc/julia:
+total 4
+-rw-r--r-- 1 root root 174 Sep 20 11:11 juliarc.jl
+
+/etc/jvm:
+total 0
+
+/etc/jvm-commmon:
+total 0
+
+/etc/kde:
+total 0
+drwxr-xr-x 2 root root 6 Jun  9  2014 env
+drwxr-xr-x 2 root root 6 Jun  9  2014 kdm
+drwxr-xr-x 2 root root 6 Jun  9  2014 shutdown
+
+/etc/kde/env:
+total 0
+
+/etc/kde/kdm:
+total 0
+
+/etc/kde/shutdown:
+total 0
+
+/etc/kernel:
+total 0
+drwxr-xr-x. 2 root root 41 Jan  6 08:49 postinst.d
+
+/etc/kernel/postinst.d:
+total 4
+-rwxr-xr-x 1 root root 1676 Nov 11 12:27 51-dracut-rescue-postinst.sh
+
+/etc/krb5.conf.d:
+total 0
+
+/etc/ld.so.conf.d:
+total 56
+-rw-r--r--  1 root root  17 Nov 19  2015 atlas-x86_64.conf
+-rw-r--r--. 1 root root  19 Mar  5  2015 dyninst-x86_64.conf
+-r--r--r--  1 root root  63 May 12  2016 kernel-3.10.0-327.18.2.el7.x86_64.conf
+-r--r--r--  1 root root  63 Jun 23  2016 kernel-3.10.0-327.22.2.el7.x86_64.conf
+-r--r--r--. 1 root root  63 Jan  5  2016 kernel-3.10.0-327.4.4.el7.x86_64.conf
+-r--r--r--. 1 root root  63 Jan 25  2016 kernel-3.10.0-327.4.5.el7.x86_64.conf
+-r--r--r--  1 root root  63 Dec  6 17:20 kernel-3.10.0-514.2.2.el7.x86_64.conf
+-rw-r--r--  1 root root  17 Nov  5 13:20 libiscsi-x86_64.conf
+-rw-r--r--  1 root root  18 Nov  8  2015 llvm33-x86_64.conf
+-rw-r--r--  1 root root  19 Sep 19 16:27 llvm3.7-x86_64.conf
+-rw-r--r--  1 root root  17 Nov 14 17:15 mariadb-x86_64.conf
+-rw-r--r--  1 root root  32 Oct 29  2015 nx-libs-x86_64.conf
+-rw-r--r--  1 root root  15 Jul 19  2016 rust-installer-v1-rustlib.conf
+-rw-r--r--  1 root root 276 Jun  7  2016 vmware-tools-libraries.conf
+
+/etc/libibverbs.d:
+total 0
+
+/etc/libnl:
+total 8
+-rw-r--r-- 1 root root 1130 Nov  5 21:04 classid
+-rw-r--r-- 1 root root 1532 Nov  5 21:04 pktloc
+
+/etc/libreport:
+total 20
+drwxr-xr-x. 2 root root   95 Jan  6 08:43 events
+drwxr-xr-x. 2 root root 4096 Jan  6 08:49 events.d
+-rw-r--r--  1 root root  212 Dec  2 09:05 forbidden_words.conf
+-rw-r--r--  1 root root  115 Dec  2 09:05 ignored_words.conf
+drwxr-xr-x. 2 root root 4096 Jan  6 08:49 plugins
+-rw-r--r--  1 root root 2295 Dec  2 09:05 report_event.conf
+drwxr-xr-x. 2 root root  108 Jan  6 08:49 workflows.d
+
+/etc/libreport/events:
+total 12
+-rw-r--r-- 1 root root 113 Dec  2 09:05 report_Bugzilla.conf
+-rw-r--r-- 1 root root 107 Dec  2 09:05 report_CentOSBugTracker.conf
+-rw-r--r-- 1 root root 422 Dec  2 09:05 report_Uploader.conf
+
+/etc/libreport/events.d:
+total 84
+-rw-r--r-- 1 root root 4963 Dec  2 09:28 abrt_event.conf
+-rw-r--r-- 1 root root  320 Dec  2 09:05 bugzilla_anaconda_event.conf
+-rw-r--r-- 1 root root  124 Dec  2 09:05 bugzilla_event.conf
+-rw-r--r-- 1 root root 4815 Dec  2 09:28 ccpp_event.conf
+-rw-r--r-- 1 root root  153 Dec  2 09:28 ccpp_retrace_event.conf
+-rw-r--r-- 1 root root 1882 Dec  2 09:05 centos_report_event.conf
+-rw-r--r-- 1 root root  290 Dec  2 09:05 emergencyanalysis_event.conf
+-rw-r--r-- 1 root root  476 Dec  2 09:28 gconf_event.conf
+-rw-r--r-- 1 root root 1155 Nov 19  2015 java_event.conf
+-rw-r--r-- 1 root root 1652 Dec  2 09:28 koops_event.conf
+-rw-r--r-- 1 root root  203 Dec  2 09:05 mailx_event.conf
+-rw-r--r-- 1 root root  157 Nov 11 20:42 mdadm_event.conf
+-rw-r--r-- 1 root root 1221 Dec  2 09:28 python_event.conf
+-rw-r--r-- 1 root root  123 Dec  2 09:05 rhtsupport_event.conf
+-rw-r--r-- 1 root root  969 Dec  2 09:28 smart_event.conf
+-rw-r--r-- 1 root root   38 Dec  2 09:05 uploader_event.conf
+-rw-r--r-- 1 root root 1471 Dec  2 09:28 vimrc_event.conf
+-rw-r--r-- 1 root root 2373 Dec  2 09:28 vmcore_event.conf
+-rw-r--r-- 1 root root  974 Dec  2 09:28 xorg_event.conf
+
+/etc/libreport/plugins:
+total 72
+-rw-r--r-- 1 root root  745 Dec  2 09:05 bugzilla.conf
+-rw-r--r-- 1 root root 2071 Dec  2 09:05 bugzilla_format_anaconda.conf
+-rw-r--r-- 1 root root 2106 Dec  2 09:05 bugzilla_format.conf
+-rw-r--r-- 1 root root 2479 Dec  2 09:05 bugzilla_formatdup_anaconda.conf
+-rw-r--r-- 1 root root 2458 Dec  2 09:05 bugzilla_formatdup.conf
+-rw-r--r-- 1 root root 1917 Sep 27  2013 bugzilla_formatdup_java.conf
+-rw-r--r-- 1 root root 1965 Sep 27  2013 bugzilla_format_java.conf
+-rw-r--r-- 1 root root 1569 Dec  2 09:05 bugzilla_format_kernel.conf
+-rw-r--r-- 1 root root 2010 Dec  2 09:05 bugzilla_format_libreport.conf
+-rw-r--r-- 1 root root  331 Dec  2 09:05 mailx.conf
+-rw-r--r-- 1 root root  221 Dec  2 09:05 mantisbt.conf
+-rw-r--r-- 1 root root 2070 Dec  2 09:05 mantisbt_format_analyzer_libreport.conf
+-rw-r--r-- 1 root root 2107 Dec  2 09:05 mantisbt_format.conf
+-rw-r--r-- 1 root root 2058 Dec  2 09:05 mantisbt_formatdup_analyzer_libreport.conf
+-rw-r--r-- 1 root root 2458 Dec  2 09:05 mantisbt_formatdup.conf
+-rw-r--r-- 1 root root  417 Dec  2 09:05 rhtsupport.conf
+-rw-r--r-- 1 root root  337 Dec  2 09:05 upload.conf
+-rw-r--r-- 1 root root 1297 Dec  2 09:05 ureport.conf
+
+/etc/libreport/workflows.d:
+total 16
+-rw-r--r-- 1 root root  225 Dec  2 09:05 anaconda_event.conf
+-rw-r--r-- 1 root root 1179 Dec  2 09:05 report_centos.conf
+-rw-r--r-- 1 root root  218 Dec  2 09:05 report_mailx.conf
+-rw-r--r-- 1 root root  220 Dec  2 09:05 report_uploader.conf
+
+/etc/lightdm:
+total 20
+-rw-r--r-- 1 root root   40 Apr  7  2014 keys.conf
+-rw-r--r-- 1 root root 6843 May  2  2016 lightdm.conf
+drwxr-xr-x 2 root root    6 May  2  2016 lightdm.conf.d
+-rw-r--r-- 1 root root 1325 Aug  4  2015 lightdm-gtk-greeter.conf
+-rw-r--r-- 1 root root  453 May  2  2016 users.conf
+
+/etc/lightdm/lightdm.conf.d:
+total 0
+
+/etc/logcheck:
+total 0
+drwxr-xr-x 2 root root 23 Jan  6 08:45 ignore.d.server
+
+/etc/logcheck/ignore.d.server:
+total 4
+-rw-r--r-- 1 root root 461 Nov 21 09:22 x2goserver
+
+/etc/logrotate.d:
+total 68
+-rw-r--r--  1 root root 107 May  7  2015 atop
+-rw-r--r--  1 root root 178 Dec  6 11:28 chrony
+-rw-r--r--  1 root root  71 Nov  4 11:39 cups
+-rw-r--r--  1 root root 513 Mar 17  2016 glusterfs
+-rw-r--r--  1 root root 194 Nov 14 10:53 httpd
+-rw-r--r--  1 root root 172 Nov  5 20:31 iscsiuiolog
+-rw-r--r--  1 root root 243 Oct 31 07:37 nginx
+-rw-r--r--  1 root root 106 Nov  4 12:53 numad
+-rw-r--r--  1 root root 203 Nov  5 19:32 php-fpm
+-rw-r--r--. 1 root root 136 Jun 10  2014 ppp
+-rw-r--r--  1 root root 408 Nov  5 18:38 psacct
+-rw-r--r--  1 root root 115 Nov  7 04:25 samba
+-rw-r--r--  1 root root 237 Dec  6 21:44 sssd
+-rw-r--r--. 1 root root 206 Oct 19 10:11 syslog
+-rw-r--r--  1 root root 100 Nov  5 10:52 wpa_supplicant
+-rw-r--r--  1 root root 208 Sep 20  2015 xrdp
+-rw-r--r--  1 root root 100 Nov 15 09:30 yum
+
+/etc/lsm:
+total 4
+-rw-r--r--  1 root root 36 Nov  5 19:01 lsmd.conf
+drwxr-xr-x. 2 root root 21 Jan  6 08:42 pluginconf.d
+
+/etc/lsm/pluginconf.d:
+total 4
+-rw-r--r-- 1 root root 32 Nov  5 19:01 sim.conf
+
+/etc/lvm:
+total 100
+drwx------. 2 root root   104 Nov 21 16:06 archive
+drwx------. 2 root root    19 Nov 21 16:06 backup
+drwx------. 2 root root     6 Nov 21 16:06 cache
+-rw-r--r--  1 root root 93224 Nov 21 16:06 lvm.conf
+-rw-r--r--  1 root root  2301 Nov 21 16:06 lvmlocal.conf
+drwxr-xr-x. 2 root root  4096 Jan  6 08:43 profile
+
+/etc/lvm/profile:
+total 28
+-r--r--r-- 1 root root  531 Sep 26 08:21 cache-mq.profile
+-r--r--r-- 1 root root  338 Sep 26 08:21 cache-smq.profile
+-r--r--r-- 1 root root 3020 Nov 21 16:06 command_profile_template.profile
+-r--r--r-- 1 root root 2309 Sep 26 08:21 lvmdbusd.profile
+-r--r--r-- 1 root root  828 Nov 21 16:06 metadata_profile_template.profile
+-r--r--r-- 1 root root   76 Sep 26 08:21 thin-generic.profile
+-r--r--r-- 1 root root   80 Sep 26 08:21 thin-performance.profile
+
+/etc/mate-settings-daemon:
+total 0
+drwxr-xr-x 2 root root 6 Dec 10 15:32 xrandr
+
+/etc/mate-settings-daemon/xrandr:
+total 0
+
+/etc/maven:
+total 0
+
+/etc/modprobe.d:
+total 12
+-rw-r--r-- 1 root root  746 Nov 17 16:49 lockd.conf
+-rw-r--r-- 1 root root 1004 Nov  5 20:47 mlx4.conf
+-rw-r--r-- 1 root root  673 Jun 14  2016 tuned.conf
+
+/etc/modules-load.d:
+total 0
+
+/etc/multipath:
+total 0
+
+/etc/my.cnf.d:
+total 8
+-rw-r--r-- 1 root root 295 Sep 12 09:54 client.cnf
+-rw-r--r-- 1 root root 232 Sep 12 09:54 mysql-clients.cnf
+
+/etc/NetworkManager:
+total 12
+drwxr-xr-x. 2 root root    6 Jan  6 08:50 conf.d
+drwxr-xr-x. 5 root root 4096 Jan  6 08:46 dispatcher.d
+drwxr-xr-x. 2 root root    6 Dec  6 16:37 dnsmasq.d
+drwxr-xr-x  2 root root    6 Dec  6 16:37 dnsmasq-shared.d
+-rw-r--r--  1 root root  481 Dec  6 16:37 NetworkManager.conf
+drwxr-xr-x. 2 root root    6 Dec  6 16:37 system-connections
+drwxr-xr-x. 2 root root 4096 Jan  6 08:50 VPN
+
+/etc/NetworkManager/conf.d:
+total 0
+
+/etc/NetworkManager/dispatcher.d:
+total 20
+-rwxr-xr-x  1 root root  175 Sep 12 05:47 00-netreport
+-rwxr-xr-x  1 root root  100 Nov  4 12:18 04-iscsi
+-rwxr-xr-x  1 root root 1120 Nov 14 10:20 11-dhclient
+-rwxr-xr-x  1 root root  442 Jun 23  2015 20-chrony
+-rwxr-xr-x  1 root root  555 Nov  7 04:25 30-winbind
+drwxr-xr-x  2 root root    6 Dec  6 16:37 no-wait.d
+drwxr-xr-x. 2 root root    6 Dec  6 16:37 pre-down.d
+drwxr-xr-x. 2 root root    6 Dec  6 16:37 pre-up.d
+
+/etc/NetworkManager/dispatcher.d/no-wait.d:
+total 0
+
+/etc/NetworkManager/dispatcher.d/pre-down.d:
+total 0
+
+/etc/NetworkManager/dispatcher.d/pre-up.d:
+total 0
+
+/etc/NetworkManager/dnsmasq.d:
+total 0
+
+/etc/NetworkManager/dnsmasq-shared.d:
+total 0
+
+/etc/NetworkManager/system-connections:
+total 0
+
+/etc/NetworkManager/VPN:
+total 20
+-rw-r--r-- 1 root root 252 Jul  3  2016 nm-l2tp-service.name
+-rw-r--r-- 1 root root 519 Nov 11 21:29 nm-libreswan-service.name
+-rw-r--r-- 1 root root 256 Jan  8  2015 nm-openconnect-service.name
+-rw-r--r-- 1 root root 252 Sep  3  2015 nm-pptp-service.name
+-rw-r--r-- 1 root root 272 Nov 24  2015 nm-vpnc-service.name
+
+/etc/nginx:
+total 64
+drwxr-xr-x 2 root root    6 Oct 31 07:32 conf.d
+drwxr-xr-x 2 root root    6 Oct 31 07:32 default.d
+-rw-r--r-- 1 root root 1077 Oct 31 07:39 fastcgi.conf
+-rw-r--r-- 1 root root 1077 Oct 31 07:39 fastcgi.conf.default
+-rw-r--r-- 1 root root 1007 Oct 31 07:39 fastcgi_params
+-rw-r--r-- 1 root root 1007 Oct 31 07:39 fastcgi_params.default
+-rw-r--r-- 1 root root 2837 Oct 31 07:39 koi-utf
+-rw-r--r-- 1 root root 2223 Oct 31 07:39 koi-win
+-rw-r--r-- 1 root root 3957 Oct 31 07:39 mime.types
+-rw-r--r-- 1 root root 3957 Oct 31 07:39 mime.types.default
+-rw-r--r-- 1 root root 1816 Jun 27  2016 nginx.conf
+-rw-r--r-- 1 root root 2656 Oct 31 07:39 nginx.conf.default
+-rw-r--r-- 1 root root 2467 Oct 31 07:39 nginx.conf.rpmnew
+-rw-r--r-- 1 root root  636 Oct 31 07:39 scgi_params
+-rw-r--r-- 1 root root  636 Oct 31 07:39 scgi_params.default
+-rw-r--r-- 1 root root  664 Oct 31 07:39 uwsgi_params
+-rw-r--r-- 1 root root  664 Oct 31 07:39 uwsgi_params.default
+-rw-r--r-- 1 root root 3610 Oct 31 07:39 win-utf
+
+/etc/nginx/conf.d:
+total 0
+
+/etc/nginx/default.d:
+total 0
+
+/etc/ntp:
+total 8
+drwxr-x---. 2 root ntp  15 Jan  6 08:43 crypto
+-rw-------  1 root root 86 Nov 14 10:18 keys
+-rw-r--r--  1 root root 74 Nov 14 10:18 step-tickers
+
+/etc/nxagent:
+total 28
+-rw-r--r-- 1 root root  1210 Jul  3  2015 keystrokes.cfg
+-rw-r--r-- 1 root root    14 Jul  3  2015 nxagent.keyboard
+-rw-r--r-- 1 root root 17394 Jul  3  2015 rgb
+
+/etc/oddjob:
+total 0
+
+/etc/oddjobd.conf.d:
+total 8
+-rw-r--r--. 1 root root 1203 Mar  5  2015 oddjobd-introspection.conf
+-rw-r--r--. 1 root root 1299 Jul 30  2013 oddjobd-mkhomedir.conf
+
+/etc/openldap:
+total 4
+drwxr-xr-x. 2 root root  66 Nov  5 20:22 certs
+-rw-r--r--. 1 root root 365 Jan 14  2016 ldap.conf
+drwxr-xr-x  2 root root  25 Jan  6 08:46 schema
+
+/etc/openldap/certs:
+total 64
+-rw-r--r--. 1 root root 65536 Jan 12  2016 cert8.db
+-rw-r--r--. 1 root root 16384 Jan 12  2016 key3.db
+-r--------. 1 root root    45 Jan 12  2016 password
+-rw-r--r--. 1 root root 16384 Jan 12  2016 secmod.db
+
+/etc/openldap/schema:
+total 24
+-rw-r--r-- 1 root root 22900 Nov  7 04:25 samba.schema
+
+/etc/openvpn:
+total 0
+
+/etc/opt:
+total 0
+
+/etc/PackageKit:
+total 16
+-rw-r--r-- 1 root root 1988 Nov 15 09:19 CommandNotFound.conf
+-rw-r--r-- 1 root root  706 Nov 15 09:19 PackageKit.conf
+-rw-r--r-- 1 root root 1773 Nov 15 09:19 Vendor.conf
+-rw-r--r-- 1 root root 1592 Nov 15 09:19 Yum.conf
+
+/etc/pam.d:
+total 188
+-rw-r--r--  1 root root  272 Nov  5 13:16 atd
+-rw-r--r--  1 root root  192 Nov  5 17:27 chfn
+-rw-r--r--  1 root root  192 Nov  5 17:27 chsh
+-rw-r--r--  1 root root  232 Nov  5 18:14 config-util
+-rw-r--r--  1 root root  293 Mar 31  2016 crond
+-r--r--r--  1 root root  146 Nov  5 14:08 cups
+lrwxrwxrwx. 1 root root   19 Jan 12  2016 fingerprint-auth -> fingerprint-auth-ac
+-rw-r--r--  1 root root  893 Jan  6 08:43 fingerprint-auth-ac
+-rw-r--r--  1 root root  590 Nov 11 13:13 gdm-autologin
+-rw-r--r--  1 root root  605 Nov 11 13:13 gdm-fingerprint
+-rw-r--r--  1 root root  303 Nov 11 13:13 gdm-launch-environment
+-rw-r--r--. 1 root root  950 Jan 25  2016 gdm-password
+-rw-r--r--  1 root root  844 Nov 11 13:13 gdm-pin
+-rw-r--r--  1 root root  597 Nov 11 13:13 gdm-smartcard
+-rw-r--r--  1 root root   70 Dec  6 11:26 ksu
+-rw-r--r--  1 root root  963 May  2  2016 lightdm
+-rw-r--r--  1 root root  698 May  2  2016 lightdm-autologin
+-rw-r--r--  1 root root  409 Apr  7  2014 lightdm-greeter
+-rw-r--r--  1 root root   97 Nov 30 06:58 liveinst
+-rw-r--r--  1 root root  796 Nov  5 17:27 login
+-rw-r--r--  1 root root  413 Oct  3 02:33 mate-screensaver
+-rw-r--r--  1 root root  121 Oct  3 03:43 mate-system-log
+-rw-r--r--  1 root root  154 Nov  5 18:14 other
+-rw-r--r--. 1 root root  188 Jun 10  2014 passwd
+lrwxrwxrwx. 1 root root   16 Jan 12  2016 password-auth -> password-auth-ac
+-rw-r--r--  1 root root 1374 Jan  6 08:43 password-auth-ac
+-rw-r--r--  1 root root  510 Nov 11 19:58 pluto
+-rw-r--r--  1 root root  155 Nov  5 17:09 polkit-1
+lrwxrwxrwx. 1 root root   12 Jan 12  2016 postlogin -> postlogin-ac
+-rw-r--r--. 1 root root  330 Jul 28  2016 postlogin-ac
+-rw-r--r--. 1 root root  144 Jun 10  2014 ppp
+-rw-r--r--  1 root root  681 Nov  5 17:27 remote
+-rw-r--r--  1 root root  143 Nov  5 17:27 runuser
+-rw-r--r--  1 root root  138 Nov  5 17:27 runuser-l
+-rw-r--r--  1 root root  177 Nov  7 04:25 samba
+-rw-r--r--. 1 root root  145 Jun  9  2014 setup
+lrwxrwxrwx. 1 root root   17 Jan 12  2016 smartcard-auth -> smartcard-auth-ac
+-rw-r--r--  1 root root 1050 Jan  6 08:43 smartcard-auth-ac
+lrwxrwxrwx. 1 root root   25 Jan 12  2016 smtp -> /etc/alternatives/mta-pam
+-rw-r--r--. 1 root root   76 Jun  9  2014 smtp.postfix
+-rw-r--r--  1 root root  996 Aug 19  2016 sshd
+-rw-r--r--  1 root root  540 Nov  5 17:27 su
+-rw-r--r--  1 root root  202 Dec  6 09:37 sudo
+-rw-r--r--  1 root root  187 Dec  6 09:37 sudo-i
+-rw-r--r--  1 root root  137 Nov  5 17:27 su-l
+lrwxrwxrwx. 1 root root   14 Jan 12  2016 system-auth -> system-auth-ac
+-rw-r--r--  1 root root 1374 Jan  6 08:43 system-auth-ac
+-rw-r--r--  1 root root   97 Nov  5 12:02 system-config-language
+-rw-r--r--  1 root root  129 Nov 21 19:27 systemd-user
+-rw-r--r--  1 root root   84 Nov  5 11:55 vlock
+-rw-r--r--  1 root root  194 Nov 11 21:51 vmtoolsd
+-rw-r--r--  1 root root  370 Sep 20  2015 xrdp-sesman
+-rw-r--r--  1 root root  163 Nov  5 19:44 xserver
+
+/etc/php.d:
+total 44
+-rw-r--r-- 1 root root 49 Nov  5 19:32 curl.ini
+-rw-r--r-- 1 root root 57 Nov  5 19:32 fileinfo.ini
+-rw-r--r-- 1 root root 49 Nov  5 19:32 json.ini
+-rw-r--r-- 1 root root 53 Nov  5 19:32 mysqli.ini
+-rw-r--r-- 1 root root 51 Nov  5 19:32 mysql.ini
+-rw-r--r-- 1 root root 47 Nov  5 19:32 pdo.ini
+-rw-r--r-- 1 root root 59 Nov  5 19:32 pdo_mysql.ini
+-rw-r--r-- 1 root root 61 Nov  5 19:32 pdo_sqlite.ini
+-rw-r--r-- 1 root root 49 Nov  5 19:32 phar.ini
+-rw-r--r-- 1 root root 55 Nov  5 19:32 sqlite3.ini
+-rw-r--r-- 1 root root 47 Nov  5 19:32 zip.ini
+
+/etc/php-fpm.d:
+total 12
+-rw-r--r-- 1 root root 10018 Nov  5 19:32 www.conf
+
+/etc/pkcs11:
+total 0
+drwxr-xr-x. 2 root root 6 Mar  5  2015 modules
+
+/etc/pkcs11/modules:
+total 0
+
+/etc/pki:
+total 4
+drwxr-xr-x. 6 root root   57 Nov  5 22:48 CA
+drwxr-xr-x. 4 root root   69 Jan  6 08:41 ca-trust
+drwxr-xr-x. 2 root root   20 Jan  6 08:41 java
+drwxr-xr-x. 2 root root   97 Jan  6 08:41 nssdb
+drwxr-xr-x. 2 root root 4096 Jan  6 08:49 rpm-gpg
+drwx------. 2 root root    6 Nov  5 17:52 rsyslog
+drwxr-xr-x. 5 root root   76 Jan  6 08:41 tls
+
+/etc/pki/CA:
+total 0
+drwxr-xr-x. 2 root root 6 Nov  5 22:48 certs
+drwxr-xr-x. 2 root root 6 Nov  5 22:48 crl
+drwxr-xr-x. 2 root root 6 Nov  5 22:48 newcerts
+drwx------. 2 root root 6 Nov  5 22:48 private
+
+/etc/pki/CA/certs:
+total 0
+
+/etc/pki/CA/crl:
+total 0
+
+/etc/pki/CA/newcerts:
+total 0
+
+/etc/pki/ca-trust:
+total 8
+-rw-r--r--  1 root root 980 Nov  4 11:34 ca-legacy.conf
+drwxr-xr-x. 5 root root  54 Jan  6 08:41 extracted
+-rw-r--r--  1 root root 166 Nov  4 11:34 README
+drwxr-xr-x. 4 root root  76 Jan  6 08:41 source
+
+/etc/pki/ca-trust/extracted:
+total 4
+drwxr-xr-x. 2 root root  33 Jan  6 08:41 java
+drwxr-xr-x. 2 root root  45 Jan  6 08:41 openssl
+drwxr-xr-x. 2 root root  97 Jan  6 08:41 pem
+-rw-r--r--  1 root root 560 Nov  4 11:34 README
+
+/etc/pki/ca-trust/extracted/java:
+total 196
+-r--r--r-- 1 root root 194984 Jan  6 08:41 cacerts
+-rw-r--r-- 1 root root    726 Nov  4 11:34 README
+
+/etc/pki/ca-trust/extracted/openssl:
+total 344
+-r--r--r-- 1 root root 346654 Jan  6 08:41 ca-bundle.trust.crt
+-rw-r--r-- 1 root root    787 Nov  4 11:34 README
+
+/etc/pki/ca-trust/extracted/pem:
+total 672
+-r--r--r-- 1 root root 208874 Jan  6 08:41 email-ca-bundle.pem
+-r--r--r-- 1 root root 208976 Jan  6 08:41 objsign-ca-bundle.pem
+-rw-r--r-- 1 root root    898 Nov  4 11:34 README
+-r--r--r-- 1 root root 262042 Jan  6 08:41 tls-ca-bundle.pem
+
+/etc/pki/ca-trust/source:
+total 4
+drwxr-xr-x. 2 root root   6 Nov  5 12:45 anchors
+drwxr-xr-x. 2 root root   6 Nov  5 12:45 blacklist
+lrwxrwxrwx  1 root root  59 Jan  6 08:41 ca-bundle.legacy.crt -> /usr/share/pki/ca-trust-legacy/ca-bundle.legacy.default.crt
+-rw-r--r--  1 root root 932 Nov  4 11:34 README
+
+/etc/pki/ca-trust/source/anchors:
+total 0
+
+/etc/pki/ca-trust/source/blacklist:
+total 0
+
+/etc/pki/java:
+total 0
+lrwxrwxrwx 1 root root 40 Jan  6 08:41 cacerts -> /etc/pki/ca-trust/extracted/java/cacerts
+
+/etc/pki/nssdb:
+total 124
+-rw-r--r--  1 root root 65536 Nov 21 08:19 cert8.db
+-rw-r--r--. 1 root root  9216 Feb  4  2016 cert9.db
+-rw-r--r--  1 root root 16384 Nov 21 08:19 key3.db
+-rw-r--r--. 1 root root 11264 Feb  4  2016 key4.db
+-rw-r--r--  1 root root   451 Nov 21 08:19 pkcs11.txt
+-rw-r--r--  1 root root 16384 Nov 21 08:19 secmod.db
+
+/etc/pki/rpm-gpg:
+total 20
+-rw-r--r--  1 root root 1690 Nov 29 12:12 RPM-GPG-KEY-CentOS-7
+-rw-r--r--  1 root root 1004 Nov 29 12:12 RPM-GPG-KEY-CentOS-Debug-7
+-rw-r--r--  1 root root 1690 Nov 29 12:12 RPM-GPG-KEY-CentOS-Testing-7
+-rw-r--r--  1 root root 1662 Jul 23  2016 RPM-GPG-KEY-EPEL-7
+-rw-r--r--. 1 root root 3109 Jun 25  2011 RPM-GPG-KEY-nux.ro
+
+/etc/pki/tls:
+total 12
+lrwxrwxrwx  1 root root    49 Jan  6 08:41 cert.pem -> /etc/pki/ca-trust/extracted/pem/tls-ca-bundle.pem
+drwxr-xr-x. 2 root root   112 Jan  6 08:42 certs
+drwxr-xr-x. 2 root root    69 Jan  6 08:42 misc
+-rw-r--r--  1 root root 10923 Nov  4 12:57 openssl.cnf
+drwxr-xr-x. 2 root root     6 Nov  5 22:47 private
+
+/etc/pki/tls/certs:
+total 12
+lrwxrwxrwx 1 root root   49 Jan  6 08:41 ca-bundle.crt -> /etc/pki/ca-trust/extracted/pem/tls-ca-bundle.pem
+lrwxrwxrwx 1 root root   55 Jan  6 08:41 ca-bundle.trust.crt -> /etc/pki/ca-trust/extracted/openssl/ca-bundle.trust.crt
+-rwxr-xr-x 1 root root  610 Nov  5 22:48 make-dummy-cert
+-rw-r--r-- 1 root root 2388 Nov  5 22:48 Makefile
+-rwxr-xr-x 1 root root  829 Nov  5 22:48 renew-dummy-cert
+
+/etc/pki/tls/misc:
+total 24
+-rwxr-xr-x 1 root root 5178 Nov  5 22:47 CA
+-rwxr-xr-x 1 root root  119 Nov  5 22:47 c_hash
+-rwxr-xr-x 1 root root  152 Nov  5 22:47 c_info
+-rwxr-xr-x 1 root root  112 Nov  5 22:47 c_issuer
+-rwxr-xr-x 1 root root  110 Nov  5 22:47 c_name
+
+/etc/pki/tls/private:
+total 0
+
+/etc/plymouth:
+total 4
+-rw-r--r--. 1 root root 94 Jan 12  2016 plymouthd.conf
+
+/etc/pm:
+total 0
+drwxr-xr-x. 2 root root 6 Nov  5 10:38 config.d
+drwxr-xr-x. 2 root root 6 Nov  5 10:38 power.d
+drwxr-xr-x. 2 root root 6 Nov  5 10:38 sleep.d
+
+/etc/pm/config.d:
+total 0
+
+/etc/pm/power.d:
+total 0
+
+/etc/pm/sleep.d:
+total 0
+
+/etc/polkit-1:
+total 0
+drwxr-x---. 7 root    polkitd 93 Jan 12  2016 localauthority
+drwxr-xr-x. 2 root    root     6 Jun  9  2014 localauthority.conf.d
+drwx------. 2 polkitd root    80 Jan  6 08:42 rules.d
+
+/etc/polkit-1/localauthority.conf.d:
+total 0
+
+/etc/popt.d:
+total 0
+
+/etc/postfix:
+total 148
+-rw-r--r--. 1 root root 20876 Jun  9  2014 access
+-rw-r--r--. 1 root root 11681 Jun  9  2014 canonical
+-rw-r--r--. 1 root root  9904 Jun  9  2014 generic
+-rw-r--r--. 1 root root 21545 Jun  9  2014 header_checks
+-rw-r--r--. 1 root root 27176 Jun  9  2014 main.cf
+-rw-r--r--. 1 root root  6105 Jun  9  2014 master.cf
+-rw-r--r--. 1 root root  6816 Jun  9  2014 relocated
+-rw-r--r--. 1 root root 12549 Jun  9  2014 transport
+-rw-r--r--. 1 root root 12494 Jun  9  2014 virtual
+
+/etc/ppp:
+total 60
+-rw-------. 1 root root   78 Jun 10  2014 chap-secrets
+-rw-------  1 root root  324 Aug 11  2016 chap-secrets.sample
+-rw-------. 1 root root  349 Jun 10  2014 eaptls-client
+-rw-------. 1 root root  405 Jun 10  2014 eaptls-server
+-rwxr-xr-x  1 root root  386 Sep 12 05:47 ip-down
+-rwxr-xr-x  1 root root 3214 Sep 12 05:47 ip-down.ipv6to4
+-rwxr-xr-x  1 root root  430 Sep 12 05:47 ip-up
+-rwxr-xr-x  1 root root 6426 Sep 12 05:47 ip-up.ipv6to4
+-rwxr-xr-x  1 root root 1687 Sep 12 05:47 ipv6-down
+-rwxr-xr-x  1 root root 3182 Sep 12 05:47 ipv6-up
+-rw-r--r--. 1 root root    5 Jun 10  2014 options
+-rw-r--r--  1 root root 2151 Jun  9  2014 options.pptp
+-rw-r--r--  1 root root  748 Dec 22 10:51 options.xl2tpd
+-rw-------. 1 root root   77 Jun 10  2014 pap-secrets
+drwxr-xr-x. 2 root root   19 Nov  5 22:10 peers
+
+/etc/ppp/peers:
+total 4
+-rw-------. 1 root daemon 30 Jun  9  2014 wvdial
+
+/etc/prelink.conf.d:
+total 24
+-rw-r--r--  1 root root 222 Oct 19 02:21 caja.conf
+-rw-r--r--. 1 root root  57 Jun 10  2014 fipscheck.conf
+-rw-r--r--  1 root root 220 Nov 22 09:51 grub2.conf
+-rw-r--r--  1 root root  23 Nov 11 19:58 libreswan-fips.conf
+-rw-r--r--  1 root root 184 Nov  5 15:24 nss-softokn-prelink.conf
+-rw-r--r--  1 root root 118 Jun  7  2016 vmware-tools-prelink.conf
+
+/etc/profile.d:
+total 80
+-rw-r--r--  1 root root  771 Nov  5 22:10 256term.csh
+-rw-r--r--  1 root root  841 Nov  5 22:10 256term.sh
+-rw-r--r--  1 root root 1348 Dec  2 09:28 abrt-console-notification.sh
+-rw-r--r--. 1 root root  660 Jun  9  2014 bash_completion.sh
+-rw-r--r--. 1 root root  196 Apr 29  2015 colorgrep.csh
+-rw-r--r--. 1 root root  201 Apr 29  2015 colorgrep.sh
+-rw-r--r--  1 root root 1741 Nov  4 11:37 colorls.csh
+-rw-r--r--  1 root root 1606 Nov  4 11:37 colorls.sh
+-rw-r--r--  1 root root 1706 Nov  5 22:10 lang.csh
+-rw-r--r--  1 root root 2703 Nov  5 22:10 lang.sh
+-rw-r--r--. 1 root root  123 Jul 30  2015 less.csh
+-rw-r--r--. 1 root root  121 Jul 30  2015 less.sh
+-rw-r--r--  1 root root 1157 Nov 15 09:19 PackageKit.sh
+-rw-r--r--  1 root root  313 Jun 29  2012 qt-graphicssystem.csh
+-rw-r--r--  1 root root  379 Jun 13  2012 qt-graphicssystem.sh
+-rw-r--r--  1 root root  105 Dec 21 11:00 vim.csh
+-rw-r--r--  1 root root  269 Dec 21 11:00 vim.sh
+-rw-r--r--  1 root root 1940 Nov  5 12:52 vte.sh
+-rw-r--r--. 1 root root  164 Jan 27  2014 which2.csh
+-rw-r--r--. 1 root root  169 Jan 27  2014 which2.sh
+
+/etc/pulse:
+total 20
+-rw-r--r-- 1 root root 1201 Nov  5 15:03 client.conf
+-rw-r--r-- 1 root root 2262 Nov  5 15:03 daemon.conf
+-rw-r--r-- 1 root root 5550 Nov  5 15:03 default.pa
+-rw-r--r-- 1 root root 2046 Nov  5 15:03 system.pa
+
+/etc/purple:
+total 4
+-rw-r--r-- 1 root root 1950 Nov  5 11:10 prefs.xml
+
+/etc/python:
+total 4
+-rw-r--r-- 1 root root 381 Nov  5 19:29 cert-verification.cfg
+
+/etc/qemu-ga:
+total 4
+-rwxr-xr-x  1 root root 1176 Dec 16  2015 fsfreeze-hook
+drwxr-xr-x. 2 root root    6 Nov  7 04:25 fsfreeze-hook.d
+
+/etc/qemu-ga/fsfreeze-hook.d:
+total 0
+
+/etc/qemu-kvm:
+total 4
+-rw-r--r-- 1 root root 13 Nov 11 22:50 bridge.conf
+
+/etc/rc.d:
+total 4
+drwxr-xr-x. 2 root root  97 Jan  6 08:42 init.d
+drwxr-xr-x. 2 root root  80 Nov  5 15:27 rc0.d
+drwxr-xr-x. 2 root root  80 Nov  5 15:27 rc1.d
+drwxr-xr-x. 2 root root  80 Nov  5 15:27 rc2.d
+drwxr-xr-x. 2 root root  80 Nov  5 15:27 rc3.d
+drwxr-xr-x. 2 root root  80 Nov  5 15:27 rc4.d
+drwxr-xr-x. 2 root root  80 Nov  5 15:27 rc5.d
+drwxr-xr-x. 2 root root  80 Nov  5 15:27 rc6.d
+-rwxr-xr-x  1 root root 534 Dec 12 13:22 rc.local
+
+/etc/rc.d/init.d:
+total 88
+-rw-r--r-- 1 root root 15131 Sep 12 05:47 functions
+-rwxr-xr-x 1 root root  9980 Apr 10  2015 jexec
+-rwxr-xr-x 1 root root  2989 Sep 12 05:47 netconsole
+-rwxr-xr-x 1 root root  6643 Sep 12 05:47 network
+-rw-r--r-- 1 root root  1160 Nov 21 19:27 README
+-rwxr-xr-x 1 root root 44264 Jun  7  2016 vmware-tools
+
+/etc/rc.d/rc0.d:
+total 0
+lrwxrwxrwx  1 root root 15 Jun  7  2016 K05jexec -> ../init.d/jexec
+lrwxrwxrwx. 1 root root 20 Jan 12  2016 K50netconsole -> ../init.d/netconsole
+lrwxrwxrwx. 1 root root 17 Jan 12  2016 K90network -> ../init.d/network
+lrwxrwxrwx  1 root root 22 Jun  7  2016 K99vmware-tools -> ../init.d/vmware-tools
+
+/etc/rc.d/rc1.d:
+total 0
+lrwxrwxrwx. 1 root root 20 Jan 12  2016 K50netconsole -> ../init.d/netconsole
+lrwxrwxrwx. 1 root root 17 Jan 12  2016 K90network -> ../init.d/network
+lrwxrwxrwx  1 root root 22 Jun  7  2016 K99vmware-tools -> ../init.d/vmware-tools
+lrwxrwxrwx  1 root root 15 Jun  7  2016 S95jexec -> ../init.d/jexec
+
+/etc/rc.d/rc2.d:
+total 0
+lrwxrwxrwx. 1 root root 20 Jan 12  2016 K50netconsole -> ../init.d/netconsole
+lrwxrwxrwx  1 root root 22 Jun  7  2016 S03vmware-tools -> ../init.d/vmware-tools
+lrwxrwxrwx. 1 root root 17 Jan 12  2016 S10network -> ../init.d/network
+lrwxrwxrwx  1 root root 15 Jun  7  2016 S95jexec -> ../init.d/jexec
+
+/etc/rc.d/rc3.d:
+total 0
+lrwxrwxrwx. 1 root root 20 Jan 12  2016 K50netconsole -> ../init.d/netconsole
+lrwxrwxrwx  1 root root 22 Jun  7  2016 S03vmware-tools -> ../init.d/vmware-tools
+lrwxrwxrwx. 1 root root 17 Jan 12  2016 S10network -> ../init.d/network
+lrwxrwxrwx  1 root root 15 Jun  7  2016 S95jexec -> ../init.d/jexec
+
+/etc/rc.d/rc4.d:
+total 0
+lrwxrwxrwx. 1 root root 20 Jan 12  2016 K50netconsole -> ../init.d/netconsole
+lrwxrwxrwx  1 root root 22 Jun  7  2016 S03vmware-tools -> ../init.d/vmware-tools
+lrwxrwxrwx. 1 root root 17 Jan 12  2016 S10network -> ../init.d/network
+lrwxrwxrwx  1 root root 15 Jun  7  2016 S95jexec -> ../init.d/jexec
+
+/etc/rc.d/rc5.d:
+total 0
+lrwxrwxrwx. 1 root root 20 Jan 12  2016 K50netconsole -> ../init.d/netconsole
+lrwxrwxrwx  1 root root 22 Jun  7  2016 S03vmware-tools -> ../init.d/vmware-tools
+lrwxrwxrwx. 1 root root 17 Jan 12  2016 S10network -> ../init.d/network
+lrwxrwxrwx  1 root root 15 Jun  7  2016 S95jexec -> ../init.d/jexec
+
+/etc/rc.d/rc6.d:
+total 0
+lrwxrwxrwx  1 root root 15 Jun  7  2016 K05jexec -> ../init.d/jexec
+lrwxrwxrwx. 1 root root 20 Jan 12  2016 K50netconsole -> ../init.d/netconsole
+lrwxrwxrwx. 1 root root 17 Jan 12  2016 K90network -> ../init.d/network
+lrwxrwxrwx  1 root root 22 Jun  7  2016 K99vmware-tools -> ../init.d/vmware-tools
+
+/etc/rdma:
+total 12
+-rw-r--r-- 1 root root 1245 Nov  5 20:47 mlx4.conf
+-rw-r--r-- 1 root root  867 Nov  5 20:47 rdma.conf
+-rw-r--r-- 1 root root 1781 Nov  5 20:47 sriov-vfs
+
+/etc/request-key.d:
+total 12
+-rw-r--r-- 1 root root  50 Nov  5 16:09 cifs.idmap.conf
+-rw-r--r-- 1 root root  52 Nov  5 16:09 cifs.spnego.conf
+-rw-r--r-- 1 root root 354 Nov 17 16:49 id_resolver.conf
+
+/etc/rpm:
+total 88
+-rw-r--r--. 1 root root   151 Jun  9  2014 macros.color
+-rw-r--r--  1 root root    73 Nov 29 12:12 macros.dist
+-rw-r--r--  1 root root  1806 Nov 14 12:38 macros.dwz
+-rw-r--r--  1 root root   322 Nov 20  2015 macros.emacs
+-rw-r--r--. 1 root root 13543 Nov 20  2015 macros.fjava
+-rw-r--r--. 1 root root  2673 Jan 24  2014 macros.gconf2
+-rw-r--r--  1 root root   215 Nov 14 12:38 macros.ghc-srpm
+-rw-r--r--  1 root root   227 Nov 14 12:38 macros.gnat-srpm
+-rw-r--r--. 1 root root  4700 Nov 20  2015 macros.jpackage
+-rw-r--r--  1 root root  1743 Jun  9  2014 macros.kde4
+-rw-r--r--  1 root root   105 Nov 14 12:38 macros.mono-srpm
+-rw-r--r--  1 root root   206 Nov 14 12:38 macros.nodejs-srpm
+-rw-r--r--  1 root root   115 Nov 14 12:38 macros.ocaml-srpm
+-rw-r--r--  1 root root  5134 Nov  4 13:00 macros.perl
+-rw-r--r--. 1 root root   794 Jun  9  2014 macros.perl-srpm
+-rw-r--r--  1 root root   334 Nov  5 19:29 macros.python2
+-rw-r--r--  1 root root   213 Nov 20  2015 macros.texlive
+
+/etc/rsyslog.d:
+total 8
+-rw-r--r-- 1 root root 253 Sep 10  2014 21-cloudinit.conf
+-rw-r--r-- 1 root root  49 Nov 21 19:27 listen.conf
+
+/etc/rwtab.d:
+total 8
+-rw-r--r-- 1 root root 24 Nov  5 17:55 logrotate
+-rw-r--r-- 1 root root 18 Dec  6 21:44 sssd
+
+/etc/samba:
+total 32
+-rw-r--r-- 1 root root    20 Nov  7 04:25 lmhosts
+-rw-r--r-- 1 root root 12202 Jul 28  2016 smb.conf
+-rw-r--r-- 1 root root 11327 Nov  7 04:25 smb.conf.example
+-rw-r--r-- 1 root root   667 Nov  7 04:25 smb.conf.rpmnew
+
+/etc/sane.d:
+total 320
+-rw-r--r--. 1 root root   25 Jun  9  2014 abaton.conf
+-rw-r--r--. 1 root root   14 Jun  9  2014 agfafocus.conf
+-rw-r--r--. 1 root root   24 Jun  9  2014 apple.conf
+-rw-r--r--. 1 root root   26 Jun  9  2014 artec.conf
+-rw-r--r--. 1 root root 4140 Jun  9  2014 artec_eplus48u.conf
+-rw-r--r--. 1 root root  548 Jun  9  2014 avision.conf
+-rw-r--r--. 1 root root   29 Jun  9  2014 bh.conf
+-rw-r--r--. 1 root root  193 Jun  9  2014 canon630u.conf
+-rw-r--r--. 1 root root   26 Jun  9  2014 canon.conf
+-rw-r--r--. 1 root root 3126 Jun  9  2014 canon_dr.conf
+-rw-r--r--. 1 root root 1160 Jun  9  2014 canon_pp.conf
+-rw-r--r--. 1 root root  509 Jun  9  2014 cardscan.conf
+-rw-r--r--. 1 root root  754 Jun  9  2014 coolscan2.conf
+-rw-r--r--. 1 root root  754 Jun  9  2014 coolscan3.conf
+-rw-r--r--. 1 root root   34 Jun  9  2014 coolscan.conf
+-rw-r--r--. 1 root root  984 Jun  9  2014 dc210.conf
+-rw-r--r--. 1 root root  984 Jun  9  2014 dc240.conf
+-rw-r--r--. 1 root root  704 Jun  9  2014 dc25.conf
+-rw-r--r--. 1 root root  492 Jun  9  2014 dell1600n_net.conf
+-rw-r--r--. 1 root root  709 Jun  9  2014 dll.conf
+drwxr-xr-x. 2 root root   18 Jan  6 08:46 dll.d
+-rw-r--r--. 1 root root   12 Jun  9  2014 dmc.conf
+-rw-r--r--. 1 root root 1378 Jun  9  2014 epjitsu.conf
+-rw-r--r--. 1 root root  376 Jun  9  2014 epson2.conf
+-rw-r--r--. 1 root root  793 Jun  9  2014 epson.conf
+-rw-r--r--. 1 root root 2196 Jun  9  2014 fujitsu.conf
+-rw-r--r--. 1 root root 1902 Jun  9  2014 genesys.conf
+-rw-r--r--. 1 root root 1149 Jun  9  2014 gphoto2.conf
+-rw-r--r--. 1 root root 7792 Jun  9  2014 gt68xx.conf
+-rw-r--r--. 1 root root  396 Jun  9  2014 hp3900.conf
+-rw-r--r--. 1 root root   76 Jun  9  2014 hp4200.conf
+-rw-r--r--. 1 root root  238 Jun  9  2014 hp5400.conf
+-rw-r--r--. 1 root root  497 Jun  9  2014 hp.conf
+-rw-r--r--. 1 root root   22 Jun  9  2014 hpsj5s.conf
+-rw-r--r--. 1 root root   24 Jun  9  2014 hs2p.conf
+-rw-r--r--. 1 root root   38 Jun  9  2014 ibm.conf
+-rw-r--r--. 1 root root 2599 Jun  9  2014 kodakaio.conf
+-rw-r--r--. 1 root root  367 Jun  9  2014 kodak.conf
+-rw-r--r--. 1 root root  113 Jun  9  2014 leo.conf
+-rw-r--r--. 1 root root  119 Jun  9  2014 lexmark.conf
+-rw-r--r--. 1 root root  187 Jun  9  2014 ma1509.conf
+-rw-r--r--. 1 root root 1254 Jun  9  2014 magicolor.conf
+-rw-r--r--. 1 root root  666 Jun  9  2014 matsushita.conf
+-rw-r--r--. 1 root root  279 Jun  9  2014 microtek2.conf
+-rw-r--r--. 1 root root  268 Jun  9  2014 microtek.conf
+-rw-r--r--. 1 root root 2125 Jun  9  2014 mustek.conf
+-rw-r--r--. 1 root root 3824 Jun  9  2014 mustek_pp.conf
+-rw-r--r--. 1 root root  809 Jun  9  2014 mustek_usb.conf
+-rw-r--r--. 1 root root   13 Jun  9  2014 nec.conf
+-rw-r--r--. 1 root root  573 Jun  9  2014 net.conf
+-rw-r--r--. 1 root root  365 Jun  9  2014 p5.conf
+-rw-r--r--. 1 root root   75 Jun  9  2014 pie.conf
+-rw-r--r--. 1 root root  492 Jun  9  2014 pixma.conf
+-rw-r--r--. 1 root root 4142 Jun  9  2014 plustek.conf
+-rw-r--r--. 1 root root  943 Jun  9  2014 plustek_pp.conf
+-rw-r--r--. 1 root root  391 Jun  9  2014 qcam.conf
+-rw-r--r--. 1 root root   29 Jun  9  2014 ricoh.conf
+-rw-r--r--. 1 root root  183 Jun  9  2014 rts8891.conf
+-rw-r--r--. 1 root root   13 Jun  9  2014 s9036.conf
+-rw-r--r--. 1 root root 1052 Jun  9  2014 saned.conf
+-rw-r--r--. 1 root root   48 Jun  9  2014 sceptre.conf
+-rw-r--r--. 1 root root 1464 Jun  9  2014 sharp.conf
+-rw-r--r--. 1 root root  115 Jun  9  2014 sm3840.conf
+-rw-r--r--. 1 root root 2239 Jun  9  2014 snapscan.conf
+-rw-r--r--. 1 root root   10 Jun  9  2014 sp15c.conf
+-rw-r--r--. 1 root root 2224 Jun  9  2014 st400.conf
+-rw-r--r--. 1 root root  178 Jun  9  2014 stv680.conf
+-rw-r--r--. 1 root root   28 Jun  9  2014 tamarack.conf
+-rw-r--r--. 1 root root  355 Jun  9  2014 teco1.conf
+-rw-r--r--. 1 root root  636 Jun  9  2014 teco2.conf
+-rw-r--r--. 1 root root  217 Jun  9  2014 teco3.conf
+-rw-r--r--. 1 root root 1807 Jun  9  2014 test.conf
+-rw-r--r--. 1 root root 1495 Jun  9  2014 u12.conf
+-rw-r--r--. 1 root root  386 Jun  9  2014 umax1220u.conf
+-rw-r--r--. 1 root root 3094 Jun  9  2014 umax.conf
+-rw-r--r--. 1 root root 1684 Jun  9  2014 umax_pp.conf
+-rw-r--r--. 1 root root  204 Jun  9  2014 v4l.conf
+-rw-r--r--. 1 root root 3424 Jun  9  2014 xerox_mfp.conf
+
+/etc/sane.d/dll.d:
+total 4
+-rw-r--r-- 1 root root 6 Nov  5 14:03 hpaio
+
+/etc/sasl2:
+total 8
+-rw-r--r--  1 root root 1291 Aug 27  2013 qemu-kvm.conf
+-rw-r--r--. 1 root root   49 Jun  9  2014 smtpd.conf
+
+/etc/scl:
+total 0
+lrwxrwxrwx. 1 root root 8 Jan 12  2016 conf -> prefixes
+drwxr-xr-x. 2 root root 6 Mar 26  2015 prefixes
+
+/etc/scl/prefixes:
+total 0
+
+/etc/security:
+total 60
+-rw-r--r--  1 root root 4620 Nov  5 18:14 access.conf
+-rw-r--r--  1 root root   82 Nov  5 18:14 chroot.conf
+drwxr-xr-x. 2 root root 4096 Jan  6 08:46 console.apps
+-rw-r--r--  1 root root  604 Nov  5 18:14 console.handlers
+-rw-r--r--  1 root root  939 Nov  5 18:14 console.perms
+drwxr-xr-x. 2 root root    6 Nov  5 18:14 console.perms.d
+-rw-r--r--  1 root root 3635 Nov  5 18:14 group.conf
+-rw-r--r--  1 root root 2661 Sep 27 14:33 limits.conf
+drwxr-xr-x. 2 root root   26 Jan  6 08:41 limits.d
+-rw-r--r--  1 root root 1440 Nov  5 18:14 namespace.conf
+drwxr-xr-x. 2 root root    6 Nov  5 18:14 namespace.d
+-rwxr-xr-x  1 root root 1019 Nov  5 18:14 namespace.init
+-rw-------  1 root root    0 Nov  5 18:14 opasswd
+-rw-r--r--  1 root root 2972 Nov  5 18:14 pam_env.conf
+-rw-r--r--  1 root root  772 Nov  7 04:25 pam_winbind.conf
+-rw-r--r--. 1 root root 1718 Dec  6  2011 pwquality.conf
+-rw-r--r--  1 root root  419 Nov  5 18:14 sepermit.conf
+-rw-r--r--  1 root root 2179 Nov  5 18:14 time.conf
+
+/etc/security/console.apps:
+total 20
+-rw-r--r--. 1 root root  24 Jan 27  2014 config-util
+-rw-r--r--  1 root root 421 Nov 30 06:58 liveinst
+-rw-r--r--  1 root root  71 Oct  3 03:43 mate-system-log
+-rw-r--r--. 1 root root  56 Jun  9  2014 setup
+-rw-r--r--  1 root root  92 Nov  5 12:02 system-config-language
+-rw-r--r--  1 root root   0 Nov  5 19:44 xserver
+
+/etc/security/console.perms.d:
+total 0
+
+/etc/security/limits.d:
+total 4
+-rw-r--r-- 1 root root 191 Nov  5 18:14 20-nproc.conf
+
+/etc/security/namespace.d:
+total 0
+
+/etc/selinux:
+total 12
+-rw-r--r--. 1 root root  546 Feb  8  2016 config
+drwx------  2 root root    6 Jan  6 08:45 final
+-rw-r--r--  1 root root 2321 Nov  5 23:05 semanage.conf
+drwxr-xr-x. 7 root root 4096 Jan  6 08:45 targeted
+drwxr-xr-x  2 root root    6 Nov  5 23:05 tmp
+
+/etc/selinux/targeted:
+total 20
+drwx------  3 root root  150 Jan  6 08:45 active
+-rw-r--r--  1 root root 2623 Dec  6 14:18 booleans.subs_dist
+drwxr-xr-x. 4 root root 4096 Jan  6 08:45 contexts
+drwxr-xr-x. 2 root root    6 Dec  6 14:18 logins
+drwxr-xr-x. 3 root root   19 Jan  6 08:50 modules
+drwxr-xr-x. 2 root root   22 Jan  6 08:50 policy
+-rw-------  1 root root    0 Dec  6 14:18 semanage.read.LOCK
+-rw-------  1 root root    0 Dec  6 14:18 semanage.trans.LOCK
+-rw-r--r--  1 root root  607 Dec  6 14:18 setrans.conf
+-rw-r--r--  1 root root  176 Jan  6 08:45 seusers
+-rw-r--r--  1 root root  106 Dec  6 14:18 seusers.rpmnew
+
+/etc/selinux/targeted/contexts:
+total 72
+-rw-r--r--  1 root root  245 Dec  6 14:18 customizable_types
+-rw-r--r--  1 root root  195 Dec  6 14:18 dbus_contexts
+-rw-r--r--  1 root root  254 Dec  6 14:18 default_contexts
+-rw-r--r--  1 root root  148 Dec  6 14:18 default_type
+-rw-r--r--  1 root root   29 Dec  6 14:18 failsafe_context
+drwxr-xr-x. 2 root root 4096 Jan  6 08:45 files
+-rw-r--r--  1 root root   30 Dec  6 14:18 initrc_context
+-rw-r--r--  1 root root  333 Dec  6 14:18 lxc_contexts
+-rw-r--r--  1 root root    0 Jul 11  2016 netfilter_contexts
+-rw-r--r--  1 root root   33 Dec  6 14:18 removable_context
+-rw-r--r--  1 root root   74 Dec  6 14:18 securetty_types
+-rw-r--r--  1 root root 1170 Dec  6 14:18 sepgsql_contexts
+-rw-r--r--  1 root root   53 Dec  6 14:18 snapperd_contexts
+-rw-r--r--  1 root root   57 Dec  6 14:18 systemd_contexts
+-rw-r--r--  1 root root   35 Dec  6 14:18 userhelper_context
+drwxr-xr-x. 2 root root 4096 Jan  6 08:45 users
+-rw-r--r--  1 root root   62 Dec  6 14:18 virtual_domain_context
+-rw-r--r--  1 root root   71 Dec  6 14:18 virtual_image_context
+-rw-r--r--  1 root root 2920 Dec  6 14:18 x_contexts
+
+/etc/selinux/targeted/contexts/files:
+total 2168
+-rw-r--r-- 1 root root  378430 Jan  6 08:45 file_contexts
+-rw-r--r-- 1 root root 1393914 Jan  6 08:45 file_contexts.bin
+-rw-r--r-- 1 root root   13169 Jan  6 08:45 file_contexts.homedirs
+-rw-r--r-- 1 root root   44725 Jan  6 08:45 file_contexts.homedirs.bin
+-rw-r--r-- 1 root root       0 Jun 23  2016 file_contexts.local
+-rw------- 1 root root      16 Jul 11  2016 file_contexts.local.bin
+-rw-r--r-- 1 root root  368001 Jun  7  2016 file_contexts.pre
+-rw-r--r-- 1 root root       0 Dec  6 14:18 file_contexts.subs
+-rw-r--r-- 1 root root     422 Dec  6 14:18 file_contexts.subs_dist
+-rw-r--r-- 1 root root     139 Dec  6 14:18 media
+
+/etc/selinux/targeted/contexts/users:
+total 28
+-rw-r--r-- 1 root root 253 Dec  6 14:18 guest_u
+-rw-r--r-- 1 root root 389 Dec  6 14:18 root
+-rw-r--r-- 1 root root 514 Dec  6 14:18 staff_u
+-rw-r--r-- 1 root root 496 Dec  6 14:18 sysadm_u
+-rw-r--r-- 1 root root 578 Dec  6 14:18 unconfined_u
+-rw-r--r-- 1 root root 353 Dec  6 14:18 user_u
+-rw-r--r-- 1 root root 307 Dec  6 14:18 xguest_u
+
+/etc/selinux/targeted/logins:
+total 0
+
+/etc/selinux/targeted/modules:
+total 0
+drwx------ 3 root root 70 Jan  6 08:50 active
+
+/etc/selinux/targeted/policy:
+total 3620
+-rw-r--r-- 1 root root 3703459 Jan  6 08:45 policy.30
+
+/etc/selinux/tmp:
+total 0
+
+/etc/setroubleshoot:
+total 8
+-rw-r--r-- 1 root root 5687 Nov  5 16:38 setroubleshoot.conf
+
+/etc/setuptool.d:
+total 56
+-rw-r--r--. 1 root root 42 Jun  9  2014 98netconfig
+-rw-r--r--. 1 root root 69 Jun  9  2014 98system-config-authentication
+-rw-r--r--. 1 root root 47 Jun  9  2014 98system-config-display
+-rw-r--r--. 1 root root 62 Jun  9  2014 98system-config-keyboard
+-rw-r--r--. 1 root root 50 Jun  9  2014 99authconfig
+-rw-r--r--. 1 root root 43 Jun  9  2014 99kbdconfig
+-rw-r--r--. 1 root root 42 Jun  9  2014 99mouseconfig
+-rw-r--r--. 1 root root 33 Jun  9  2014 99ntsysv
+-rw-r--r--. 1 root root 46 Jun  9  2014 99printconf-tui
+-rw-r--r--. 1 root root 45 Jun  9  2014 99sndconfig
+-rw-r--r--. 1 root root 59 Jun  9  2014 99system-config-firewall-tui
+-rw-r--r--. 1 root root 58 Jun  9  2014 99system-config-network-tui
+-rw-r--r--. 1 root root 44 Jun  9  2014 99timeconfig
+-rw-r--r--. 1 root root 40 Jun  9  2014 99Xconfigurator
+
+/etc/sgml:
+total 0
+drwxr-xr-x. 2 root root 23 Jan 12  2016 docbook
+
+/etc/sgml/docbook:
+total 4
+-rw-r--r--. 1 root root 236 Jun  9  2014 xmlcatalog
+
+/etc/skel:
+total 0
+
+/etc/smartmontools:
+total 16
+-rw-r--r--  1 root root 6814 Nov 12 00:23 smartd.conf
+drwxr-xr-x. 2 root root    6 Nov 12 00:23 smartd_warning.d
+-rwxr-xr-x  1 root root 5767 Nov 12 00:23 smartd_warning.sh
+
+/etc/smartmontools/smartd_warning.d:
+total 0
+
+/etc/sound:
+total 0
+drwxr-xr-x 2 root root 43 Jan  6 08:45 events
+
+/etc/sound/events:
+total 20
+-rw-r--r-- 1 root root 17249 Oct  3 02:49 mate-battstat_applet.soundlist
+
+/etc/speech-dispatcher:
+total 16
+drwxr-xr-x. 2 root root   47 Jan 12  2016 clients
+drwxr-xr-x. 2 root root 4096 Jan 12  2016 modules
+-rw-r--r--. 1 root root 9669 Sep 10  2010 speechd.conf
+
+/etc/speech-dispatcher/clients:
+total 8
+-rw-r--r--. 1 root root 116 Sep  1  2010 emacs.conf
+-rw-r--r--. 1 root root 104 Sep  1  2010 gnome-speech.conf
+
+/etc/speech-dispatcher/modules:
+total 60
+-rw-r--r--. 1 root root  982 Sep  1  2010 cicero.conf
+-rw-r--r--. 1 root root 3422 Sep  1  2010 dtk-generic.conf
+-rw-r--r--. 1 root root 3135 Sep  1  2010 epos-generic.conf
+-rw-r--r--. 1 root root  991 Sep  1  2010 espeak.conf
+-rw-r--r--. 1 root root 5022 Sep  1  2010 espeak-generic.conf
+-rw-r--r--. 1 root root 6365 Sep 10  2010 espeak-mbrola-generic.conf
+-rw-r--r--. 1 root root 3087 Sep  1  2010 festival.conf
+-rw-r--r--. 1 root root  406 Sep  1  2010 flite.conf
+-rw-r--r--. 1 root root 6171 Sep 10  2010 ibmtts.conf
+-rw-r--r--. 1 root root  919 Sep  1  2010 ivona.conf
+-rw-r--r--. 1 root root 2603 Sep  1  2010 llia_phon-generic.conf
+-rw-r--r--. 1 root root 2913 Sep  1  2010 swift-generic.conf
+
+/etc/ssh:
+total 280
+-rw-r--r--  1 root root     242153 Nov 11 21:46 moduli
+-rw-r--r--  1 root root       2208 Nov 11 21:46 ssh_config
+-rw-r--r--  1 root root       4053 Feb 21 08:51 sshd.allow
+-rw-------  1 root root       4381 Aug 19  2016 sshd_config
+-rw-r-----. 1 root ssh_keys    227 Jan 12  2016 ssh_host_ecdsa_key
+-rw-r--r--. 1 root root        162 Jan 12  2016 ssh_host_ecdsa_key.pub
+-rw-r-----. 1 root ssh_keys    387 Jan 12  2016 ssh_host_ed25519_key
+-rw-r--r--. 1 root root         82 Jan 12  2016 ssh_host_ed25519_key.pub
+-rw-r-----. 1 root ssh_keys   1679 Jan 12  2016 ssh_host_rsa_key
+-rw-r--r--. 1 root root        382 Jan 12  2016 ssh_host_rsa_key.pub
+
+/etc/ssl:
+total 0
+lrwxrwxrwx 1 root root 16 Jan  6 08:41 certs -> ../pki/tls/certs
+
+/etc/statetab.d:
+total 0
+
+/etc/subversion:
+total 0
+
+/etc/sysconfig:
+total 192
+-rw-r--r--  1 root root  403 Nov  5 13:16 atd
+-rw-r--r--  1 root root  217 May  7  2015 atop
+-rw-r--r--. 1 root root  428 Jul 28  2016 authconfig
+-rw-r--r--  1 root root  339 Nov  5 13:19 autofs
+drwxr-xr-x. 2 root root   41 Jan  6 08:42 cbq
+-rw-r--r--  1 root root   79 Nov  5 14:48 cgred
+drwxr-xr-x. 2 root root    6 Nov  5 22:10 console
+-rw-r--r--  1 root root  150 Dec  6 17:38 cpupower
+-rw-------  1 root root  110 Mar 31  2016 crond
+-rw-------  1 root root 1390 Nov  5 15:52 ebtables-config
+-rw-r--r--  1 root root  169 Nov 17 13:20 fcoe
+-rw-r--r--  1 root root   73 Nov 11 13:02 firewalld
+lrwxrwxrwx  1 root root   17 Jan  6 08:43 grub -> /etc/default/grub
+-rw-r--r--  1 root root  348 Nov 14 10:53 htcacheclean
+-rw-r--r--  1 root root  802 Nov 14 10:53 httpd
+-rw-r--r--  1 root root  798 Nov  5 22:10 init
+-rw-------  1 root root 1988 Nov  5 16:14 ip6tables-config
+-rw-------  1 root root 1974 Nov  5 16:14 iptables-config
+-rw-r--r--  1 root root  903 Nov  4 12:18 irqbalance
+-rw-r--r--  1 root root 1460 Nov  7 04:44 kdump
+-rw-r--r--. 1 root root  180 Jan 12  2016 kernel
+-rw-r--r--  1 root root  168 Nov  4 13:10 ksm
+-rw-r--r--. 1 root root  200 Mar 17  2014 man-db
+drwxr-xr-x. 2 root root    6 Nov  5 22:10 modules
+-rw-r--r--  1 root root  634 Nov  5 22:10 netconsole
+-rw-r--r--  1 root root    0 Jan  6 08:41 network
+drwxr-xr-x. 2 root root 4096 Jan  6 09:35 network-scripts
+-rw-r--r--  1 root root 1522 Nov 17 16:49 nfs
+-rw-r--r--  1 root root   45 Nov 14 10:18 ntpd
+-rw-r--r--  1 root root  159 Nov 14 10:18 ntpdate
+-rw-r--r--  1 root root   43 Nov  5 19:32 php-fpm
+-rw-r--r--  1 root root   71 Nov 11 19:58 pluto
+-rw-r--r--  1 root root  911 Nov  4 13:09 qemu-ga
+-rw-r--r--. 1 root root  186 Sep  8  2015 radvd
+-rw-r--r--  1 root root 2915 Nov  4 12:45 raid-check
+-rw-r--r--  1 root root   15 Nov  7 04:37 rdisc
+-rw-r--r--  1 root root  755 Nov  5 22:10 readonly-root
+-rw-r--r--  1 root root   73 Nov  5 18:48 rpcbind
+-rw-r--r--  1 root root  395 Nov  4 13:18 rpc-rquotad
+-rw-r--r--. 1 root root   12 Nov 20  2015 rsyncd
+-rw-r--r--  1 root root  196 Nov  4 13:21 rsyslog
+-rw-r--r--. 1 root root    0 Jun  9  2014 run-parts
+-rw-r--r--  1 root root  428 Nov  7 04:25 samba
+-rw-r--r--  1 root root  429 Feb 16  2016 saslauthd
+lrwxrwxrwx. 1 root root   17 Jan 12  2016 selinux -> ../selinux/config
+-rw-r--r--  1 root root  125 Nov  4 13:25 smartmontools
+-rw-r-----  1 root root  506 Nov 11 21:46 sshd
+-rw-r--r--. 1 root root  138 Aug 12  2015 svnserve
+-rw-r--r--  1 root root  474 Nov  5 13:24 sysstat
+-rw-r--r--  1 root root 6228 Nov  5 13:24 sysstat.ioconf
+-rw-r--r--  1 root root  305 Jul 28  2016 system-config-users
+-rw-r--r--  1 root root   72 Nov 16 07:38 vncservers
+-rw-r--r--  1 root root  644 Nov  5 10:52 wpa_supplicant
+-rw-r--r--  1 root root   62 Sep 20  2015 xrdp
+
+/etc/sysconfig/cbq:
+total 8
+-rw-r--r-- 1 root root 11 Nov  5 20:57 avpkt
+-rw-r--r-- 1 root root 79 Nov  5 20:57 cbq-0000.example
+
+/etc/sysconfig/console:
+total 0
+
+/etc/sysconfig/modules:
+total 0
+
+/etc/sysconfig/network-scripts:
+total 232
+-rw-r--r-- 1 root root   254 Sep 12 05:47 ifcfg-lo
+-rw-r--r-- 1 root root   366 Jul 21  2016 ifcfg-Wired_connection_3
+lrwxrwxrwx 1 root root    24 Jan  6 08:42 ifdown -> ../../../usr/sbin/ifdown
+-rwxr-xr-x 1 root root   627 Sep 12 05:47 ifdown-bnep
+-rwxr-xr-x 1 root root  5817 Sep 12 05:47 ifdown-eth
+-rwxr-xr-x 1 root root  6196 Nov  5 20:47 ifdown-ib
+-rwxr-xr-x 1 root root   781 Sep 12 05:47 ifdown-ippp
+-rwxr-xr-x 1 root root  4201 Sep 12 05:47 ifdown-ipv6
+lrwxrwxrwx 1 root root    11 Jan  6 08:42 ifdown-isdn -> ifdown-ippp
+-rwxr-xr-x 1 root root  1778 Sep 12 05:47 ifdown-post
+-rwxr-xr-x 1 root root  1068 Sep 12 05:47 ifdown-ppp
+-rwxr-xr-x 1 root root   837 Sep 12 05:47 ifdown-routes
+-rwxr-xr-x 1 root root  1444 Sep 12 05:47 ifdown-sit
+-rwxr-xr-x 1 root root  1621 Nov  5 20:36 ifdown-Team
+-rwxr-xr-x 1 root root  1556 Apr 15  2016 ifdown-TeamPort
+-rwxr-xr-x 1 root root  1462 Sep 12 05:47 ifdown-tunnel
+lrwxrwxrwx 1 root root    22 Jan  6 08:42 ifup -> ../../../usr/sbin/ifup
+-rwxr-xr-x 1 root root 12688 Sep 12 05:47 ifup-aliases
+-rwxr-xr-x 1 root root   859 Sep 12 05:47 ifup-bnep
+-rwxr-xr-x 1 root root 11880 Sep 12 05:47 ifup-eth
+-rwxr-xr-x 1 root root 10145 Nov  5 20:47 ifup-ib
+-rwxr-xr-x 1 root root 12039 Sep 12 05:47 ifup-ippp
+-rwxr-xr-x 1 root root 10525 Sep 12 05:47 ifup-ipv6
+lrwxrwxrwx 1 root root     9 Jan  6 08:42 ifup-isdn -> ifup-ippp
+-rwxr-xr-x 1 root root   642 Sep 12 05:47 ifup-plip
+-rwxr-xr-x 1 root root  1043 Sep 12 05:47 ifup-plusb
+-rwxr-xr-x 1 root root  2772 Sep 12 05:47 ifup-post
+-rwxr-xr-x 1 root root  4154 Sep 12 05:47 ifup-ppp
+-rwxr-xr-x 1 root root  1925 Sep 12 05:47 ifup-routes
+-rwxr-xr-x 1 root root  3263 Sep 12 05:47 ifup-sit
+-rwxr-xr-x 1 root root  1755 Apr 15  2016 ifup-Team
+-rwxr-xr-x 1 root root  1876 Apr 15  2016 ifup-TeamPort
+-rwxr-xr-x 1 root root  2682 Sep 12 05:47 ifup-tunnel
+-rwxr-xr-x 1 root root  1740 Sep 12 05:47 ifup-wireless
+-rwxr-xr-x 1 root root  4623 Sep 12 05:47 init.ipv6-global
+-rw-r--r-- 1 root root 15383 Sep 12 05:47 network-functions
+-rw-r--r-- 1 root root 26829 Sep 12 05:47 network-functions-ipv6
+
+/etc/sysctl.d:
+total 0
+lrwxrwxrwx 1 root root 14 Jan  6 08:42 99-sysctl.conf -> ../sysctl.conf
+
+/etc/systemd:
+total 28
+-rw-r--r--   1 root root  720 Nov 21 19:27 bootchart.conf
+-rw-r--r--   1 root root  615 Nov 21 19:27 coredump.conf
+-rw-r--r--   1 root root  970 Nov 21 19:27 journald.conf
+-rw-r--r--   1 root root  942 Nov 21 19:27 logind.conf
+drwxr-xr-x. 16 root root 4096 Nov 21 19:27 system
+-rw-r--r--   1 root root 1471 Nov 21 19:27 system.conf
+drwxr-xr-x.  2 root root    6 Nov 21 19:27 user
+-rw-r--r--   1 root root 1127 Nov 21 19:27 user.conf
+
+/etc/systemd/system:
+total 12
+drwxr-xr-x. 2 root root   54 Sep 13 09:23 basic.target.wants
+drwxr-xr-x. 2 root root   30 Jan 12  2016 bluetooth.target.wants
+lrwxrwxrwx. 1 root root   41 Jan 12  2016 dbus-org.bluez.service -> /usr/lib/systemd/system/bluetooth.service
+lrwxrwxrwx  1 root root   41 Sep 13 09:23 dbus-org.fedoraproject.FirewallD1.service -> /usr/lib/systemd/system/firewalld.service
+lrwxrwxrwx. 1 root root   44 Jan 12  2016 dbus-org.freedesktop.Avahi.service -> /usr/lib/systemd/system/avahi-daemon.service
+lrwxrwxrwx. 1 root root   44 Jan 12  2016 dbus-org.freedesktop.ModemManager1.service -> /usr/lib/systemd/system/ModemManager.service
+lrwxrwxrwx. 1 root root   46 Jan 12  2016 dbus-org.freedesktop.NetworkManager.service -> /usr/lib/systemd/system/NetworkManager.service
+lrwxrwxrwx. 1 root root   57 Jan 12  2016 dbus-org.freedesktop.nm-dispatcher.service -> /usr/lib/systemd/system/NetworkManager-dispatcher.service
+lrwxrwxrwx. 1 root root   36 Jan 12  2016 default.target -> /lib/systemd/system/graphical.target
+drwxr-xr-x. 2 root root   85 Jan 12  2016 default.target.wants
+drwxr-xr-x. 2 root root   37 Jan 12  2016 dev-virtio\x2dports-org.qemu.guest_agent.0.device.wants
+lrwxrwxrwx. 1 root root   35 Jan 12  2016 display-manager.service -> /usr/lib/systemd/system/gdm.service
+drwxr-xr-x. 2 root root   31 Jan 12  2016 getty.target.wants
+drwxr-xr-x. 2 root root   63 Jan 12  2016 graphical.target.wants
+drwxr-xr-x. 2 root root 4096 Jan  6 08:49 multi-user.target.wants
+drwxr-xr-x. 2 root root   25 Jan 12  2016 printer.target.wants
+drwxr-xr-x. 2 root root   30 Jan 12  2016 remote-fs.target.wants
+drwxr-xr-x. 2 root root 4096 Jan 14  2016 sockets.target.wants
+drwxr-xr-x. 2 root root   35 Jan 12  2016 spice-vdagentd.target.wants
+drwxr-xr-x. 2 root root   25 Jan  6 08:44 sssd.service.d
+drwxr-xr-x. 2 root root 4096 Jan 12  2016 sysinit.target.wants
+drwxr-xr-x. 2 root root   43 Jan 12  2016 system-update.target.wants
+
+/etc/systemd/system/basic.target.wants:
+total 0
+lrwxrwxrwx  1 root root 41 Sep 13 09:23 firewalld.service -> /usr/lib/systemd/system/firewalld.service
+lrwxrwxrwx. 1 root root 41 Jan 12  2016 microcode.service -> /usr/lib/systemd/system/microcode.service
+
+/etc/systemd/system/bluetooth.target.wants:
+total 0
+lrwxrwxrwx. 1 root root 41 Jan 12  2016 bluetooth.service -> /usr/lib/systemd/system/bluetooth.service
+
+/etc/systemd/system/default.target.wants:
+total 0
+lrwxrwxrwx. 1 root root 57 Jan 12  2016 systemd-readahead-collect.service -> /usr/lib/systemd/system/systemd-readahead-collect.service
+lrwxrwxrwx. 1 root root 56 Jan 12  2016 systemd-readahead-replay.service -> /usr/lib/systemd/system/systemd-readahead-replay.service
+
+/etc/systemd/system/dev-virtio\x2dports-org.qemu.guest_agent.0.device.wants:
+total 0
+lrwxrwxrwx. 1 root root 48 Jan 12  2016 qemu-guest-agent.service -> /usr/lib/systemd/system/qemu-guest-agent.service
+
+/etc/systemd/system/getty.target.wants:
+total 0
+lrwxrwxrwx. 1 root root 38 Jan 12  2016 getty@tty1.service -> /usr/lib/systemd/system/getty@.service
+
+/etc/systemd/system/graphical.target.wants:
+total 0
+lrwxrwxrwx. 1 root root 47 Jan 12  2016 accounts-daemon.service -> /usr/lib/systemd/system/accounts-daemon.service
+lrwxrwxrwx. 1 root root 44 Jan 12  2016 rtkit-daemon.service -> /usr/lib/systemd/system/rtkit-daemon.service
+
+/etc/systemd/system/multi-user.target.wants:
+total 0
+lrwxrwxrwx. 1 root root 41 Jan 12  2016 abrt-ccpp.service -> /usr/lib/systemd/system/abrt-ccpp.service
+lrwxrwxrwx. 1 root root 37 Jan 12  2016 abrtd.service -> /usr/lib/systemd/system/abrtd.service
+lrwxrwxrwx. 1 root root 41 Jan 12  2016 abrt-oops.service -> /usr/lib/systemd/system/abrt-oops.service
+lrwxrwxrwx. 1 root root 43 Jan 12  2016 abrt-vmcore.service -> /usr/lib/systemd/system/abrt-vmcore.service
+lrwxrwxrwx. 1 root root 41 Jan 12  2016 abrt-xorg.service -> /usr/lib/systemd/system/abrt-xorg.service
+lrwxrwxrwx. 1 root root 35 Jan 12  2016 atd.service -> /usr/lib/systemd/system/atd.service
+lrwxrwxrwx. 1 root root 38 Jan 12  2016 auditd.service -> /usr/lib/systemd/system/auditd.service
+lrwxrwxrwx  1 root root 38 Jul 20  2016 autofs.service -> /usr/lib/systemd/system/autofs.service
+lrwxrwxrwx. 1 root root 44 Jan 12  2016 avahi-daemon.service -> /usr/lib/systemd/system/avahi-daemon.service
+lrwxrwxrwx  1 root root 44 Jun  7  2016 cloud-config.service -> /usr/lib/systemd/system/cloud-config.service
+lrwxrwxrwx  1 root root 43 Jun  7  2016 cloud-final.service -> /usr/lib/systemd/system/cloud-final.service
+lrwxrwxrwx  1 root root 48 Jun  7  2016 cloud-init-local.service -> /usr/lib/systemd/system/cloud-init-local.service
+lrwxrwxrwx  1 root root 42 Jun  7  2016 cloud-init.service -> /usr/lib/systemd/system/cloud-init.service
+lrwxrwxrwx. 1 root root 37 Jan 12  2016 crond.service -> /usr/lib/systemd/system/crond.service
+lrwxrwxrwx. 1 root root 33 Jan 12  2016 cups.path -> /usr/lib/systemd/system/cups.path
+lrwxrwxrwx. 1 root root 36 Jan 12  2016 cups.service -> /usr/lib/systemd/system/cups.service
+lrwxrwxrwx. 1 root root 42 Jan 12  2016 irqbalance.service -> /usr/lib/systemd/system/irqbalance.service
+lrwxrwxrwx. 1 root root 35 Jan 12  2016 ksm.service -> /usr/lib/systemd/system/ksm.service
+lrwxrwxrwx. 1 root root 40 Jan 12  2016 ksmtuned.service -> /usr/lib/systemd/system/ksmtuned.service
+lrwxrwxrwx. 1 root root 46 Jan 12  2016 libstoragemgmt.service -> /usr/lib/systemd/system/libstoragemgmt.service
+lrwxrwxrwx. 1 root root 41 Jan 12  2016 mdmonitor.service -> /usr/lib/systemd/system/mdmonitor.service
+lrwxrwxrwx. 1 root root 44 Jan 12  2016 ModemManager.service -> /usr/lib/systemd/system/ModemManager.service
+lrwxrwxrwx  1 root root 49 Jan  6 08:49 netcf-transaction.service -> /usr/lib/systemd/system/netcf-transaction.service
+lrwxrwxrwx. 1 root root 46 Jan 12  2016 NetworkManager.service -> /usr/lib/systemd/system/NetworkManager.service
+lrwxrwxrwx. 1 root root 41 Jan 12  2016 nfs-client.target -> /usr/lib/systemd/system/nfs-client.target
+lrwxrwxrwx. 1 root root 36 Jan 14  2016 nscd.service -> /usr/lib/systemd/system/nscd.service
+lrwxrwxrwx  1 root root 36 Sep 27 13:21 ntpd.service -> /usr/lib/systemd/system/ntpd.service
+lrwxrwxrwx. 1 root root 40 Jan 12  2016 remote-fs.target -> /usr/lib/systemd/system/remote-fs.target
+lrwxrwxrwx. 1 root root 36 Jan 12  2016 rngd.service -> /usr/lib/systemd/system/rngd.service
+lrwxrwxrwx. 1 root root 39 Jan 12  2016 rsyslog.service -> /usr/lib/systemd/system/rsyslog.service
+lrwxrwxrwx. 1 root root 38 Jan 12  2016 smartd.service -> /usr/lib/systemd/system/smartd.service
+lrwxrwxrwx  1 root root 35 Jul 21  2016 smb.service -> /usr/lib/systemd/system/smb.service
+lrwxrwxrwx. 1 root root 36 Jan 12  2016 sshd.service -> /usr/lib/systemd/system/sshd.service
+lrwxrwxrwx. 1 root root 39 Jan 12  2016 sysstat.service -> /usr/lib/systemd/system/sysstat.service
+lrwxrwxrwx. 1 root root 37 Jan 12  2016 tuned.service -> /usr/lib/systemd/system/tuned.service
+lrwxrwxrwx. 1 root root 40 Jan 12  2016 vmtoolsd.service -> /usr/lib/systemd/system/vmtoolsd.service
+lrwxrwxrwx. 1 root root 39 Jan 14  2016 winbind.service -> /usr/lib/systemd/system/winbind.service
+lrwxrwxrwx  1 root root 49 Feb  9  2016 x2gocleansessions.service -> /usr/lib/systemd/system/x2gocleansessions.service
+lrwxrwxrwx  1 root root 36 Jun 22  2016 xrdp.service -> /usr/lib/systemd/system/xrdp.service
+
+/etc/systemd/system/printer.target.wants:
+total 0
+lrwxrwxrwx. 1 root root 36 Jan 12  2016 cups.service -> /usr/lib/systemd/system/cups.service
+
+/etc/systemd/system/remote-fs.target.wants:
+total 0
+lrwxrwxrwx. 1 root root 41 Jan 12  2016 nfs-client.target -> /usr/lib/systemd/system/nfs-client.target
+
+/etc/systemd/system/sockets.target.wants:
+total 0
+lrwxrwxrwx. 1 root root 43 Jan 12  2016 avahi-daemon.socket -> /usr/lib/systemd/system/avahi-daemon.socket
+lrwxrwxrwx. 1 root root 35 Jan 12  2016 cups.socket -> /usr/lib/systemd/system/cups.socket
+lrwxrwxrwx. 1 root root 39 Jan 12  2016 dm-event.socket -> /usr/lib/systemd/system/dm-event.socket
+lrwxrwxrwx. 1 root root 37 Jan 12  2016 iscsid.socket -> /usr/lib/systemd/system/iscsid.socket
+lrwxrwxrwx. 1 root root 39 Jan 12  2016 iscsiuio.socket -> /usr/lib/systemd/system/iscsiuio.socket
+lrwxrwxrwx. 1 root root 35 Jan 14  2016 nscd.socket -> /usr/lib/systemd/system/nscd.socket
+lrwxrwxrwx. 1 root root 38 Jan 12  2016 rpcbind.socket -> /usr/lib/systemd/system/rpcbind.socket
+
+/etc/systemd/system/spice-vdagentd.target.wants:
+total 0
+lrwxrwxrwx. 1 root root 46 Jan 12  2016 spice-vdagentd.service -> /usr/lib/systemd/system/spice-vdagentd.service
+
+/etc/systemd/system/sssd.service.d:
+total 4
+-rw-r--r-- 1 root root 272 Dec  6 21:44 journal.conf
+
+/etc/systemd/system/sysinit.target.wants:
+total 0
+lrwxrwxrwx. 1 root root 49 Jan 12  2016 dmraid-activation.service -> /usr/lib/systemd/system/dmraid-activation.service
+lrwxrwxrwx. 1 root root 37 Jan 12  2016 iscsi.service -> /usr/lib/systemd/system/iscsi.service
+lrwxrwxrwx. 1 root root 43 Jan 12  2016 lvm2-lvmetad.socket -> /usr/lib/systemd/system/lvm2-lvmetad.socket
+lrwxrwxrwx. 1 root root 44 Jan 12  2016 lvm2-lvmpolld.socket -> /usr/lib/systemd/system/lvm2-lvmpolld.socket
+lrwxrwxrwx. 1 root root 44 Jan 12  2016 lvm2-monitor.service -> /usr/lib/systemd/system/lvm2-monitor.service
+lrwxrwxrwx. 1 root root 42 Jan 12  2016 multipathd.service -> /usr/lib/systemd/system/multipathd.service
+
+/etc/systemd/system/system-update.target.wants:
+total 0
+lrwxrwxrwx. 1 root root 54 Jan 12  2016 systemd-readahead-drop.service -> /usr/lib/systemd/system/systemd-readahead-drop.service
+
+/etc/systemd/user:
+total 0
+
+/etc/target:
+total 0
+drwxr-xr-x. 2 root root 6 Nov  5 18:41 backup
+
+/etc/target/backup:
+total 0
+
+/etc/terminfo:
+total 0
+
+/etc/tmpfiles.d:
+total 4
+-rw-r--r-- 1 root root 33 Aug 12  2014 vpnc.conf
+
+/etc/tuned:
+total 12
+-rw-r--r-- 1 root root   14 Jan  6 09:36 active_profile
+-rw-r--r-- 1 root root  779 Jun 16  2016 bootcmdline
+-rw-r--r-- 1 root root 1082 Dec  6 16:26 tuned-main.conf
+
+/etc/udev:
+total 7124
+-r--r--r--  1 root root 7289802 Jan  6 09:35 hwdb.bin
+drwxr-xr-x. 2 root root      93 Jan  6 08:43 rules.d
+-rw-r--r--  1 root root      49 Nov 21 19:27 udev.conf
+
+/etc/udev/rules.d:
+total 12
+-rw-r--r-- 1 root root 709 Nov  5 20:47 70-persistent-ipoib.rules
+-rw-r--r-- 1 root root 161 Jan  6 08:41 90-eno-fix.rules
+-rw-r--r-- 1 root root 341 Jun  7  2016 99-vmware-scsi-udev.rules
+
+/etc/udisks2:
+total 0
+
+/etc/unbound:
+total 28
+-rw-r--r-- 1 root root   435 Nov  5 13:16 dlv.isc.org.key
+-rw-r--r-- 1 root root 17699 Nov  4 13:31 icannbundle.pem
+-rw-r--r-- 1 root root   556 Nov  5 13:16 root.key
+
+/etc/UPower:
+total 4
+-rw-r--r--. 1 root root 2661 Nov 20  2015 UPower.conf
+
+/etc/vmware:
+total 24
+-rw-r--r-- 1 root root  837 Jun  6  2016 config
+-rw-r--r-- 1 root root  837 Jun  6  2016 config.template
+drwxr-x--- 2 root root   55 Jun  6  2016 jms
+dr-xr-x--- 2 root root   34 Jun  6  2016 ssl
+-rw------- 1 root root 1034 Jun  6  2016 viewagent-config.txt
+-rw-r--r-- 1 root root 1384 Jun  7  2016 viewagent-custom.conf
+-rw-r--r-- 1 root root 1385 Jun  6  2016 viewagent-custom.conf.template
+-rw------- 1 root root 1325 Jun  7  2016 viewagent-machine.cfg
+
+/etc/vmware-tools:
+total 660
+-rw-r--r--  1 root root     33 Jan  6 09:35 config
+drwxr-xr-x. 4 root root     33 Jan 12  2016 GuestProxyData
+-rw-r--r--  1 root root    453 Nov 11 21:51 guestproxy-ssl.conf
+lrwxrwxrwx  1 root root     25 Jan  6 09:35 icu -> /usr/lib/vmware-tools/icu
+-rwxr-xr-x  1 root root  32021 Jun  7  2016 installer.sh
+-rw-r--r--  1 root root 571239 Jan  6 09:36 locations
+-rw-r--r--  1 root root   3843 Jan  6 09:36 manifest.txt
+-rw-r--r--  1 root root   2012 Jun  7  2016 manifest.txt.shipped
+lrwxrwxrwx  1 root root     29 Jan  6 09:35 plugins -> /usr/lib/vmware-tools/plugins
+-rwxr-xr-x  1 root root   4364 Nov 11 21:51 poweroff-vm-default
+-rwxr-xr-x  1 root root   4364 Nov 11 21:51 poweron-vm-default
+-rwxr-xr-x  1 root root   4364 Nov 11 21:51 resume-vm-default
+drwxr-xr-x. 3 root root     19 Nov 11 21:51 scripts
+-rwxr-xr-x  1 root root   1478 Nov 11 21:51 statechange.subr
+-rwxr-xr-x  1 root root   4364 Nov 11 21:51 suspend-vm-default
+-rw-r--r--  1 root root    210 Jun  7  2016 vmware-tools-libraries.conf
+-rw-r--r--  1 root root    107 Jun  7  2016 vmware-tools-prelink.conf
+-rw-r--r--  1 root root    207 Jun  7  2016 vmware-user.desktop
+
+/etc/vmware-tools/GuestProxyData:
+total 0
+drwxr-xr-x. 2 root root 35 Jan 12  2016 server
+drwx------. 2 root root  6 Jan 12  2016 trusted
+
+/etc/vmware-tools/GuestProxyData/server:
+total 8
+-rw-r--r--. 1 root root 1196 Jan 12  2016 cert.pem
+-rw-------. 1 root root 1704 Jan 12  2016 key.pem
+
+/etc/vmware-tools/scripts:
+total 0
+drwxr-xr-x. 2 root root 20 Jan  6 08:43 vmware
+
+/etc/vmware-tools/scripts/vmware:
+total 16
+-rwxr-xr-x 1 root root 14638 Nov 11 21:51 network
+
+/etc/vpnc:
+total 24
+-rw------- 1 root root   119 Aug 12  2014 default.conf
+-rwxr-xr-x 1 root root 19602 Aug 12  2014 vpnc-script
+
+/etc/wpa_supplicant:
+total 4
+-rw------- 1 root root 67 Nov  5 10:52 wpa_supplicant.conf
+
+/etc/X11:
+total 20
+drwxr-xr-x. 2 root root    6 Nov  5 10:38 applnk
+drwxr-xr-x. 2 root root 4096 Nov  5 10:38 fontpath.d
+drwxr-xr-x. 5 root root 4096 Jan 12  2016 xinit
+-rw-r--r--. 1 root root  547 May 12  2015 Xmodmap
+drwxr-xr-x. 2 root root   29 Nov 21 19:27 xorg.conf.d
+-rw-r--r--  1 root root   76 Aug 15  2016 xorg.conf.vmware_backup
+-rw-r--r--. 1 root root  493 May 12  2015 Xresources
+
+/etc/X11/applnk:
+total 0
+
+/etc/X11/fontpath.d:
+total 0
+lrwxrwxrwx. 1 root root 30 Jan 12  2016 cjkuni-uming-fonts -> /usr/share/fonts/cjkuni-uming/
+lrwxrwxrwx. 1 root root 36 Jan 12  2016 default-ghostscript -> /usr/share/fonts/default/ghostscript
+lrwxrwxrwx. 1 root root 30 Jan 12  2016 fonts-default -> /usr/share/fonts/default/Type1
+lrwxrwxrwx. 1 root root 27 Jan 12  2016 liberation-fonts -> /usr/share/fonts/liberation
+lrwxrwxrwx  1 root root 25 Feb  9  2016 xorg-x11-fonts-misc:unscaled:pri=10 -> /usr/share/X11/fonts/misc
+lrwxrwxrwx. 1 root root 26 Jan 12  2016 xorg-x11-fonts-Type1 -> /usr/share/X11/fonts/Type1
+
+/etc/X11/xinit:
+total 20
+-rwxr-xr-x. 1 root root 2147 May 12  2015 Xclients
+drwxr-xr-x. 2 root root    6 Nov 22  2015 Xclients.d
+-rwxr-xr-x. 1 root root 1486 May 12  2015 xinitrc
+-rw-r--r--. 1 root root 2008 May 12  2015 xinitrc-common
+drwxr-xr-x. 2 root root 4096 Jan  6 08:44 xinitrc.d
+drwxr-xr-x. 2 root root   73 Jan 12  2016 xinput.d
+lrwxrwxrwx. 1 root root   26 Jan 12  2016 xinputrc -> /etc/alternatives/xinputrc
+-rwxr-xr-x. 1 root root 3547 May 12  2015 Xsession
+
+/etc/X11/xinit/Xclients.d:
+total 0
+
+/etc/X11/xinit/xinitrc.d:
+total 20
+-rwxr-xr-x  1 root root  558 Nov  6 14:19 00-start-message-bus.sh
+-rwxr-xr-x. 1 root root 3969 Jun 10  2014 50-xinput.sh
+-rwxr-xr-x. 1 root root  543 May 12  2015 localuser.sh
+-rwxr-xr-x. 1 root root  537 Jan 27  2014 xdg-user-dirs.sh
+-rwxr-xr-x  1 root root  842 Nov 30 06:58 zz-liveinst.sh
+
+/etc/X11/xinit/xinput.d:
+total 16
+-rw-r--r--. 1 root root  354 Jul 23  2015 ibus.conf
+-rw-r--r--. 1 root root  110 Jun 10  2014 none.conf
+-rw-r--r--. 1 root root  146 Jun 10  2014 xcompose.conf
+-rw-r--r--. 1 root root 1652 Jun 10  2014 xim.conf
+
+/etc/X11/xorg.conf.d:
+total 4
+-rw-r--r--. 1 root root 232 Jan 12  2016 00-keyboard.conf
+
+/etc/x2go:
+total 40
+lrwxrwxrwx 1 root root    28 Feb  9  2016 applications -> ../../usr/share/applications
+-rw-r--r-- 1 root root  1210 Jul  3  2015 keystrokes.cfg
+-rw-r--r-- 1 root root 17394 Jul  3  2015 rgb
+-rw-r--r-- 1 root root    14 Jul  3  2015 x2goagent.keyboard
+-rw-r--r-- 1 root root  1310 Nov 21 09:22 x2goagent.options
+-rw-r--r-- 1 root root   365 Nov 21 09:22 x2go_logout
+drwxr-xr-x 2 root root    31 Jan  6 08:45 x2go_logout.d
+-rw-r--r-- 1 root root   280 Nov 21 09:22 x2goserver.conf
+drwxr-xr-x 3 root root    32 Jan  6 08:45 x2gosql
+
+/etc/x2go/x2go_logout.d:
+total 4
+-rw-r--r-- 1 root root 88 Nov 21 09:22 010_userscripts.sh
+
+/etc/x2go/x2gosql:
+total 4
+drwxr-xr-x 2 root root   6 Nov 21 09:22 passwords
+-rw-r--r-- 1 root root 322 Nov 21 09:22 sql
+
+/etc/x2go/x2gosql/passwords:
+total 0
+
+/etc/xdg:
+total 16
+drwxr-xr-x. 2 root root 4096 Jan  6 08:45 autostart
+drwxr-xr-x. 6 root root 4096 Jan  6 08:49 menus
+drwxr-xr-x. 2 root root   17 Jan  6 08:41 systemd
+-rw-r--r--. 1 root root  414 Jun  9  2014 user-dirs.conf
+-rw-r--r--. 1 root root  418 Jun  9  2014 user-dirs.defaults
+drwxr-xr-x  4 root root   31 Feb  9  2016 xfce4
+
+/etc/xdg/autostart:
+total 204
+-rw-r--r--  1 root root   296 Nov  5 11:34 at-spi-dbus-bus.desktop
+-rw-r--r--. 1 root root   250 Nov 20  2015 caribou-autostart.desktop
+-rw-r--r--. 1 root root   223 Nov 22  2015 gnome-initial-setup-copy-worker.desktop
+-rw-r--r--. 1 root root  2864 Nov 22  2015 gnome-initial-setup-first-login.desktop
+-rw-r--r--. 1 root root  6351 Nov 20  2015 gnome-keyring-gpg.desktop
+-rw-r--r--. 1 root root  7777 Nov 20  2015 gnome-keyring-pkcs11.desktop
+-rw-r--r--. 1 root root  7339 Nov 20  2015 gnome-keyring-secrets.desktop
+-rw-r--r--. 1 root root  5996 Nov 20  2015 gnome-keyring-ssh.desktop
+-rw-r--r--  1 root root  3315 Nov  5 16:00 gnome-settings-daemon.desktop
+-rw-r--r--  1 root root   155 Jul 18  2016 gnome-software-service.desktop
+-rw-r--r--. 1 root root   123 Nov 22  2015 gnome-software-service.desktop.bak
+-rw-r--r--  1 root root 11745 Jul 22  2016 gnome-terminal.desktop
+-rw-r--r--. 1 root root   147 Nov 22  2015 gnome-welcome-tour.desktop
+-rw-r--r--. 1 root root  7741 Jun 10  2014 gsettings-data-convert.desktop
+-rw-r--r--. 1 root root  3766 Jun 10  2014 imsettings-start.desktop
+-rw-r--r--  1 root root  5664 Oct  3 02:33 mate-screensaver.desktop
+-rw-r--r--  1 root root  3022 Dec 10 15:32 mate-settings-daemon.desktop
+-rw-r--r--  1 root root  8734 Oct  2 04:15 mate-volume-control-applet.desktop
+-rw-r--r--  1 root root   162 Nov  5 18:29 nautilus-autostart.desktop
+-rw-r--r--  1 root root  5723 Nov 11 21:23 nm-applet.desktop
+-rw-r--r--. 1 root root   318 Jun 10  2014 orca-autostart.desktop
+-rw-r--r--  1 root root  6451 Oct  2 04:49 polkit-mate-authentication-agent-1.desktop
+-rw-r--r--. 1 root root  7937 Nov  3  2014 print-applet.desktop
+-rw-r--r--  1 root root  4459 Nov  5 15:03 pulseaudio.desktop
+-rw-r--r--  1 root root   177 Nov  5 17:21 spice-vdagent.desktop
+-rw-r--r--  1 root root  3802 Nov  5 15:10 tracker-extract.desktop
+-rw-r--r--  1 root root  3840 Nov  5 15:10 tracker-miner-apps.desktop
+-rw-r--r--  1 root root  5007 Nov  5 15:10 tracker-miner-fs.desktop
+-rw-r--r--  1 root root  4374 Nov  5 15:10 tracker-miner-user-guides.desktop
+-rw-r--r--  1 root root  4705 Nov  5 15:10 tracker-store.desktop
+-rw-r--r--. 1 root root 11415 Jun 10  2014 user-dirs-update-gtk.desktop
+-rw-r--r--  1 root root   208 Nov 11 21:51 vmware-user.desktop
+
+/etc/xdg/menus:
+total 72
+-rw-r--r--  1 root root  3623 Apr  7  2010 applications.menu
+drwxr-xr-x. 2 root root     6 Nov  5 10:44 applications-merged
+-rw-r--r--  1 root root   653 Nov  1  2006 documentation.menu
+-rw-r--r--. 1 root root 10212 Nov 20  2015 gnome-applications.menu
+-rw-r--r--  1 root root  4085 Oct  2 04:19 mate-applications.menu
+-rw-r--r--  1 root root  4561 Oct  3 03:10 matecc.menu
+-rw-r--r--  1 root root  3242 Oct  2 04:19 mate-preferences-categories.menu
+-rw-r--r--  1 root root   487 Oct  3 02:33 mate-screensavers.menu
+-rw-r--r--  1 root root  1494 Oct  2 04:19 mate-settings.menu
+-rw-r--r--  1 root root   731 Sep 24  2009 preferences.menu
+drwxr-xr-x. 2 root root     6 Nov  5 10:44 preferences-merged
+drwxr-xr-x. 2 root root     6 Nov  5 10:44 preferences-post-merged
+-rw-r--r--  1 root root  1144 Oct  1  2007 server-settings.menu
+-rw-r--r--  1 root root  1370 Nov  1  2006 settings.menu
+drwxr-xr-x. 2 root root     6 Nov  5 10:44 settings-merged
+-rw-r--r--  1 root root   920 Oct  3  2003 start-here.menu
+-rw-r--r--  1 root root  1161 Oct  1  2007 system-settings.menu
+-rw-r--r--  1 root root  5353 Apr 14  2016 xfce-applications.menu
+
+/etc/xdg/menus/applications-merged:
+total 0
+
+/etc/xdg/menus/preferences-merged:
+total 0
+
+/etc/xdg/menus/preferences-post-merged:
+total 0
+
+/etc/xdg/menus/settings-merged:
+total 0
+
+/etc/xdg/systemd:
+total 0
+lrwxrwxrwx 1 root root 18 Jan  6 08:41 user -> ../../systemd/user
+
+/etc/xdg/xfce4:
+total 0
+drwxr-xr-x 2 root root  6 Feb  9  2016 panel
+drwxr-xr-x 3 root root 32 Dec 12  2015 xfconf
+
+/etc/xdg/xfce4/panel:
+total 0
+
+/etc/xdg/xfce4/xfconf:
+total 0
+drwxr-xr-x 2 root root 41 Jun  7  2016 xfce-perchannel-xml
+
+/etc/xdg/xfce4/xfconf/xfce-perchannel-xml:
+total 8
+-rw-r--r-- 1 root root 7029 Apr 14  2016 xfce4-keyboard-shortcuts.xml
+
+/etc/xinetd.d:
+total 0
+
+/etc/xl2tpd:
+total 8
+-rw------- 1 root root  109 Aug 11  2016 l2tp-secrets
+-rw-r--r-- 1 root root 1400 Aug 11  2016 xl2tpd.conf
+
+/etc/xml:
+total 4
+-rw-r--r--. 1 root root 1726 Jul 19  2016 catalog
+
+/etc/xrdb:
+total 24
+-rw-r--r-- 1 root root  210 Dec 10 15:32 Editres.ad
+-rw-r--r-- 1 root root  848 Dec 10 15:32 Emacs.ad
+-rw-r--r-- 1 root root   48 Dec 10 15:32 General.ad
+-rw-r--r-- 1 root root 2102 Dec 10 15:32 Motif.ad
+-rw-r--r-- 1 root root 3427 Dec 10 15:32 Tk.ad
+-rw-r--r-- 1 root root  749 Dec 10 15:32 Xaw.ad
+
+/etc/xrdp:
+total 216
+-rw-r--r--  1 root root 10943 Sep 20  2015 km-0407.ini
+-rw-r--r--  1 root root 10674 Sep 20  2015 km-0409.ini
+-rw-r--r--  1 root root  8744 Sep 20  2015 km-040c.ini
+-rw-r--r--  1 root root 10863 Sep 20  2015 km-0410.ini
+-rw-r--r--  1 root root 14294 Sep 20  2015 km-0411.ini
+-rw-r--r--  1 root root 10914 Sep 20  2015 km-0415.ini
+-rw-r--r--  1 root root 11320 Sep 20  2015 km-0419.ini
+-rw-r--r--  1 root root 10879 Sep 20  2015 km-041d.ini
+-rw-r--r--  1 root root  8690 Sep 20  2015 km-0807.ini
+-rw-r--r--  1 root root 10876 Sep 20  2015 km-0816.ini
+-rw-r--r--  1 root root 14294 Sep 20  2015 km-e0010411.ini
+-rw-r--r--  1 root root 14294 Sep 20  2015 km-e0200411.ini
+-rw-r--r--  1 root root 14294 Sep 20  2015 km-e0210411.ini
+-rwx------  1 root root  1922 Aug  9  2016 pine_ad_ilstu_edu_cert.cer
+-rw-------  1 root root  1123 Aug  8  2016 pine.csr
+-rw-------  1 root root  1675 Aug  8  2016 pine.key
+drwxr-xr-x  2 root root    23 Jun 22  2016 pulse
+-rw-------  1 root root  1019 Jun 22  2016 rsakeys.ini
+-rw-r--r--  1 root root  2114 Sep 20  2015 sesman.ini
+-rwxr-xr-x  1 root root    38 Sep 20  2015 startwm-bash.sh
+-rwxr-xr-x  1 root root  1812 Sep 20  2015 startwm.sh
+-rw-r--r--  1 root root  3450 Aug  9  2016 xrdp.ini
+-rw-r--r--. 1 root root  3370 Feb  8  2016 xrdp.ini.rpmsave
+-rw-r--r--  1 root root  3096 Sep 20  2015 xrdp_keyboard.ini
+-rwxr-xr-x  1 root root  2536 Sep 20  2015 xrdp.sh
+
+/etc/xrdp/pulse:
+total 4
+-rw-r--r-- 1 root root 260 Sep 20  2015 default.pa
+
+/etc/yum:
+total 4
+drwxr-xr-x. 2 root root   6 Nov 15 09:30 fssnap.d
+drwxr-xr-x. 2 root root  68 Nov 15 09:30 pluginconf.d
+drwxr-xr-x. 2 root root  25 Nov 15 09:30 protected.d
+drwxr-xr-x. 2 root root  18 Nov 15 09:30 vars
+-rw-r--r--  1 root root 444 Nov 15 09:30 version-groups.conf
+
+/etc/yum/fssnap.d:
+total 0
+
+/etc/yum/pluginconf.d:
+total 12
+-rw-r--r--  1 root root  17 Aug 20  2015 copr.conf
+-rw-r--r--  1 root root 279 Nov  5 19:11 fastestmirror.conf
+-rw-r--r--. 1 root root 372 Jan 12  2016 langpacks.conf
+
+/etc/yum/protected.d:
+total 4
+-rw-r--r-- 1 root root 8 Nov 21 19:27 systemd.conf
+
+/etc/yum/vars:
+total 4
+-rw-r--r-- 1 root root 6 Nov 29 12:12 infra
+
+/etc/yum.repos.d:
+total 52
+-rw-------  1 root root  335 Sep 12 08:42 alonid-xprintidle-epel-7.repo
+-rw-r--r--  1 root root 1664 Nov 29 12:12 CentOS-Base.repo
+-rw-r--r--  1 root root 1309 Nov 29 12:12 CentOS-CR.repo
+-rw-r--r--  1 root root  649 Nov 29 12:12 CentOS-Debuginfo.repo
+-rw-r--r--  1 root root  314 Nov 29 12:12 CentOS-fasttrack.repo
+-rw-r--r--  1 root root  630 Nov 29 12:12 CentOS-Media.repo
+-rw-r--r--  1 root root 1331 Nov 29 12:12 CentOS-Sources.repo
+-rw-r--r--  1 root root 2893 Nov 29 12:12 CentOS-Vault.repo
+-rw-r--r--  1 root root  298 Jul 19  2016 _copr_nalimilan-julia.repo
+-rw-------  1 root root  322 Sep 26 07:47 dperson-neovim-epel-7.repo
+-rw-r--r--  1 root root  957 Jul 23  2016 epel.repo
+-rw-r--r--  1 root root 1056 Jul 23  2016 epel-testing.repo
+-rw-r--r--. 1 root root  477 Jul 31  2014 nux-dextop.repo
